@@ -1,0 +1,44 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+.idea
+.vs/
+Frontend/uploads/
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore package manager directories
+/node_modules/
+/bower_components/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+
+.fake
+

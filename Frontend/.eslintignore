@@ -1,0 +1,7 @@
+node_modules/
+build/
+coverage/
+.husky/
+
+ecosystem.config.cjs
+.eslintrc.cjs

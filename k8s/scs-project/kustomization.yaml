@@ -1,0 +1,6 @@
+resources:
+  - namespace.yaml
+  - ai-service
+  - ai-service-agent
+  - backend
+  - frontend

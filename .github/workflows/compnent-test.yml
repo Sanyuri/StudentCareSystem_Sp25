@@ -1,0 +1,21 @@
+name: Component Tests Reusable Workflow
+
+on:
+  workflow_call:
+    inputs:
+      frontend_dir:
+        required: true
+        description: "The directory where the frontend code is located"
+        type: string
+jobs:
+  component-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install Cypress
+        run: |
+          cd ${{ inputs.frontend_dir }}
+          npm i
+          npm run test:component

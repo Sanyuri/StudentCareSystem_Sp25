@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: scs-project
+data:
+  META__PORT: "3000"
+  META__BACKEND: "http://backend-service:8080"
+  META__CHAT_BOT_ENDPOINT: "http://ai-service-agent:8002"
+    

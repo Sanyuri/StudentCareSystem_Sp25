@@ -1,0 +1,11 @@
+export const DATE_FORMAT_FILE_NAME_EXPORT = 'DD_MM_YYYY'
+export const PAGE_SIZE_EXPORT_DIVIDED = 1000
+export const EXPORT_API_CALL_STREAM_NUMBER = 5
+export const TIME_CACHE_API = 60000
+export const ENCRYPT_LOCALE_STORAGE_KEY = '7F2C1D9A-BE3F-4E87-AC45-9D1E8F7A6B3C'
+export const WEB_NAME = 'Student Care System'
+export const DELAY_DEBOUNCE_INPUT = 2000
+export const API_RETRY = 1
+export const API_RETRY_DELAY = 1000
+export const NAVIGATE_DELAY = 500
+export const AUTO_CLOSE_TOAST = 3000

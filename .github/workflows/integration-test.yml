@@ -1,0 +1,40 @@
+name: Integration Tests Reusable Workflow
+
+on:
+  workflow_call:
+    inputs:
+      frontend_dir:
+        required: true
+        type: string
+      backend_dir:
+        required: true
+        type: string
+
+jobs:
+  react-integration-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Install Dependencies and Run React Integration Tests
+        run: |
+          cd ${{ inputs.react_project_dir }}
+          npm i
+          npm run test:integration
+
+  dotnet-integration-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: Restore and Run .NET Integration Tests
+        run: |
+          cd ${{ inputs.dotnet_project_dir }}
+          dotnet restore
+          dotnet test --no-build --filter TestCategory=Integration --verbosity normal

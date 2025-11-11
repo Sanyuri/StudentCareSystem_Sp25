@@ -1,0 +1,13 @@
+.git
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+*.log
+*.db
+# Ignore models and temporary files
+*.h5
+
+data/

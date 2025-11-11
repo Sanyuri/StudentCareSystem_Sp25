@@ -1,0 +1,11 @@
+node_modules/
+build/
+coverage/
+!.storybook/
+!.vuepress/
+.vuepress/.temp/
+.vuepress/.cache/
+build-storybook.log
+.env
+.env.production
+package-lock.json

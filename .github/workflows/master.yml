@@ -1,0 +1,60 @@
+name: Master branch CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types:
+      [opened, synchronize, reopened]
+    branches:
+      - master
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
+permissions:
+  contents: read
+  packages: write
+  id-token: write
+  attestations: write
+
+jobs:
+  static-tests:
+    uses: ./.github/workflows/static-test-both.yml
+    with:
+      backend_dir: ./Backend
+      frontend_dir: ./Frontend
+    secrets:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+    
+
+  # unit-tests:
+  unit-tests:
+    uses: ./.github/workflows/units-test.yml
+    with:
+      backend_dir: ./Backend
+      frontend_dir: ./Frontend
+
+  # component-tests:
+
+  docker-back-end:
+    uses: ./.github/workflows/docker-build-and-push.yml
+    with:
+      image-name: tuansondocker1407/capstone-sp-25-backend
+      registry: docker.io
+      dockerfile-path: ./Backend/Dockerfile
+      context: ./Backend
+    secrets:
+      DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+      DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+
+  docker-front-end:
+    uses: ./.github/workflows/docker-build-and-push.yml
+    with:
+      image-name: tuansondocker1407/capstone-sp-25-frontend
+      registry: docker.io
+      dockerfile-path: ./Frontend/Dockerfile
+      context: ./Frontend
+    secrets:
+      DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+      DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}

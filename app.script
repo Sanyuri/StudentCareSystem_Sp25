@@ -1,0 +1,85 @@
+function doPost(request = {}) {
+  const { parameter, postData: { contents, type } = {} } = request;
+  const { dataReq = {} } = JSON.parse(contents); //content
+  const { fname = {} } = JSON.parse(contents); //function name
+
+  const response = {
+    status: "function not found: " + fname, // prepare response in function not found
+    data2: dataReq
+  }
+
+  // const isValid = UrlFetchApp.fetch(`https://chat.ptudev.net:8443/utils/api/v1/state/fb6dc93e-7258-402c-a16e-ff7ec537d638?token=${dataReq.token}`);
+
+  // if (!JSON.parse(isValid.getContentText()).data) {
+  //   return ContentService.createTextOutput(JSON.stringify({url: 'error', message:"denie"})).setMimeType(ContentService.MimeType.JSON); //response to frontend
+  // }
+
+  // if (!verifyJwt(dataReq.token, '23232=')) {
+  //   return ContentService.createTextOutput(JSON.stringify({ url: 'error', message: "Invalid signature" }))
+  //     .setMimeType(ContentService.MimeType.JSON);
+  // }
+
+  switch (fname) { //function selection
+    case 'uploadFilesToGoogleDrive':
+      var output = JSON.stringify(uploadFilesToGoogleDrive(dataReq.data, dataReq.name, dataReq.type, dataReq.contentType, dataReq.isSystem, dataReq.systemDirectory)) //call function with data, name and type from request
+      break
+    default:
+      var output = JSON.stringify(response)
+      break
+  }
+  return ContentService.createTextOutput(output).setMimeType(ContentService.MimeType.JSON); //response to frontend
+}
+
+function uploadFilesToGoogleDrive(
+  base64Data, 
+  fileName, 
+  mimeType, 
+  contentType, 
+  isSystem = false, 
+  systemDirectory = "MySystemFolder"
+) {
+  try {
+    // 1. Decode base64 data
+    const decodedData = Utilities.base64Decode(base64Data, Utilities.Charset.UTF_8);
+    
+    // 2. Create blob from decoded data
+    const blob = Utilities.newBlob(
+      decodedData, 
+      mimeType || contentType || 'application/octet-stream', 
+      fileName
+    );
+
+    // 3. Determine target folder
+    let targetFolder;
+    if (isSystem) {
+      // Get system folder by name (create if not exists)
+      const folders = DriveApp.getFoldersByName(systemDirectory);
+      targetFolder = folders.hasNext() ? folders.next() : DriveApp.createFolder(systemDirectory);
+    } else {
+      // Use root folder
+      targetFolder = DriveApp.getRootFolder();
+    }
+
+    // 4. Create file in target folder
+    const file = targetFolder.createFile(blob);
+    
+    // 5. Set file sharing to public (adjust as needed)
+    file.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+
+    return {
+      status: "success",
+      url: `https://drive.google.com/file/d/${file.getId()}/view`,
+      directDownload: `https://drive.google.com/uc?id=${file.getId()}&export=download`,
+      id: file.getId(),
+      name: file.getName(),
+      size: file.getSize()
+    };
+
+  } catch (e) {
+    return {
+      status: "error",
+      message: "File upload failed",
+      errorDetails: e.toString()
+    };
+  }
+}

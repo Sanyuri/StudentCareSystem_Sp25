@@ -1,0 +1,77 @@
+services:
+  frontend:
+    image: tuansondocker1407/capstone-sp-25-frontend
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    networks:
+      - backend-network
+    restart: always
+    
+  aspnet-api:
+    image: tuansondocker1407/capstone-sp-25-backend
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    volumes:
+      - ~/.aspnet/https:/https:ro
+      - aspnet-api-data:/app/.aspnet/DataProtection-Keys
+    restart: always
+    networks:
+      - backend-network
+    depends_on:
+      - mssql
+      - redis-cache
+
+  email-proxy:
+    image: tuansondocker1407/email_proxy_mock:latest
+    container_name: email-proxy
+    networks:
+      - backend-network
+    ports:
+      - "8001:8000"
+
+  redis-cache:
+    image: redis/redis-stack:latest
+    container_name: redis
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+      - REDIS_DISABLE_COMMANDS=FLUSHDB,FLUSHALL
+    ports:
+      - "6379:6379"
+    restart: always
+    networks:
+      - backend-network
+    env_file:
+      - .env
+
+  mssql:
+    container_name: mssql
+    image: mcr.microsoft.com/mssql/server:latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong!Passw0rd
+      - MSSQL_PID=Express
+      - DB_SERVER=mssql
+      - DB_NAME=${DB_NAME}
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql-data:/var/opt/mssql
+    restart: always
+    networks:
+      - backend-network
+    env_file:
+      - .env
+
+networks:
+  backend-network:
+    driver: bridge
+
+volumes:
+  sql-data:
+    name: sql-data
+  aspnet-api-data:
+    name: aspnet-api-data

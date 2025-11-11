@@ -1,0 +1,1753 @@
+{
+  "COMMON": {
+    "LOADING": "読み込み中",
+    "FILTER_STUDENTS": "学生をフィルタリング",
+    "ACTION_DATE": "実施日時",
+    "ACTION": "操作",
+    "EXPORT_DATA": "情報をエクスポート",
+    "CANCEL": "キャンセル",
+    "CONFIRM": "確認",
+    "SELECT_DATE_RANGE": "日付範囲を選択",
+    "CONFIRM_DOWNLOAD_FILE": "ファイルのダウンロードを確認",
+    "SELECT_ALL": "すべて選択",
+    "SEND_EMAIL": "メール送信",
+    "SEND_FAP": "FAPを送信",
+    "SEARCH_STATUS": "アカウント状態",
+    "TOTAL_RECORDS": "合計：{{total}} 件",
+    "EDIT_ACCOUNT": "ユーザーアカウントを編集",
+    "EDIT_EMAIL_TEMPLATE": "メールテンプレートを編集",
+    "DELETE_ACCOUNT": "ユーザーアカウントを削除",
+    "DELETE_EMAIL_TEMPLATE": "メールテンプレートを削除",
+    "JAPANESE": "日本語",
+    "VIETNAMESE": "ベトナム語",
+    "ENGLISH": "英語",
+    "FILTER": "フィルター",
+    "TO": "まで",
+    "FROM": "から",
+    "CLASS_HINT": "クラスに所属する学生",
+    "RESET_ACTION": "リセット",
+    "FILTER_ACTION": "フィルタリング",
+    "CONFIRM_DELETE": "本当に削除しますか？",
+    "DELETE": "削除",
+    "CLOSE": "閉じる",
+    "ADD_NEW": "新規追加",
+    "SAVE": "保存",
+    "VIEW_MORE": "詳細を見る",
+    "CONTINUE": "続行",
+    "BACK": "戻る",
+    "SUBMIT": "提出",
+    "DOWNLOAD_EXCEL": "Excelテンプレートをダウンロード",
+    "EMPTY": "空",
+    "ONLY_ONE_LINE_EDITOR": "一度に複数の行を編集できません",
+    "ONLY_ADĐ_ONE_LINE_EDITOR": "一度に複数の行を追加できません",
+    "SCAN": "スキャン",
+    "REQUIRE_CONTENT": "内容は空にできません",
+    "MIN_INPUT": "最低1文字",
+    "STUDENT_CODE": "学生コード",
+    "STUDENT_NAME": "学生名",
+    "SPECIALIZED": "専攻",
+    "NO_DATA": "データがありません",
+    "SELECT_SEMESTER": "学期を選択",
+    "ERROR": "エラーが発生しました",
+    "NOT_ASSIGNED": "割り当てられていません",
+    "NEED_SEMESTER": "学期を選択してください",
+    "FIELD_REQUIRED": "このフィールドを入力してください",
+    "MIN_LENGTH_2": "最低2文字",
+    "SEARCH_ROLE": "役割で検索",
+    "SAVE_SUCCESS": "保存に成功しました",
+    "SAVE_ERROR": "保存に失敗しました",
+    "START_DATE": "開始日",
+    "END_DATE": "終了日",
+    "SELECT_SEMESTER_PLACEHOLDER": "学期を選択",
+    "BACK_HOME": "ホームページに戻る",
+    "TOTAL_ITEMS": "合計：",
+    "ALL": "すべて"
+  },
+  "LAYOUT": {
+    "CURRENT_SEMESTER_STATISTIC": "現在の学期の統計",
+    "CARE_REQUIRED_STUDENT": "ケアが必要な学生",
+    "RECORD_ORDER": "申請書を記録",
+    "STUDENT_FEEDBACK": "学生からのフィードバック",
+    "SCAN_INFO": "情報スキャン",
+    "ATTENDANCE": "学生の出席スキャン",
+    "RESERVED_STUDENT": "保留学生のスキャン",
+    "FAILED_STUDENT": "不合格学生のスキャン",
+    "MANAGE": "管理",
+    "EMAIL_TEMPLATES": "メールテンプレート",
+    "STAFF_ACCOUNTS": "スタッフアカウント",
+    "MAJOR_DISTRIBUTION": "専攻の割り当て",
+    "EXEMPT_SUBJECTS": "出席免除科目",
+    "ACTIVITY_LOG": "活動ログ",
+    "PERMISSION": "権限管理",
+    "SETTING": "設定",
+    "LOGOUT": "ログアウト",
+    "HIDE_SIDER": "コントロールバーを非表示",
+    "DISPLAY_SIDER": "コントロールバーを表示",
+    "CAMPUS": "キャンパス",
+    "SPECIALIZED_MANAGEMENT": "専攻ブロック管理",
+    "CHANGE_EMAIL": "メールを変更",
+    "CALL_HISTORY": "通話履歴",
+    "STUDENT_MANAGEMENT": "学生管理",
+    "APPLICATION_TYPE": "申請書類の種類管理",
+    "NOTES_MANAGEMENT": "メモ管理",
+    "EMAIL_LOG": "送信済みメールリスト",
+    "DASHBOARD": "ダッシュボード",
+    "SEE_MORE": "もっと見る",
+    "SEE_LESS": "非表示にする",
+    "STUDENT_FAILED_COURSE": "科目不合格の学生",
+    "PSYCHOLOGY_MANAGEMENT": "心理ケア",
+    "PSYCHOLOGY_NOTE": "心理メモリスト",
+    "UNKNOWN_STUDENT": "不明な学生",
+    "AI_SETTINGS": "AI設定"
+  },
+  "ATTENDANCES": {
+    "SCAN_HISTORY": "スキャン履歴",
+    "STUDENT_SEARCH_TERM": "名前または学生コードで検索",
+    "FILTER": {
+      "ABSENT_RATE": "欠席率 (%)",
+      "TOTAL_SLOT": "総授業数",
+      "SUBJECT_CODE": "科目コード",
+      "ABSENT_MIN_RATE": "最小欠席率",
+      "ABSENT_MAX_RATE": "最大欠席率",
+      "CLASS": "クラス",
+      "TOTAL_ABSENT": "欠席した授業数",
+      "SEMESTER": "学期",
+      "SEMESTER_SEARCH": "検索する学期",
+      "MAJOR": "専攻",
+      "MAJOR_HINT": "専攻を選択",
+      "SENT_MAIL": "メール送信の時間範囲を選択",
+      "NOTE": "メモ",
+      "TRENDS": "欠席傾向",
+      "INCREASE": "増加",
+      "DECREASE": "減少"
+    },
+    "ATTENDANCE_OPTIONS": {
+      "ALL": "すべて",
+      "NO_SEND_MAIL": "メール送信不要",
+      "NEED_SEND_MAIL": "メール送信が必要",
+      "GROUP_ENG": "ENGグループ",
+      "GROUP_CN": "CNグループ",
+      "GROUP_ABSENT": "欠席グループ",
+      "SECTOR": "学問分野"
+    },
+    "EXPORT_OPTIONS": {
+      "YESTERDAY_REMINDERS": "昨日リマインド済みをエクスポート",
+      "TODAY_REMINDERS": "今日リマインド済みをエクスポート",
+      "SEMESTER_REMINDERS": "学期中のリマインドをエクスポート",
+      "EXCEED_ABSENCE_RATE_REMINDERS": "20%以上の欠席率のリマインドをエクスポート",
+      "SEMESTER_REMINDERS_COURSE": "学期中のリマインドをエクスポート（科目別）",
+      "YEAR_REMINDERS": "年間のリマインドをエクスポート",
+      "ENG_STUDENTS": "ENGグループの学生をエクスポート",
+      "CN_STUDENTS": "CNグループの学生をエクスポート",
+      "PREVIOUS_COURSE_REMINDERS": "前学期のリマインドをエクスポート",
+      "UPDATED_TODAY": "今日更新された学生をエクスポート"
+    },
+    "TABLE_COLUMN": {
+      "STUDENT_NAME": "学生名",
+      "STUDENT_ID": "学生コード",
+      "LAST_EMAIL_SENT": "メール送信履歴",
+      "CLASS": "クラス",
+      "PHONE": "電話番号",
+      "MAJOR": "専攻",
+      "SEMESTER": "学期",
+      "CURRENT_TERM": "現在の学期",
+      "UPDATE_PERIOD": "更新",
+      "EXPIRED_COURSE": "科目",
+      "ACTION": "機能"
+    },
+    "RATE_BOUNDARY": {
+      "TABLE": {
+        "NO": "番号",
+        "MIN_RATE": "最小率",
+        "MAX_RATE": "最大率",
+        "SELECT_EMAIL_SAMPLE": "メールテンプレートを選択",
+        "IS_ACTIVE": "有効",
+        "ACTION": "操作",
+        "ENTER_MIN": "最小率を入力",
+        "ENTER_MAX": "最大率を入力",
+        "MIN_REQUIRE": "最小率は必須です！",
+        "MAX_REQUIRE": "最大率は必須です！",
+        "SELECT_MAIL_REQUIRE": "メールテンプレートを選択してください"
+      },
+      "GUIDE_NOTE": "メール送信のための出席率は、最小率以上かつ最大率未満である必要があります。",
+      "MODAL": {
+        "SETTING_SEND_MAIL": "メール送信率の設定"
+      },
+      "TOAST": {
+        "ADD_SUCCESS": "追加に成功しました",
+        "ADD_FAIL": "追加に失敗しました",
+        "EDIT_SUCCESS": "編集に成功しました",
+        "EDIT_FAIL": "編集に失敗しました",
+        "DELETE_SUCCESS": "削除に成功しました",
+        "DELETE_FAIL": "削除に失敗しました"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "SCAN": "更新に成功しました"
+      },
+      "ERROR": {
+        "SCAN": "更新に失敗しました"
+      }
+    }
+  },
+  "PERMISSIONS": {
+    "SYNC_ACCOUNTS_TOOLTIP": "役割に応じて各アカウントの権限を同期",
+    "SYNC_ACCOUNTS": "権限を同期",
+    "SYNC_PERMISSIONS": "権限を同期",
+    "SYNC_CONFIRMATION": "本当に同期しますか？",
+    "SYNC_WARNING": "注意：この操作はスタッフおよび管理者のすべての現在の権限を上書きします。個別に付与された特別な権限は失われます。",
+    "TOAST": {
+      "SUCCESS": {
+        "EDIT": "権限の更新に成功しました"
+      },
+      "ERROR": {
+        "EDIT": "権限の更新に失敗しました"
+      }
+    },
+    "OVERALL_PERMISSION_COVERAGE": "全体概要",
+    "PERMISSIONS_GRANTED": "付与された権限",
+    "OUT_OF": "未付与の権限",
+    "TOTAL": "数量",
+    "PERMISSION": "権限名",
+    "CATEGORY": "カテゴリ",
+    "PERMISSION_COMPARISON": "権限の比較",
+    "COMPARE_PERMISSIONS": "役割間の権限を比較",
+    "NO_ROLE_SELECTED": "少なくとも1つの権限を選択してください",
+    "ROLE_NOT_FOUND": "役割が見つかりません",
+    "ROLE_PERMISSION_MANAGEMENT": "権限管理",
+    "MANAGE_ACCESS_PERMISSIONS": "実行権限の管理",
+    "PERMISSIONS": "権限割り当て",
+    "STATISTICS": "統計",
+    "STANDARD_ACCESS": "スタッフ向け権限",
+    "EXTENDED_ACCESS": "管理者向け権限",
+    "PERMISSION_COVERAGE": "付与された権限の割合",
+    "ALL": "すべて",
+    "NONE": "選択解除",
+    "MANAGEMENT": "管理",
+    "DESELECT_ALL": "すべて選択解除",
+    "SELECT_ALL": "すべて選択",
+    "SAVE_PERMISSIONS": "権限を保存",
+    "SEARCH_PERMISSIONS": "権限を検索",
+    "OF_TOTAL_PERMISSIONS": "権限",
+    "GROUPS": {
+      "STUDENT": "学生",
+      "STUDENTSUBJECTATTENDANCEFREE": "出席免除科目",
+      "STUDENTPOINT": "学生の成績",
+      "STUDENTCARE": "学生ケア",
+      "ROLE": "役割",
+      "PSYCHOLOGICALNOTE": "心理メモ",
+      "STUDENTNOTE": "学生メモ",
+      "STUDENTPSYCHOLOGY": "学生の心理ケア",
+      "STUDENTAPPLICATION": "申請書記録",
+      "STUDENTCARETYPE": "ケアの種類",
+      "APPSETTING": "システム設定",
+      "STUDENTCAREASSIGNMENT": "学生ケアの割り当て",
+      "APPLICATIONTYPE": "申請書類の種類",
+      "EMAILSAMPLE": "メールテンプレート",
+      "ACTIVITY": "活動",
+      "STUDENTDEFER": "保留学生",
+      "STUDENTSUBJECT": "学生の科目",
+      "EMAILLOG": "メールログ",
+      "MAJOR": "専攻",
+      "ABSENCERATEBOUNDARY": "欠席率の制限",
+      "NOTETYPE": "メモの種類",
+      "SCANDATA": "学生データスキャン",
+      "USER": "ユーザー",
+      "PERMISSION": "権限リスト",
+      "STUDENTATTENDANCE": "出席データ"
+    }
+  },
+  "ROLE": {
+    "ADMIN": "管理者",
+    "OFFICER": "スタッフ",
+    "MANAGER": "部長"
+  },
+  "ACTIVITIES": {
+    "ACTIVITY_SEARCH_TERM": "実施アカウントで検索",
+    "TABLE_COLUMN": {
+      "CREATED_AT": "実施日時",
+      "USER_NAME": "実施アカウント",
+      "FULL_NAME": "スタッフ名",
+      "ROLE": "役割",
+      "ACTIVITY_TYPE_NAME": "操作",
+      "DESCRIPTION": "詳細内容"
+    },
+    "ACTIVITIES_OPTIONS": {
+      "ALL": "すべての操作",
+      "LOGIN": "ログイン",
+      "LOGOUT": "ログアウト",
+      "SEND_EMAIL": "メール送信",
+      "NOTE": "メモ",
+      "APPLICATION": "申請書",
+      "EMAILSAMPLE": "メールテンプレート",
+      "FREESUBJECT": "出席免除科目",
+      "USER": "アカウント",
+      "TODAY": "今日",
+      "THIS_WEEK": "今週",
+      "THIS_MONTH": "今月",
+      "THIS_YEAR": "今年",
+      "DATE_RANGE": "日付範囲"
+    }
+  },
+  "APPLICATIONS": {
+    "APPLICATION_SEARCH_TERM": "学生コードで検索",
+    "APPLICATION_STATUS": "申請書類の種類",
+    "APPLICATION_TYPE": "書類の種類",
+    "APPLICATION_DATE": "日付範囲",
+    "TABLE_COLUMN": {
+      "STUDENT_CODE": "学生コード",
+      "STUDENT_NAME": "学生名",
+      "APPLICATION_TYPE": "書類の種類",
+      "DATE_RECEIVED": "受付日",
+      "DUE_DATE": "返却日",
+      "APPLICATION_STATUS": "申請書類の種類"
+    },
+    "APPLICATIONS_OPTIONS": {
+      "ALL": "すべての書類",
+      "LOGIN": "ログイン",
+      "LOGOUT": "ログアウト",
+      "SEND_EMAIL": "メール送信",
+      "NOTE": "メモ",
+      "TODAY": "今日",
+      "THIS_WEEK": "今週",
+      "THIS_MONTH": "今月",
+      "THIS_YEAR": "今年",
+      "DATE_RANGE": "日付範囲",
+      "ALL_STATUS": "すべて",
+      "RECEIVE": "受付",
+      "RETURN": "返却"
+    },
+    "APPLICATION_STATUS_OPTIONS": {
+      "RECEIVE": "受付",
+      "RETURN": "返却"
+    }
+  },
+  "ACCOUNTS": {
+    "LABEL": {
+      "ADD_ACCOUNT": "新規アカウント追加",
+      "EDIT_ACCOUNT": "アカウント編集",
+      "NULL_DATA": "データがありません"
+    },
+    "FORM": {
+      "LABEL": {
+        "ADD_NEW_ACCOUNT": "新規ユーザーアカウント追加",
+        "EDIT_ACCOUNT": "ユーザーアカウント編集",
+        "DETAIL_ACCOUNT": "スタッフアカウントの詳細",
+        "EMAIL_ACCOUNT": "スタッフのメール",
+        "FULL_NAME": "スタッフの氏名",
+        "ROLE": "役割",
+        "MAJORS": "ケア対象の専攻",
+        "ALL_MAJORS": "すべての専攻",
+        "PERMISSIONS": "機能使用権限",
+        "STATUS": "アカウント状態",
+        "ACTIVE": "有効",
+        "INACTIVE": "無効",
+        "CREATED_TIME": "作成日時",
+        "UPDATED_TIME": "最新更新日時",
+        "ACTION": "機能"
+      },
+      "DELETE_CONFIRMATION": {
+        "TITLE": "スタッフアカウント <span class='font-bold'>{{fullName}}</span> をリストから削除しますか？",
+        "CONTENT": "本当に削除しますか？この操作は元に戻せません"
+      },
+      "VALIDATION_MESSAGE": {
+        "MIN_NAME": "氏名は最低6文字必要です",
+        "NULL_EMAIL": "メールを入力してください",
+        "INVALID_EMAIL": "有効なメールアドレスを入力してください",
+        "NULL_NAME": "氏名を入力してください",
+        "NULL_ROLE": "役割を選択してください",
+        "NULL_MAJOR": "ケア対象の専攻を選択してください",
+        "NULL_PERMISSION": "機能を選択してください",
+        "NULL_STATUS": "状態を選択してください",
+        "INVALID_EMAIL_DOMAIN": "メールは@fpt.edu.vnまたは@fe.edu.vnで終わる必要があります"
+      }
+    },
+    "ACCOUNTS_SEARCH_TERM": "名前またはメールで検索",
+    "ACCOUNTS_OPTIONS": {
+      "ALL": "すべての状態",
+      "INACTIVE": "無効",
+      "ACTIVE": "有効"
+    },
+    "MESSAGE": {
+      "CANNOT_EDIT_ACCOUNT": "このアカウントを編集する権限がありません"
+    }
+  },
+  "EMAILTEMPLATES": {
+    "CLUSTER_PARAMETER_BUTTON": "パラメータクラスタ",
+    "MODAL": {
+      "TITLE": {
+        "ADD": "メールテンプレート追加",
+        "EDIT": "メールテンプレート編集"
+      }
+    },
+    "EMAILTEMPLATES_OPTIONS": {
+      "ATTENDANCENOTIFICATION": "欠席通知",
+      "DEFERNOTIFICATION": "保留通知",
+      "FAILSUBJECTNOTIFICATION": "科目不合格通知",
+      "UNKNOWN": "不明",
+      "APPLICATIONNOTIFICATION": "申請通知"
+    },
+    "ADD_TEMPLATE": "メールテンプレート追加",
+    "TEMPLATE_SEARCH_TERM": "件名で検索",
+    "TABLE_COLUMN": {
+      "SUBJECT": "件名",
+      "CREATED_AT": "作成日時",
+      "LAST_MODIFIED_AT": "最終更新日時",
+      "ACTION": "機能",
+      "CC_EMAILS": "Cc",
+      "BCC_EMAILS": "Bcc",
+      "REPLY_TO_EMAIL": "返信先メール"
+    },
+    "FORM": {
+      "LABEL": {
+        "ADD_NEW_EMAILTEMPLATE": "新規メールテンプレート追加",
+        "DETAIL_EMAILTEMPLATE": "メールテンプレートの詳細",
+        "SUBJECT": "件名",
+        "TYPE": "メールテンプレートの種類",
+        "CONTENT": "内容",
+        "CREATED_TIME": "作成日時",
+        "UPDATED_TIME": "最終更新日時",
+        "EDIT": "メールテンプレート編集",
+        "CC_EMAILS": "Cc",
+        "BCC_EMAILS": "Bcc",
+        "REPLY_TO_EMAIL": "返信先メール"
+      },
+      "VALIDATION_MESSAGE": {
+        "REQUIRED": {
+          "SUBJECT": "メールの件名を入力してください",
+          "TYPE": "メールテンプレートの種類を選択してください",
+          "CONTENT": "メールの内容を入力してください",
+          "REPLY_TO_EMAIL": "返信先メールを入力してください"
+        }
+      },
+      "PLACEHOLDER": {
+        "SUBJECT": "件名を入力",
+        "CONTENT": "内容を入力",
+        "REPLY_TO_EMAIL": "返信先メールを入力"
+      },
+      "BUTTON": {
+        "PARAMETERS": "パラメータ"
+      },
+      "DELETE_CONFIRMATION": {
+        "TITLE": "メールテンプレート [<span class='font-bold'>{{subject}}</span>] をリストから削除しますか？",
+        "CONTENT": "本当に削除しますか？この操作は元に戻せません"
+      }
+    },
+    "POPOVER": {
+      "PARAMETERS": {
+        "TITLE": "パラメータ使用ガイド",
+        "PARAMETER_DESCRIPTION": "パラメータを呼び出してシステムが適切な内容を自動的に置き換えることで、メール作成時間を最適化します。",
+        "STUDENT_NAME": "学生名",
+        "STUDENT_CODE": "学生コード",
+        "CLASS": "クラス",
+        "MAJOR": "専攻",
+        "EMAIL": "メール",
+        "GENDER": "性別",
+        "CURRENT_TERM": "現在の学期",
+        "SPECIALIZATION": "専攻",
+        "MOBILE_PHONE": "電話番号",
+        "PARENT_PHONE": "保護者の電話番号",
+        "CLASS_NAME": "クラス名",
+        "SEMESTER_NAME": "学期名",
+        "SUBJECT": "科目",
+        "TOTAL_ABSENCES": "総欠席数",
+        "TOTAL_SLOTS": "総授業数",
+        "ABSENCE_RATE": "欠席率",
+        "DESCRIPTION": "説明",
+        "DEFER_SEMESTER": "保留学期",
+        "DEFERMENT_DATE": "保留登録日",
+        "START_DATE": "開始日",
+        "END_DATE": "終了日",
+        "STUDENT_CODE_DESCRIPTION": "システムはメール送信対象の学生の学生コードに自動的に置き換えます",
+        "STUDENT_NAME_DESCRIPTION": "システムはメール送信対象の学生の名前に自動的に置き換えます",
+        "CLASS_DESCRIPTION": "システムはメール送信対象の学生のクラス名に自動的に置き換えます",
+        "MAJOR_DESCRIPTION": "システムはメール送信対象の学生の専攻名に自動的に置き換えます",
+        "EMAIL_DESCRIPTION": "システムはメール送信対象の学生のメールに自動的に置き換えます",
+        "GENDER_DESCRIPTION": "システムはメール送信対象の学生の性別に自動的に置き換えます",
+        "CURRENT_TERM_DESCRIPTION": "システムはメール送信対象の学生の現在の学期に自動的に置き換えます",
+        "SPECIALIZATION_DESCRIPTION": "システムはメール送信対象の学生の専攻に自動的に置き換えます",
+        "MOBILE_PHONE_DESCRIPTION": "システムはメール送信対象の学生の電話番号に自動的に置き換えます",
+        "PARENT_PHONE_DESCRIPTION": "システムはメール送信対象の学生の保護者の電話番号に自動的に置き換えます",
+        "CLASS_NAME_DESCRIPTION": "システムはメール送信対象の学生の授業クラス名に自動的に置き換えます",
+        "SEMESTER_NAME_DESCRIPTION": "システムはメール送信対象の学生の学期名に自動的に置き換えます",
+        "SUBJECT_DESCRIPTION": "システムはメール送信対象の学生の科目名に自動的に置き換えます",
+        "TOTAL_ABSENCES_DESCRIPTION": "システムはメール送信対象の学生の総欠席数に自動的に置き換えます",
+        "TOTAL_SLOTS_DESCRIPTION": "システムはメール送信対象の学生の総授業数に自動的に置き換えます",
+        "ABSENCE_RATE_DESCRIPTION": "システムはメール送信対象の学生の欠席率に自動的に置き換えます",
+        "DESCRIPTION_DESCRIPTION": "システムはメール送信対象の学生の説明に自動的に置き換えます",
+        "DEFER_SEMESTER_DESCRIPTION": "システムはメール送信対象の学生の保留学期に自動的に置き換えます",
+        "DEFERMENT_DATE_DESCRIPTION": "システムは学生が保留を登録した日に自動的に置き換えます",
+        "START_DATE_DESCRIPTION": "システムはメール送信対象の学生の保留開始日に自動的に置き換えます",
+        "END_DATE_DESCRIPTION": "システムはメール送信対象の学生の保留終了日に自動的に置き換えます"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "メールテンプレートの追加に成功しました",
+        "UPDATE": "メールテンプレートの更新に成功しました",
+        "DELETE": "メールテンプレートの削除に成功しました"
+      },
+      "ERROR": {
+        "ADD": "メールテンプレートの追加に失敗しました",
+        "UPDATE": "メールテンプレートの更新に失敗しました",
+        "DELETE": "メールテンプレートの削除に失敗しました"
+      }
+    }
+  },
+  "SUB_EMAIL": {
+    "MODAL": {
+      "BUTTON": {
+        "MANAGE": "パラメータクラスタの設定",
+        "ADD": "パラメータクラスタ追加",
+        "CANCEL": "キャンセル",
+        "DETAIL": "パラメータクラスタの詳細",
+        "EDIT": "パラメータクラスタ編集"
+      }
+    },
+    "PLACEHOLDER": "パラメータクラスタ名で検索",
+    "NAME": {
+      "LABEL": "パラメータクラスタ名",
+      "PLACEHOLDER": "パラメータクラスタ名を入力",
+      "ERROR": "パラメータクラスタ名は空にできません"
+    },
+    "EMAIL_TYPE": "メールテンプレートの種類",
+    "DESCRIPTION": "説明",
+    "DESCRIPTION_ENGLISH": {
+      "LABEL": "英語での説明",
+      "PLACEHOLDER": "英語で説明を入力",
+      "ERROR": "説明は空にできません"
+    },
+    "DESCRIPTION_VIETNAM": {
+      "LABEL": "ベトナム語での説明",
+      "PLACEHOLDER": "ベトナム語で説明を入力",
+      "ERROR": "説明は空にできません"
+    },
+    "CONTENT": {
+      "LABEL": "内容",
+      "ERROR": "内容は空にできません"
+    },
+    "DELETE": {
+      "CONFIRM": "パラメータクラスタ [<span class='font-bold'>{{subject}}</span>] をリストから削除しますか？"
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "パラメータクラスタの追加に成功しました",
+        "UPDATE": "パラメータクラスタの更新に成功しました",
+        "DELETE": "パラメータクラスタの削除に成功しました"
+      },
+      "ERROR": {
+        "ADD": "パラメータクラスタの追加に失敗しました",
+        "UPDATE": "パラメータクラスタの更新に失敗しました",
+        "DELETE": "パラメータクラスタの削除に失敗しました"
+      }
+    },
+    "COLUMN": {
+      "NAME": "名前",
+      "EMAIL_TYPE": "メールの種類",
+      "CONTENT": "内容",
+      "DESCRIPTION": "説明",
+      "ACTION": "操作"
+    }
+  },
+  "APPLICATION": {
+    "CREATE_FORM": {
+      "TITLE": "新規申請書追加",
+      "EMAIL_SECTION_TITLE": "メール送信内容",
+      "STUDENT_INFO_TITLE": "学生情報",
+      "FORM": {
+        "DOCUMENT_TYPE": "書類の種類",
+        "DOCUMENT_TYPE_PLACEHOLDER": "書類の種類を選択",
+        "EMAIL_TEMPLATE": "メールテンプレート",
+        "EMAIL_TEMPLATE_PLACEHOLDER": "デフォルト",
+        "EMAIL_SUBJECT": "件名",
+        "EMAIL_SUBJECT_PLACEHOLDER": "件名を入力",
+        "EMAIL_CONTENT": "内容",
+        "EMAIL_CONTENT_PLACEHOLDER": "送信内容を入力",
+        "STUDENT_ID": "学生コード",
+        "STUDENT_ID_PLACEHOLDER": "学生コードを入力",
+        "STUDENT_NAME": "学生の氏名",
+        "STUDENT_NAME_PLACEHOLDER": "学生コード確定時に自動入力",
+        "STUDENT_EMAIL": "学生のメール",
+        "STUDENT_EMAIL_PLACEHOLDER": "学生コード確定時に自動入力",
+        "CONFIRM_BUTTON": "確認",
+        "CANCEL_BUTTON": "キャンセル"
+      },
+      "RADIO": {
+        "RECEIVE": "受付",
+        "RETURN": "返却"
+      },
+      "SUCCESS": "新規申請書の追加に成功しました",
+      "FAIL": "新規申請書の追加に失敗しました"
+    },
+    "MODAL": {
+      "DELETE": "申請書削除"
+    }
+  },
+  "LOGIN": {
+    "LOGIN": "ログイン",
+    "LOGIN_SUCCESS": "ログインに成功しました",
+    "LOGIN_FAIL": "ログインに失敗しました",
+    "WELCOME": "おかえりなさい！情報を入力してください",
+    "CAMPUS": "キャンパス",
+    "RULES": {
+      "CAMPUS": "ログイン前にキャンパスを選択してください",
+      "RECAPTCHA": "reCAPTCHAを確認してください"
+    },
+    "PLACEHOLDER": "キャンパスを選択"
+  },
+  "TOAST": {
+    "SUCCESS": {
+      "ACCOUNT": {
+        "ADD": "アカウントの追加に成功しました",
+        "UPDATE": "アカウントの更新に成功しました",
+        "DELETE": "アカウントの削除に成功しました"
+      }
+    },
+    "ERROR": {
+      "ACCOUNT": {
+        "ADD": "アカウントの追加に失敗しました",
+        "UPDATE": "アカウントの更新に失敗しました",
+        "DELETE": "アカウントの削除に失敗しました"
+      },
+      "LOGIN": {
+        "INVALID_ACCOUNT": "アカウント情報が無効です。もう一度お試しください"
+      },
+      "NOTIFY": {
+        "TRY_AGAIN": "エラーが発生しました。もう一度お試しください"
+      }
+    }
+  },
+  "STUDENTS": {
+    "SCAN_HISTORY": "更新履歴",
+    "STUDENT_SEARCH_TERM": "名前または学生コードで検索",
+    "FILTER": {
+      "CLASS": "クラス",
+      "SEMESTER": "現在の学期",
+      "SEMESTER_SEARCH": "検索する学期",
+      "MAJOR": "専攻ブロック",
+      "MAJOR_HINT": "専攻ブロックを選択",
+      "PROGRESS": "状態",
+      "PROGRESS_SEARCH": "状態を選択"
+    },
+    "TABLE_COLUMN": {
+      "STUDENT_NAME": "学生名",
+      "STUDENT_CODE": "学生コード",
+      "CLASS": "クラス",
+      "EMAIL": "メール",
+      "MAJOR": "専攻ブロック",
+      "PHONE": "電話番号",
+      "PARENT_PHONE": "保護者の電話番号",
+      "SPECIALIZATION": "専攻",
+      "SEMESTER": "現在の学期",
+      "GENDER": "性別",
+      "Status": "状態"
+    },
+    "PROGRESS": {
+      "TH": "退学",
+      "HL": "再履修",
+      "HD": "進級",
+      "CO": "保留",
+      "BL": "保留",
+      "TF": "転校"
+    }
+  },
+  "DEFERS": {
+    "ALL": "すべて",
+    "SEARCH_TERM": "検索",
+    "DEFERS_TWO_TERMS": "2学期保留",
+    "SELECT_DEFERRED_SEMESTER": "学期を選択",
+    "TABLE_COLUMN": {
+      "LAST_EMAIL_SENT": "メール送信履歴",
+      "DEFERMENT_DATE": "保留申請日",
+      "DEFERMENT_PERIOD": "保留期間",
+      "DEFERMENT_TYPE": "保留の種類",
+      "DESCRIPTION": "説明",
+      "REASON": "理由",
+      "STATUS": "状態",
+      "ACTION": "機能"
+    },
+    "DEFER_BUTTON": "メール送信",
+    "DEFER_STATUS": {
+      "APPROVED": "承認済み",
+      "CANCELLED": "キャンセル済み"
+    },
+    "DEFER_MAIL": {
+      "SUCCESS": "メール送信に成功しました",
+      "FAIL": "メール送信に失敗しました"
+    }
+  },
+  "APPLICATION_TYPE": {
+    "TEMPLATE_SEARCH_TERM": "申請書類の名前で検索",
+    "ADD_APPLICATION_TYPE": "新規申請書類の種類追加",
+    "TABLE_COLUMN": {
+      "APPLICATION_TYPE_NAME": "申請書類の名前",
+      "CREATED_AT": "作成日時",
+      "LAST_MODIFIED_AT": "最終更新日時",
+      "ACTION": "機能"
+    },
+    "FORM": {
+      "ADD_NEW_APPLICATION_TYPE": "新規申請書類の種類追加",
+      "EDIT_APPLICATION_TYPE": "申請書類の種類編集",
+      "DETAIL_APPLICATION_TYPE": "申請書類の種類の詳細",
+      "LABEL": {
+        "ENGLISH_NAME": "申請書類の名前（英語）",
+        "VIETNAMESE_NAME": "申請書類の名前（ベトナム語）",
+        "SUBJECT": "申請書類の種類",
+        "TYPE": "メールテンプレートの種類",
+        "CONTENT": "内容",
+        "CREATED_TIME": "作成日時",
+        "UPDATED_TIME": "最終更新日時",
+        "EDIT": "申請書類の種類編集"
+      },
+      "VALIDATION_MESSAGE": {
+        "REQUIRED": {
+          "VIETNAMESE_NAME": "申請書類の名前（ベトナム語）を入力してください",
+          "ENGLISH_NAME": "申請書類の名前（英語）を入力してください"
+        }
+      },
+      "PLACEHOLDER": {
+        "VIETNAMESE_NAME": "申請書類の名前（ベトナム語）を入力",
+        "ENGLISH_NAME": "申請書類の名前（英語）を入力"
+      },
+      "DELETE_CONFIRMATION": {
+        "TITLE": "申請書類の種類 [<span class='font-bold'>{{subject}}</span>] をリストから削除しますか？",
+        "CONTENT": "本当に削除しますか？この操作は元に戻せません"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "申請書類の種類の追加に成功しました",
+        "UPDATE": "申請書類の種類の更新に成功しました",
+        "DELETE": "申請書類の種類の削除に成功しました"
+      },
+      "ERROR": {
+        "ADD": "申請書類の種類の追加に失敗しました",
+        "UPDATE": "申請書類の種類の更新に失敗しました",
+        "DELETE": "申請書類の種類の削除に失敗しました"
+      }
+    }
+  },
+  "SUBJECT": {
+    "COMMON": {
+      "DELETE_SUBJECT": "出席免除科目を削除",
+      "EDIT_SUBJECT": "出席免除科目を編集"
+    },
+    "TEMPLATE_SEARCH_TERM": "科目コードまたは科目名で検索",
+    "ADD_SUBJECT": "新規出席免除科目追加",
+    "SELECT_SUBJECT": "選択した科目",
+    "TABLE_COLUMN": {
+      "SUBJECT_NAME": "出席免除科目名",
+      "VIETNAMESE_SUBJECT_NAME": "科目名（ベトナム語）",
+      "ENGLISH_SUBJECT_NAME": "科目名（英語）",
+      "SUBJECT_CODE": "科目コード",
+      "SUBJECT_GROUP": "学問グループ",
+      "CREATED_AT": "作成日時",
+      "LAST_MODIFIED_AT": "最終更新日時",
+      "ACTION": "機能"
+    },
+    "FORM": {
+      "ADD_NEW_SUBJECT": "新規出席免除科目追加",
+      "EDIT_SUBJECT": "出席免除科目編集",
+      "DETAIL_SUBJECT": "出席免除科目の詳細",
+      "LABEL": {
+        "ENGLISH_NAME": "出席免除科目名（英語）",
+        "VIETNAMESE_NAME": "出席免除科目名（ベトナム語）",
+        "SUBJECT": "出席免除科目",
+        "TYPE": "メールテンプレートの種類",
+        "CONTENT": "内容",
+        "CREATED_TIME": "作成日時",
+        "UPDATED_TIME": "最終更新日時",
+        "EDIT": "出席免除科目編集"
+      },
+      "VALIDATION_MESSAGE": {
+        "REQUIRED": {
+          "VIETNAMESE_NAME": "出席免除科目名（ベトナム語）を入力してください",
+          "ENGLISH_NAME": "出席免除科目名（英語）を入力してください"
+        }
+      },
+      "PLACEHOLDER": {
+        "VIETNAMESE_NAME": "出席免除科目名（ベトナム語）を入力",
+        "ENGLISH_NAME": "出席免除科目名（英語）を入力"
+      },
+      "DELETE_CONFIRMATION": {
+        "TITLE": "出席免除科目 [<span class='font-bold'>{{subject}}</span>] をリストから削除しますか？",
+        "CONTENT": "本当に削除しますか？この操作は元に戻せません"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "出席免除科目の追加に成功しました",
+        "UPDATE": "出席免除科目の更新に成功しました",
+        "DELETE": "出席免除科目の削除に成功しました"
+      },
+      "ERROR": {
+        "ADD": "出席免除科目の追加に失敗しました",
+        "UPDATE": "出席免除科目の更新に失敗しました",
+        "DELETE": "出席免除科目の削除に失敗しました"
+      }
+    }
+  },
+  "EMAILS_INPUT": {
+    "FORM": {
+      "INVALID": "メール形式が正しくありません",
+      "DUPLICATED": "メールが重複しています"
+    }
+  },
+  "NOTE": {
+    "ADD_FORM": {
+      "CREATE": "メモを追加：",
+      "LABEL": "内容",
+      "REQUIRE_CONTENT": "内容は空にできません",
+      "REQUIRE_MIN__CONTENT": "最低1文字必要です",
+      "PLACEHOLDER": "メモを入力",
+      "DETAIL_CONTENT": "内容の詳細",
+      "CREATE_AT": "作成日：",
+      "SEMESTER": "学期：",
+      "STUDENT_CODE": "学生コード",
+      "ADDITIONAL_INFO": "追加メモ",
+      "CHANNEL": "チャネル",
+      "PROCESSING_TIME": "処理時間",
+      "CHANNEL_PLACEHOLDER": "チャネルを入力",
+      "PROCESSING_TIME_PLACEHOLDER": "処理時間を入力"
+    },
+    "MANAGE_NOTE": {
+      "DELETE": {
+        "TITLE": "このメモを本当に削除しますか？",
+        "CONTENT": "この操作は元に戻せません",
+        "SUCCESS": "メモの削除に成功しました",
+        "FAIL": "メモの削除に失敗しました"
+      },
+      "UPDATE": {
+        "SUCCESS": "メモの更新に成功しました",
+        "FAIL": "メモの更新に失敗しました"
+      },
+      "VIEW": {
+        "MODAL_TITLE": "メモ：",
+        "ADD_BUTTON": "新規追加"
+      }
+    },
+    "IMPORT": {
+      "STEP": {
+        "FIRST": "アップロード",
+        "FIRST_DESCRIPTION": "システムにアップロード",
+        "SECOND": "データプレビュー",
+        "SECOND_DESCRIPTION": "データを確認"
+      },
+      "BUTTON": "ファイルインポート",
+      "MODAL": {
+        "TITLE": "Excelでデータを追加"
+      },
+      "DRAGGER": {
+        "GUIDE": "ファイルを選択するか、ここにドラッグ＆ドロップしてください。",
+        "MAXIMUM_SUPPORT": "サポート形式：XLSX、CSV。",
+        "CHOOSE_FILE": "ファイルを選択"
+      },
+      "TABLE": {
+        "INDEX": "番号",
+        "STUDENT_CODE": "学生コード",
+        "STUDENT_NAME": "氏名",
+        "CARE_TYPE": "ケアの種類",
+        "CARE_CONTENT": "ケア内容",
+        "SEMESTER": "学期",
+        "CARE_OFFICER": "ケア担当者",
+        "CHANNEL": "チャネル",
+        "PROCESS_TIME": "処理時間",
+        "PLACEHOLDER": {
+          "SEMESTER": "学期を選択",
+          "CARE_TYPE": "ケアの種類を選択"
+        },
+        "RULE": {
+          "STUDENT_CODE": "学生コードを選択してください",
+          "INVALID_TYPE": "無効な種類：",
+          "CARE_TYPE": "ケアの種類を選択してください",
+          "CARE_CONTENT": "ケア内容は空にできません",
+          "SEMESTER": "学期を選択してください",
+          "INVALID_SEMESTER": "無効な学期：",
+          "OFFICER": "ケア担当者は空にできません"
+        }
+      }
+    },
+    "TOAST": {
+      "ADD_SUCCESS": "メモの追加に成功しました",
+      "ADD_FAIL": "メモの追加に失敗しました",
+      "EDIT_SUCCESS": "メモの編集に成功しました",
+      "EDIT_FAIL": "メモの編集に失敗しました",
+      "DELETE_SUCCESS": "メモの削除に成功しました",
+      "DELETE_FAIL": "メモの削除に失敗しました"
+    }
+  },
+  "NOTE_TYPE": {
+    "BUTTON": {
+      "OPEN": "メモの種類"
+    },
+    "TABLE_COLUMN": {
+      "NAME": "メモの種類名",
+      "TIME_CREATE": "作成日時",
+      "TIME_UPDATE": "最終更新日時",
+      "ACTION": "機能"
+    },
+    "DELETE": {
+      "TITLE": "このメモの種類を本当に削除しますか？",
+      "CONTENT": "この操作は元に戻せません",
+      "SUCCESS": "メモの種類の削除に成功しました",
+      "FAIL": "メモの種類の削除に失敗しました"
+    },
+    "CREATE": {
+      "FAIL": "新規作成に失敗しました。後でもう一度お試しください"
+    },
+    "MODAL": {
+      "TITLE": "メモの種類管理",
+      "EDIT": "メモの種類編集",
+      "ADD": "新規メモの種類追加",
+      "VIETNAMESE_CONTENT": "内容（ベトナム語）",
+      "REQUIRE_CONTENT": "内容は空にできません",
+      "ENGLISH_CONTENT": "内容（英語）"
+    },
+    "TOAST": {
+      "ADD_SUCCESS": "メモの種類の追加に成功しました",
+      "ADD_FAIL": "メモの種類の追加に失敗しました",
+      "EDIT_SUCCESS": "メモの種類の編集に成功しました",
+      "EDIT_FAIL": "メモの種類の編集に失敗しました",
+      "DELETE_SUCCESS": "メモの種類の削除に成功しました",
+      "DELETE_FAIL": "メモの種類の削除に失敗しました"
+    }
+  },
+  "NOTES": {
+    "NOTES_SEARCH_TERM": "学生コードで検索",
+    "FILTER_NOTE_TYPE": "メモの種類",
+    "FILTER_ALL": "すべて",
+    "TABLE_COLUMN": {
+      "STUDENT_CODE": "学生コード",
+      "STUDENT_NAME": "氏名",
+      "NOTE_TYPE": "メモの種類",
+      "NOTE_CONTENT": "メモ内容",
+      "CARE_OFFICER": "メモ担当者",
+      "PHONE_NUMBER": "電話番号",
+      "PARENT_PHONE": "保護者の電話番号",
+      "SEMESTER": "学期",
+      "DATE": "作成日"
+    },
+    "ADD_FORM": {
+      "CREATE": "新規追加",
+      "TITLE": "新規メモ追加",
+      "STUDENT_CODE": "学生コード",
+      "SELECT_NOTE_TYPE": "メモの種類",
+      "PLACEHOLDER_CONTENT": "メモ内容を入力",
+      "PLACEHOLDER_STUDENT_CODE": "学生コードを入力",
+      "PLACEHOLDER_SELECT_NOTE_TYPE": "メモの種類を選択",
+      "CONTENT": "メモ内容",
+      "STUDENT_NAME": "氏名",
+      "STUDENT_EMAIL": "メール",
+      "REQUIRE_STUDENT_CODE": "学生コードを入力してください",
+      "REQUIRE_NOTE_TYPE": "メモの種類を選択してください",
+      "MIN_LENGTH_CONTENT": "内容が短すぎます（最低1文字）",
+      "REQUIRE_CONTENT": "メモ内容を入力してください"
+    },
+    "EDIT_FORM": {
+      "EDIT_NOTES": "メモ編集",
+      "PLACEHOLDER_CONTENT": "メモ内容",
+      "VALIDATION_MESSAGE": "メモ内容を入力してください",
+      "LABEL": {
+        "CONTENT": "内容",
+        "NOTE_TYPE": "メモの種類",
+        "STUDENT_CODE": "学生コード"
+      }
+    },
+    "DELETE_CONFIRMATION": {
+      "TITLE": "メモ [<span class='font-bold'>{{subject}}</span>] をリストから削除しますか？",
+      "CONTENT": "本当に削除しますか？この操作は元に戻せません"
+    },
+    "STATE": {
+      "ALL": "すべて",
+      "HAS_NOTE": "メモ済み",
+      "NOT_NOTE": "未メモ"
+    }
+  },
+  "STUDENT_FAILED_COURSE": {
+    "ALL": "すべて",
+    "FAILED_MULTIPLE_COURSES": "1学期に複数の科目で不合格",
+    "FAILED_COURSE_TWO_TERMS": "2学期連続で同一科目不合格",
+    "TABLE_COLUMN": {
+      "STUDENT_CODE": "学生コード",
+      "STUDENT_NAME": "学生名",
+      "EMAIL": "メール",
+      "PHONE": "電話番号",
+      "CLASS": "クラス",
+      "SPECIALIZATION": "専攻",
+      "MAJOR": "専攻ブロック",
+      "SEMESTER": "学期",
+      "SUBJECT_CODE": "科目コード",
+      "DESCRIPTION": "不合格の理由",
+      "ACTION": "機能",
+      "AVERAGE_MARK": "平均点",
+      "SUSPENDED": "停学",
+      "ATTENDANCE_FAIL": "出席不合格",
+      "MARK_FAIL": "点数不合格"
+    },
+    "DETAIL": {
+      "TITLE": "科目不合格学生の詳細"
+    },
+    "SEMESTER_SELECT_LABEL": "学期",
+    "SEMESTER_SELECT_PLACEHOLDER": "学期を選択",
+    "FAIL_REASON_SELECT_PLACEHOLDER": "不合格の理由を選択",
+    "EXPORT_SEMESTER": "エクスポートする学期数",
+    "EXPORT_SEMESTER_TIP": "現在の学期とその後の学期が選択した数に基づいてエクスポートされます。例：1を選択すると現在の学期のみエクスポートされます",
+    "STUDENT_FAILED_COURSE_EXPORT_TILL_SEMESTER": "現在の学期を含む"
+  },
+  "OTP": {
+    "TOAST": {
+      "SUCCESS": {
+        "2FA": {
+          "ENABLE": "2段階認証の有効化に成功しました",
+          "DISABLE": "2段階認証の無効化に成功しました",
+          "VERIFY": "2段階認証の確認に成功しました"
+        }
+      },
+      "ERROR": {
+        "2FA": {
+          "ENABLE": "2段階認証の有効化に失敗しました",
+          "DISABLE": "2段階認証の無効化に失敗しました",
+          "VERIFY": "2段階認証の確認に失敗しました"
+        }
+      }
+    }
+  },
+  "PSYCHOLOGY_MANAGEMENT": {
+    "STUDENT_SEARCH_TERM": "名前または学生コードで検索",
+    "EDIT": {
+      "CONFIRM_DELETE_TITLE": "このカウンセリング質問を本当に削除しますか？",
+      "CONFIRM_DELETE_CONTENT": "この操作は元に戻せません",
+      "ADD_QUESTION": "カウンセリング質問追加",
+      "EDIT_QUESTION": "カウンセリング質問編集"
+    },
+    "MODAL": {
+      "TITLE": "カウンセリング質問管理"
+    }
+  },
+  "DASHBOARD": {
+    "STATISTICS": {
+      "TOTAL_REMINDER": "学期中のリマインド総数",
+      "ATTENDANCE_REMINDER": {
+        "TITLE": "学期中の出席リマインド",
+        "YLABEL": "リマインド回数",
+        "WEEKLY": {
+          "TITLE": "週別",
+          "MONDAY": "月曜日",
+          "TUESDAY": "火曜日",
+          "WEDNESDAY": "水曜日",
+          "THURSDAY": "木曜日",
+          "FRIDAY": "金曜日",
+          "SATURDAY": "土曜日",
+          "SUNDAY": "日曜日"
+        },
+        "MONTHLY": {
+          "TITLE": "月別",
+          "TOOLTIP": {
+            "LABEL": "日",
+            "VALUE": "リマインド回数"
+          },
+          "XAXIS": "日",
+          "YAXIS": "リマインド回数"
+        },
+        "YEARLY": {
+          "TITLE": "年別",
+          "MODE": {
+            "SEMESTER": {
+              "TITLE": "学期別",
+              "XAXIS": "学期"
+            },
+            "MONTH": {
+              "TITLE": "月別",
+              "XAXIS": "月"
+            }
+          },
+          "YAXIS": "リマインド回数"
+        }
+      },
+      "DEFER_REMINDER": "学期中の保留リマインド",
+      "HIGH_RISK_STUDENTS": "学期中の高リスク不合格学生リマインド",
+      "LAST_UPDATED": "更新履歴"
+    },
+    "DASHBOARD_CARD": {
+      "CHANGE": "前学期との比較"
+    },
+    "ATTENDANCE_REMINDER": {
+      "TOTAL_APPLICATION": "申請書総数"
+    },
+    "APPLICATION_CHART": {
+      "TITLE": "申請書記録",
+      "RECEIVE": "申請書受付",
+      "RETURN": "申請書返却"
+    },
+    "APPLICATION_SUMMARY": {
+      "TITLE": "申請書記録合計",
+      "RECEIVE": "申請書受付",
+      "RETURN": "申請書返却",
+      "TYPE": "書類の種類",
+      "TOTAL": "数量"
+    },
+    "STUDENT_NEED_CARE": {
+      "TITLE": "ケア済み学生",
+      "STUDENT_CARED": "ケア済み学生",
+      "STUDENT_NOT_ASSIGNED": "ケア未割り当て学生",
+      "STUDENT_DOING": "ケア中の学生",
+      "STUDENT_TODO": "ケアが必要な学生",
+      "STUDENT_RECORD": "学生ケア比較レポート"
+    },
+    "EMAIL_LOG_CHART": {
+      "TITLE": "送信済みメール統計",
+      "TOTAL_EMAIL_SENT_PROCESS": "進捗",
+      "TOTAL_EMAIL_SENT": "送信済みメール数",
+      "SENT": "送信済み",
+      "PENDING": "送信待ち",
+      "FAILED": "送信失敗",
+      "WEEK": {
+        "TITLE": "週別"
+      },
+      "MONTH": {
+        "TITLE": "月別"
+      },
+      "YEAR": {
+        "TITLE": "年別"
+      }
+    }
+  },
+  "STUDENT_PSYCHOLOGY": {
+    "PSYCHOLOGY_MANAGEMENT": "心理カウンセリング質問管理",
+    "CREATE": "心理ケアが必要な学生追加",
+    "VERIFY": {
+      "TITLE": "心理ケア学生の認証",
+      "ACCESS_PASSWORD": "アクセスパスワード",
+      "REQUIRED_ACCESS_PASSWORD": "アクセスパスワードを入力してください",
+      "LABEL": {
+        "ACCESS_PASSWORD": "アクセスパスワード"
+      }
+    },
+    "ADD_TEMPLATE": "心理ケアが必要な学生追加",
+    "MODAL": {
+      "TITLE": {
+        "ADD": "心理ケアが必要な学生追加"
+      }
+    },
+    "FORM": {
+      "LABEL": {
+        "ACCESS_PASSWORD": "アクセスパスワード",
+        "RE_ACCESS_PASSWORD": "アクセスパスワードを再入力"
+      },
+      "PLACEHOLDER": {
+        "ACCESS_PASSWORD": "アクセスパスワードを入力",
+        "RE_ACCESS_PASSWORD": "アクセスパスワードを再入力"
+      },
+      "VALIDATION_MESSAGE": {
+        "REQUIRED": {
+          "ACCESS_PASSWORD": "アクセスパスワードを入力してください",
+          "RE_ACCESS_PASSWORD": "アクセスパスワードを再入力してください"
+        }
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "心理ケア学生の追加に成功しました",
+        "VERIFY": "認証に成功しました",
+        "CHANGE_PASSWORD": "パスワード変更に成功しました"
+      },
+      "ERROR": {
+        "ADD": "心理ケア学生の追加に失敗しました",
+        "PASSWORD_NOT_MATCH": "アクセスパスワードが一致しません",
+        "VERIFY": "認証に失敗しました",
+        "CHANGE_PASSWORD": "パスワード変更に失敗しました"
+      }
+    },
+    "CHANGE_PASSWORD": {
+      "TITLE": "パスワード変更",
+      "OLD_PASSWORD": "現在のパスワード",
+      "NEW_PASSWORD": "新しいパスワード",
+      "RE_NEW_PASSWORD": "新しいパスワードを再入力",
+      "VALIDATION": {
+        "REQUIRED": {
+          "OLD_PASSWORD": "現在のパスワードを入力してください",
+          "NEW_PASSWORD": "新しいパスワードを入力してください",
+          "RE_NEW_PASSWORD": "新しいパスワードを再入力してください"
+        }
+      },
+      "ERROR": {
+        "PASSWORD_NOT_MATCH": "新しいパスワードが一致しません"
+      }
+    },
+    "FORGET_PASSWORD": {
+      "PASSWORD": "パスワード",
+      "REQUIRED_PASSWORD": "パスワードを入力してください",
+      "PLACEHOLDER_PASSWORD": "パスワードを入力",
+      "CONFIRM_PASSWORD": "パスワード確認",
+      "REQUIRED_CONFIRM_PASSWORD": "パスワードを確認してください",
+      "PLACEHOLDER_CONFIRM_PASSWORD": "パスワードを再入力",
+      "OTP": "認証コード",
+      "REQUIRED_OTP": "認証コードを入力してください",
+      "PLACEHOLDER_OTP": "認証コードを入力",
+      "PASSWORD_NOT_MATCH": "確認パスワードが一致しません"
+    },
+    "TABLE": {
+      "STUDENT_CODE": "学生コード",
+      "STUDENT_NAME": "学生名",
+      "EMAIL": "メール",
+      "PHONE_NUMBER": "電話番号",
+      "FUNCTION": "機能",
+      "DETAIL": "詳細",
+      "COMPLETE": "完了"
+    }
+  },
+  "NOTE_DETAIL": {
+    "BUTTON": {
+      "OPEN": "メモ管理"
+    },
+    "TABLE_COLUMN": {
+      "NAME": "メモ名",
+      "TIME_CREATE": "作成日時",
+      "TIME_UPDATE": "最終更新日時",
+      "ACTION": "機能"
+    },
+    "DELETE": {
+      "TITLE": "このメモを本当に削除しますか？",
+      "CONTENT": "この操作は元に戻せません",
+      "SUCCESS": "メモの削除に成功しました",
+      "FAIL": "メモの削除に失敗しました"
+    },
+    "CREATE": {
+      "FAIL": "新規作成に失敗しました。後でもう一度お試しください"
+    },
+    "MODAL": {
+      "TITLE": "メモ管理",
+      "EDIT": "メモ編集",
+      "ADD": "新規メモ追加",
+      "VIETNAMESE_CONTENT": "内容（ベトナム語）",
+      "REQUIRE_CONTENT": "内容は空にできません",
+      "ENGLISH_CONTENT": "内容（英語）"
+    },
+    "TOAST": {
+      "ADD_SUCCESS": "メモの追加に成功しました",
+      "ADD_FAIL": "メモの追加に失敗しました",
+      "EDIT_SUCCESS": "メモの編集に成功しました",
+      "EDIT_FAIL": "メモの編集に失敗しました",
+      "DELETE_SUCCESS": "メモの削除に成功しました",
+      "DELETE_FAIL": "メモの削除に失敗しました"
+    }
+  },
+  "PSYCHOLOGY_NOTE": {
+    "BUTTON": {
+      "STUDENT_INFO": "学生情報を表示"
+    },
+    "ADD_MODAL": {
+      "SUBJECT": "件名",
+      "DETAIL": "詳細",
+      "REQUIRED_SUBJECT": "件名を入力してください",
+      "MIN_SUBJECT": "最低1文字",
+      "PLACEHOLDER_SUBJECT": "件名を入力",
+      "NEXT_BUTTON": "次へ",
+      "PSYCHOLOGY_QUESTION": "カウンセリング質問",
+      "REQUIRED_QUESTION": "カウンセリング質問を入力してください",
+      "MIN_QUESTION": "最低1文字",
+      "SELECT_QUESTION": "カウンセリング質問を選択",
+      "ANSWER_CONTENT": "回答内容",
+      "REQUIRED_CONTENT": "回答内容を入力してください",
+      "MIN_CONTENT": "最低1文字",
+      "PLACEHOLDER_CONTENT": "回答内容を入力"
+    },
+    "UPLOAD_DRIVE": {
+      "OPEN_FROM_DRIVE": "Googleドライブから開く",
+      "CREATE_FROM_DRIVE": "Googleドライブから作成"
+    }
+  },
+  "EMAIL_LOG": {
+    "TABLE": {
+      "SUBJECT": "件名",
+      "RECIPIENT_EMAIL": "受信者",
+      "EMAIL_TYPE": "メールの種類",
+      "SEMESTER": "学期",
+      "EMAIL_STATE": "状態",
+      "CREATED_AT": "送信日"
+    },
+    "TITLE": "送信済みメールリスト",
+    "SEARCH_TERM": "検索",
+    "EMAIL_STATE": {
+      "Pending": "送信待ち",
+      "Sent": "送信済み",
+      "Failed": "失敗"
+    },
+    "LABEL": {
+      "EMAIL_TYPE": "メールの種類",
+      "EMAIL_STATE": "状態",
+      "SEND_DATE": "送信日",
+      "SEMESTER_NAME": "学期名"
+    },
+    "STUDENT_INFO": {
+      "TITLE": "学生情報",
+      "NAME": "名前",
+      "STUDENT_CODE": "学生コード",
+      "EMAIL": "メール",
+      "CLASS": "クラス",
+      "MAJOR": "専攻ブロック",
+      "SPECIALIZATION": "専攻",
+      "GENDER": "性別",
+      "PROGRESS": "状態",
+      "CURRENT_TERM_NO": "現在の学期",
+      "MOBILE_PHONE": "電話番号",
+      "PARENT_PHONE": "保護者の電話番号"
+    }
+  },
+  "SEMESTER_NOTES": {
+    "EMPTY_STATE": "メモデータがありません。",
+    "YEAR": "年",
+    "SEMESTER": {
+      "SPRING": "春学期",
+      "SUMMER": "夏学期",
+      "FALL": "秋学期"
+    },
+    "NOTE": {
+      "SUBJECT": "科目",
+      "CREATED_AT": "日付",
+      "ADD": "追加",
+      "EDIT": "編集",
+      "DELETE": "削除",
+      "CONFIRM_DELETE": "このメモを本当に削除しますか？"
+    },
+    "MODAL": {
+      "EDIT_TITLE": "メモ編集",
+      "ADD_TITLE": "新規メモ追加",
+      "CONTENT_LABEL": "内容",
+      "CONTENT_PLACEHOLDER": "メモ内容を入力",
+      "CONTENT_REQUIRED": "内容を入力してください",
+      "NOTE_TYPE_LABEL": "メモの種類",
+      "NOTE_TYPE_PLACEHOLDER": "メモの種類を選択",
+      "NOTE_TYPE_REQUIRED": "メモの種類を選択してください"
+    },
+    "TOAST": {
+      "ADD_SUCCESS": "メモの追加に成功しました",
+      "ADD_FAIL": "メモの追加に失敗しました",
+      "EDIT_SUCCESS": "メモの編集に成功しました",
+      "EDIT_FAIL": "メモの編集に失敗しました",
+      "DELETE_SUCCESS": "メモの削除に成功しました",
+      "DELETE_FAIL": "メモの削除に失敗しました"
+    }
+  },
+  "SETTINGS": {
+    "SIGN_AS_SUCCESS": "ユーザーとしてログインに成功しました",
+    "SIGN_AS_FAIL": "ユーザーとしてログインに失敗しました",
+    "SIGN_AS": "ログイン",
+    "SELECT_USER_REQUIRED": "ユーザーを選択してください",
+    "SIGN_AS_USER": "別のユーザーとしてログイン",
+    "SEARCH_ROLE": "役割を検索",
+    "SELECT_USER": "ユーザー選択",
+    "LANGUAGE": "言語",
+    "FONT_STYLE": "フォントスタイル",
+    "THEME": "テーマ",
+    "UPLOAD_HEADER_BACKGROUND": "ヘッダー画像をアップロード",
+    "UPLOAD_CONTENT_BACKGROUND": "背景画像をアップロード",
+    "PERSONAL_SETTINGS": "個人設定",
+    "WEBSITE_SETTINGS": "ウェブサイト設定",
+    "UPLOAD_IMAGE": "画像をアップロード",
+    "DISABLE_DEVTOOL": "開発者ツールの無効化",
+    "PREVIEW_IMAGE": "プレビュー",
+    "HIDE_SENSITIVE": "機密情報を非表示",
+    "SCAN_ATTENDANCE": "出席スキャン",
+    "TOAST": {
+      "SUCCESS": "設定の更新に成功しました。変更を反映するにはページをリロードしてください",
+      "ERROR": "設定の更新に失敗しました"
+    },
+    "TOTP_SETTINGS": "2要素認証設定",
+    "TOTP_ENABLE": "2要素認証を有効化",
+    "TOTP_DISABLE": "2要素認証を無効化",
+    "TOTP_DISABLE_DESCRIPTION": "2要素認証を無効化すると、アカウントのセキュリティレベルが低下します。",
+    "TOTP_ENABLE_DESCRIPTION": "2要素認証を有効化すると、アカウントのセキュリティが強化されます。",
+    "ENTER_OTP": "OTPコードを入力",
+    "OTP_REQUIRED": "OTPコードを入力してください",
+    "TOTP_USE_GUIDE": "以下のQRコードを認証アプリでスキャンしてください。スキャン後、アプリがOTPコードを生成します。2要素認証の有効化を完了するには、生成されたOTPコードを以下に入力してください。",
+    "SUBMIT": "確認"
+  },
+  "STUDENT_NEED_CARE": {
+    "ASSIGN": {
+      "VALID_PERCENTAGE": "有効な割合",
+      "BY_PERCENTAGE_TITLE": "割合で割り当て",
+      "INVALID_PERCENTAGE": "無効な割合",
+      "STAFF_NAME": "スタッフ名",
+      "PERCENTAGE": "割合",
+      "TOTAL": "総割合",
+      "TITLE": "割り当て",
+      "CHOOSE_METHOD": "割り当て方法を選択",
+      "MODAL_TITLE": "ケア割り当て",
+      "AUTO_DISTRIBUTE": "自動割り当て",
+      "AUTO_DESCRIPTION": "ケアが必要な学生数に基づいて学生を自動的に割り当てます。",
+      "BY_PERCENTAGE": "割合で割り当て",
+      "BY_PERCENTAGE_DESCRIPTION": "ケアが必要な学生数の割合に基づいて学生を割り当てます。",
+      "PERCENTAGE_ERROR": "総割合は100%でなければなりません。",
+      "SUCCESS": "学生の割り当てに成功しました",
+      "FAIL": "学生の割り当てに失敗しました",
+      "NO_STUDENT": "割り当てられていない学生がいません"
+    },
+    "HISTORY": {
+      "TITLE": "ケア履歴"
+    },
+    "ADD_MANUAL": {
+      "TITLE": "学生追加",
+      "STUDENT_ALREADY_EXIST": "学生はすでに存在します",
+      "STUDENT_ID": "学生コード",
+      "STUDENT_ID_REQUIRED": "有効な学生コードを入力してください",
+      "EMAIL": "メール：",
+      "GENDER": "性別：",
+      "PROGRESS": "状態：",
+      "CURRENT_TERM_NO": "現在の学期：",
+      "SPECIALIZATION": "専攻："
+    },
+    "EXPORT": {
+      "OPTIONS": {
+        "SCANNED": "スキャンされた学生リストをエクスポート",
+        "ALL": "学期ごとの全リストをエクスポート"
+      }
+    },
+    "DISTRIBUTE": {
+      "CARD_MODE": "カード",
+      "TABLE_MODE": "テーブル",
+      "BUTTON": "スタッフ割り当て",
+      "TITLE": "ケアスタッフ割り当て情報",
+      "TABLE": {
+        "OFFICER": "スタッフ",
+        "NEED_CARE": "ケアが必要",
+        "NEED_CARE_DONE": "ケア済み",
+        "NEED_CARE_DOING": "ケア中",
+        "PROGRESSING": "進捗"
+      },
+      "OVERVIEW": {
+        "TITLE": "割り当て概要",
+        "TOTAL_STUDENT": "総学生数：",
+        "TOTAL_OFFICER": "総スタッフ数：",
+        "MEDIUM": "平均：",
+        "STUDENT_PER_OFFICER": "学生/スタッフ",
+        "PROGRESSING": "進捗：",
+        "ANALYZE": "割り当て分析",
+        "MAX_HANDLE_OFFICER": "最高負荷スタッフ",
+        "MIN_HANDLE_OFFICER": "最低負荷スタッフ",
+        "LOAD": "負荷"
+      }
+    },
+    "SCAN": {
+      "STEP": {
+        "ONE": "ケアが必要な学生数",
+        "TWO": "スキャンされたケアが必要な学生リスト",
+        "THREE": "ケアスタッフへの自動割り当て",
+        "FOUR": "ケアが必要な学生リストのスキャン"
+      },
+      "FIRST_STEP": {
+        "TITLE": "ケアが必要な学生数",
+        "DESCRIPTION": "所属部署の人材リソースに基づいてケアが必要な学生数を推定します。",
+        "COUNT": "ケアが必要な学生数を入力",
+        "INPUT": "数量を入力",
+        "SUFFIX": "学生",
+        "VALIDATION_MESSAGE": "最低1人の学生が必要です。"
+      },
+      "SECOND_STEP": {
+        "AUTO_DISTRIBUTE": "割り当て",
+        "TABLE": {
+          "STUDENT_CODE": "学生コード",
+          "STUDENT_NAME": "学生名",
+          "RANKING": "ランキング",
+          "SPECIALIZATION": "専攻",
+          "CURRENT_SEMESTER": "現在の学期",
+          "STATUS": "状態",
+          "ACTION": "機能"
+        }
+      }
+    },
+    "FILTER": {
+      "LABEL": {
+        "RANKING": "学業ランキング",
+        "IS_COLLABORATING": "協力状態",
+        "IS_PROGRESSING": "進捗あり",
+        "NEED_CARE_NEXT": "次学期のケア必要",
+        "CARE_STATUS": "ケア状態"
+      },
+      "COLLABORATOR_OPTION": {
+        "APPROVE": "ケア継続",
+        "REJECT": "ケア拒否"
+      },
+      "IS_PROGRESSING_OPTION": {
+        "PROGRESSING": "進捗あり",
+        "NOT_PROGRESSING": "進捗なし"
+      },
+      "NEED_CARE_NEXT_OPTION": {
+        "NEED_CARE": "必要",
+        "NOT_NEED_CARE": "不要"
+      },
+      "CARE_STATUS_OPTION": {
+        "COMPLETE": "ケア完了",
+        "NOT_ASSIGN": "未割り当て",
+        "TO_DO": "ケア準備中",
+        "DOING": "ケア中"
+      }
+    },
+    "DASHBOARD": {
+      "TITLE": "心理ケアが必要な学生リスト",
+      "TOTAL": "心理ケアが必要な学生総数",
+      "STATISTICS": {
+        "TITLE": "統計",
+        "TOTAL_STUDENT": "総学生数",
+        "CURRENT_CARE": "ケア中",
+        "COMPLETED_CARE": "ケア完了",
+        "NOT_CARE": "未ケア"
+      }
+    },
+    "ADD": {
+      "BUTTON": "新規追加",
+      "MODAL": {
+        "TITLE": "学生追加",
+        "ADD_MANUAL": "手動追加",
+        "ADD_AUTOMATIC": "リストスキャン"
+      }
+    },
+    "TABLE": {
+      "STUDENT_CODE": "学生コード",
+      "STUDENT_NAME": "学生名",
+      "NEED_CARE_NEXT_TERM": "次学期ケア必要",
+      "IS_PROGRESSING": "進捗",
+      "IS_COLLABORATING": "協力",
+      "CARE_STATUS": "状態",
+      "ASSIGNMENT": "ケアスタッフ",
+      "ACTION": "機能",
+      "UPDATE_ASSIGNMENT": {
+        "TITLE": "ケアスタッフ更新",
+        "CONFIRM": "ケアスタッフを変更してもよろしいですか？"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "ケア学生の追加に成功しました",
+        "UPDATE": "ケア学生の更新に成功しました",
+        "DELETE": "ケア学生の削除に成功しました",
+        "SCAN": "ケア学生のスキャンに成功しました",
+        "CONFIRM": "ケア学生の確認に成功しました",
+        "AUTO_ASSIGN": "自動割り当てに成功しました",
+        "ANALYZE": "分析の成功"
+      },
+      "FAIL": {
+        "ADD": "ケア学生の追加に失敗しました",
+        "UPDATE": "ケア学生の更新に失敗しました",
+        "DELETE": "ケア学生の削除に失敗しました",
+        "SCAN": "ケア学生のスキャンに失敗しました",
+        "AUTO_ASSIGN": "割り当てに失敗しました",
+        "ANALYZE": "故障解析"
+      }
+    }
+  },
+  "STUDENT_NEED_CARE_DETAIL": {
+    "CARE_PROGRESS": {
+      "TITLE": "基準評価",
+      "TOTAL_CRITERION": "評価済み基準総数："
+    },
+    "RATING": {
+      "TITLE": "学期末評価",
+      "RATED": "評価済み",
+      "NOT_RATED": "未評価",
+      "PROGRESSING": "学業進捗",
+      "PROGRESSING_NO": "不達成",
+      "PROGRESSING_YES": "達成",
+      "COLLABORATOR": "協力レベル",
+      "COLLABORATOR_NO": "不十分",
+      "COLLABORATOR_YES": "良好",
+      "NEED_CARE_NEXT_TERM": "次学期ケア必要",
+      "NEED_CARE_NEXT_TERM_NO": "不要",
+      "NEED_CARE_NEXT_TERM_YES": "必要",
+      "FINAL_COMMENT": "詳細コメント",
+      "AUTO_COMMENT": "自動評価",
+      "SAVE_COMMENT": "評価保存"
+    },
+    "COMPARISON": {
+      "PARAMETER": "パラメータ",
+      "TABLE": {
+        "SUBJECT_CODE": "科目",
+        "MARK": "点数",
+        "ABSENCE_RATE": "欠席率(%)"
+      }
+    },
+    "PDF": {
+      "BUTTON": "PDFエクスポート"
+    },
+    "OVERVIEW": {
+      "TITLE": "学業概要",
+      "STATUS": "状態",
+      "CURRENT_SEMESTER": "現在の学期",
+      "GPA": "GPA",
+      "MEDIUM_ABSENCE": "平均欠席率"
+    },
+    "TAB": {
+      "NEW_SEMESTER": "学期追加",
+      "TITLE": {
+        "FIRST_TAB": "前学期比較",
+        "SECOND_TAB": "学期末評価",
+        "THIRD_TAB": "ケア履歴",
+        "FOURTH_TAB": "基準評価"
+      }
+    }
+  },
+  "PROGRESS_CRITERION_TYPE": {
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "進捗基準タイプの追加に成功しました",
+        "UPDATE": "進捗基準タイプの更新に成功しました",
+        "DELETE": "進捗基準タイプの削除に成功しました"
+      },
+      "FAIL": {
+        "ADD": "進捗基準タイプの追加に失敗しました",
+        "UPDATE": "進捗基準タイプの更新に失敗しました",
+        "DELETE": "進捗基準タイプの削除に失敗しました"
+      }
+    }
+  },
+  "PROGRESS_CRITERION": {
+    "MODAL": {
+      "BUTTON": "基準",
+      "TABLE": {
+        "TITLE": "基準名",
+        "CREATED_AT": "作成日時",
+        "UPDATED_AT": "更新日時",
+        "ACTION": "機能"
+      },
+      "DELETE_CONFIRM": {
+        "TITLE": "この基準を本当に削除しますか？",
+        "CONTENT": "この操作は元に戻せません"
+      },
+      "TITLE": "ケア基準管理",
+      "ADD": "新規追加"
+    },
+    "UPDATE_MODAL": {
+      "TITLE": {
+        "ADD": "新規ケア基準追加",
+        "EDIT": "ケア基準更新"
+      },
+      "FORM": {
+        "VIETNAMESE_CONTENT": "内容（ベトナム語）",
+        "ENGLISH_CONTENT": "内容（英語）",
+        "VIETNAMESE_DESCRIPTION": "説明（ベトナム語）",
+        "ENGLISH_DESCRIPTION": "説明（英語）"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "進捗基準の追加に成功しました",
+        "UPDATE": "進捗基準の更新に成功しました",
+        "DELETE": "進捗基準の削除に成功しました"
+      },
+      "FAIL": {
+        "ADD": "進捗基準の追加に失敗しました",
+        "UPDATE": "進捗基準の更新に失敗しました",
+        "DELETE": "進捗基準の削除に失敗しました"
+      }
+    }
+  },
+  "CHATBOT": {
+    "TITLE": "チャットボット",
+    "START": "こんにちは！どのようなサポートが必要ですか？",
+    "VIEW_HISTORY": "チャット履歴を表示",
+    "ERROR_MESSAGE": "エラーが発生しました",
+    "FOOTER_TEXT": "FPT Educationによるサポート"
+  },
+  "AI_SETTINGS": {
+    "GENERAL_SETTINGS": "基本設定",
+    "ENABLE_CHATBOT": "SCSチャットボット設定",
+    "ENABLE_CHATBOT_DESC": "SCSチャットボットの有効/無効",
+    "MODEL_SETTINGS": "LLMモデル設定",
+    "SELECT_MODEL": "LLMモデル選択",
+    "CURRENT_MODEL": "現在のモデル",
+    "LAST_UPDATED": "最終更新：",
+    "PROVIDER": "プロバイダ",
+    "MODEL_ID": "モデルID",
+    "NO_SETTINGS_FOUND": "設定が見つかりません"
+  },
+  "ERROR_PAGE": {
+    "400": {
+      "TITLE": "無効なリクエスト",
+      "DESCRIPTION": "リクエストが無効です。"
+    },
+    "401": {
+      "TITLE": "未認証",
+      "DESCRIPTION": "このページにアクセスするにはログインが必要です。"
+    },
+    "403": {
+      "TITLE": "アクセス拒否",
+      "DESCRIPTION": "このページにアクセスする権限がありません。"
+    },
+    "404": {
+      "TITLE": "ページが見つかりません",
+      "DESCRIPTION": "リクエストしたページは存在しません。URLを確認するか、ホームページに戻ってください。"
+    },
+    "500": {
+      "TITLE": "サーバーエラー",
+      "DESCRIPTION": "サーバーでエラーが発生しました。後でもう一度お試しください。"
+    },
+    "503": {
+      "TITLE": "サービス利用不可",
+      "DESCRIPTION": "現在サービスは利用できません。後でもう一度お試しください。"
+    },
+    "DEFAULT": {
+      "TITLE": "エラーが発生しました",
+      "DESCRIPTION": "予期しないエラーが発生しました。後でもう一度お試しください。"
+    }
+  },
+  "CANCELNOTIFICATION": {
+    "BUTTON_CANCEL": "キャンセル",
+    "BUTTON_CONFIRM": "確認",
+    "MODAL": {
+      "TITLE": "一括通知送信のキャンセル",
+      "CONTENT": "一括送信プロセスが終了し、現在の内容は保存されません。一括送信をキャンセルしてもよろしいですか？"
+    }
+  },
+  "HEADER": {
+    "CONTROL_PANEL": "コントロールパネル",
+    "HELP": "ヘルプ",
+    "DARK_MODE": "ダークモード",
+    "LIGHT_MODE": "ライトモード"
+  },
+  "ATTENDANCE_CHART": {
+    "MODAL": {
+      "TITLE": "学生出席統計",
+      "TOTAL_ABSENCE": "総欠席数（スロット）",
+      "ABSENCE_RATE": "欠席率 (%)",
+      "CHART": {
+        "EMAIL_SENT": "送信済みメール",
+        "ABSENCE_RATE": "欠席率"
+      }
+    }
+  },
+  "STUDENT_INFO": {
+    "MODAL": {
+      "TITLE": "学生情報",
+      "STUDENT_CODE": "学生コード",
+      "STUDENT_NAME": "学生名",
+      "EMAIL": "メール",
+      "CLASS": "クラス",
+      "MAJOR": "専攻ブロック",
+      "GENDER": "性別",
+      "PROGRESS": "学業進捗",
+      "STATUS": "状態",
+      "CURRENT_TERM_NO": "現在の学期",
+      "SPECIALIZATION": "専攻",
+      "MOBILE_PHONE": "電話番号",
+      "PARENT_PHONE": "保護者の電話番号",
+      "NO_STUDENT": "学生情報が見つかりません"
+    }
+  },
+  "EMAIL_STUDENT_FAILED": {
+    "TOAST": {
+      "ERROR": "エラーが発生しました"
+    },
+    "MODAL": {
+      "TITLE": "メール送信"
+    },
+    "FORM": {
+      "SEMESTER": "学期を選択",
+      "REQUIRED_SEMESTER": "学期を選択してください",
+      "PLACEHOLDER_SEMESTER": "学期を選択",
+      "EMAIL_TEMPLATE": "メールテンプレートを選択",
+      "REQUIRED_EMAIL_TEMPLATE": "メールテンプレートを選択してください",
+      "PLACEHOLDER_EMAIL_TEMPLATE": "メールテンプレートを選択"
+    }
+  }
+}

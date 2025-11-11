@@ -1,0 +1,30 @@
+clusterName: elasticsearch          # tên cluster
+nodeGroup: master                  # nhóm master-eligible
+replicas: 3                        # tổng pod của nhóm này
+
+resources:
+  requests:
+    cpu: "1"
+    memory: "2Gi"
+  limits:
+    cpu: "2"
+    memory: "4Gi"
+
+volumeClaimTemplate:               
+  accessModes: ["ReadWriteOnce"]
+  resources:
+    requests:
+      storage: 30Gi
+
+esConfig:                           
+  elasticsearch.yml: |
+    cluster.initial_master_nodes:
+      - elasticsearch-master-0
+      - elasticsearch-master-1
+      - elasticsearch-master-2
+
+# Sử dụng secret mặc định của chart
+secret:
+  enabled: true
+
+

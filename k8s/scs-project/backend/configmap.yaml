@@ -1,0 +1,73 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: scs-project
+data:
+  # Logging
+  Logging__LogLevel__Default: "Information"
+  Logging__LogLevel__Microsoft.AspNetCore: "Warning"
+  ConnectionStrings__Redis: "152.42.186.111:6400,abortConnect=false"
+  AllowedHosts: "*"
+  
+  # Tenant configuration (non-sensitive parts)
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__0__Id: "bd86c7e5-dbe8-4a38-986c-b07d49d7ebf2"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__0__Identifier: "scs_qn"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__0__Name: "scs_qn"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__0__FAPAccount__CampusCode: "QN"
+  
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__1__Id: "bd86c7e5-dbe8-4a38-986c-b07d49d7ebf3"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__1__Identifier: "scs_hn"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__1__Name: "scs_hn"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__1__AdjustedExecutionTime: "30"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__1__FAPAccount__CampusCode: "APHL"
+  
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__2__Id: "bd86c7e5-dbe8-4a38-986c-b07d49d7ebf4"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__2__Identifier: "scs_dn"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__2__Name: "scs_dn"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__2__FAPAccount__CampusCode: "DN"
+  
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__3__Id: "bd86c7e5-dbe8-4a38-986c-b07d49d7ebf5"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__3__Identifier: "scs_ct"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__3__Name: "scs_ct"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__3__IsException: "true"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__3__FAPAccount__CampusCode: "CT"
+  
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__4__Id: "bd86c7e5-dbe8-4a38-986c-b07d49d7ebf6"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__4__Identifier: "scs_hcm"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__4__Name: "scs_hcm"
+  Finbuckle__MultiTenant__Stores__ConfigurationStore__Tenants__4__FAPAccount__CampusCode: "HCM"
+  
+  # Hangfire admin username
+  Hangfire__Username: "admin"
+  
+  # JWT configuration (non-sensitive)
+  Jwt__Issuer: "StudentCareSystemIssuer"
+  Jwt__Audience: "StudentCareSystemAudience"
+  Jwt__AccessTokenExpiration: "300000"
+  Jwt__RefreshTokenExpiration: "3000000"
+  
+  # AI settings base address
+  AISettings__BaseAddress: "ai-service:8000/"
+  
+  # Serilog configuration
+  Serilog__MinimumLevel__Default: "Information"
+  Serilog__MinimumLevel__Override__Microsoft: "Warning"
+  Serilog__MinimumLevel__Override__System: "Warning"
+  Serilog__MinimumLevel__Override__Microsoft.AspNetCore: "Warning"
+  Serilog__Enrich__0: "FromLogContext"
+  Serilog__Enrich__1: "WithMachineName"
+  Serilog__Enrich__2: "WithThreadId"
+  Serilog__Properties__Application: "StudentCareSystem"
+  
+  # FapClient configuration (non-sensitive)
+  FapClient__Name: "FapClient"
+  FapClient__BaseAddress: "https://api.fpt.edu.vn/fap/gateways/"
+  FapClient__ClientCode: "SCS"
+  
+  # Email Proxy configuration
+  EmailProxy__BaseAddress: "http://email-proxy:8000/api/"
+  EmailProxy__Key: "EmailProxy"
+  
+  # CheckSum configuration (non-sensitive)
+  CheckSum__PeriodSeconds: "10000"

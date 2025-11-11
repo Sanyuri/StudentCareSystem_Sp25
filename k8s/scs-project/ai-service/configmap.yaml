@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ai-service-config
+  namespace: scs-project
+data:
+  AI_SERVICE_ENV: "production"
+  OFFSET: "1000"
+  BATCH_SIZE: "1000"
+  EXCLUDED_PATHS: "[\"\/scalar\",\"\/docs\",\"\/openapi.json\",\"\/redoc\",\"\/mcp\/sse\",\"\/mcp\/messages\/\"]"

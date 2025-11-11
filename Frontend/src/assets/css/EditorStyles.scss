@@ -1,0 +1,127 @@
+.custom-variable {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f0f8ff;
+  /* Màu nền nhạt */
+  border: 1px solid #cce7ff;
+  /* Đường viền màu nhạt */
+  border-radius: 4px;
+  /* Góc bo */
+  padding: 0 4px;
+  /* Khoảng cách ngang */
+  font-size: 14px;
+  /* Cỡ chữ tương tự văn bản */
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  /* Cân đối với văn bản xung quanh */
+  margin: 0 2px;
+  /* Khoảng cách nhỏ với chữ bên cạnh */
+  white-space: nowrap;
+  /* Tránh bị ngắt dòng */
+  cursor: pointer;
+}
+
+.variable-badge i {
+  font-style: normal;
+  /* Loại bỏ kiểu chữ nghiêng */
+  color: #007bff;
+  /* Màu biểu tượng */
+  margin-right: 4px;
+  /* Khoảng cách với văn bản */
+  font-size: 14px;
+  /* Kích thước biểu tượng tương tự chữ */
+}
+
+.remove-variable {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 14px;
+  /* Cỡ chữ nút xóa phù hợp */
+  padding: 0;
+  margin-left: 4px;
+  /* Khoảng cách nhỏ với chữ */
+}
+
+.variable-badge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.variable-badge .variable-icon {
+  color: #007bff;
+  /* Màu biểu tượng */
+}
+
+.variable-badge .variable-value {
+  color: #ff5722;
+  /* Màu của giá trị */
+  font-weight: bold;
+  /* In đậm nếu cần */
+}
+
+.custom-cluster-variable {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f0f8ff;
+  /* Màu nền nhạt */
+  border: 1px solid #cce7ff;
+  /* Đường viền màu nhạt */
+  border-radius: 4px;
+  /* Góc bo */
+  padding: 0 4px;
+  /* Khoảng cách ngang */
+  font-size: 14px;
+  /* Cỡ chữ tương tự văn bản */
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  /* Cân đối với văn bản xung quanh */
+  margin: 0 2px;
+  /* Khoảng cách nhỏ với chữ bên cạnh */
+  white-space: nowrap;
+  /* Tránh bị ngắt dòng */
+  cursor: pointer;
+}
+
+.cluster-variable-badge i {
+  font-style: normal;
+  /* Loại bỏ kiểu chữ nghiêng */
+  color: #007bff;
+  /* Màu biểu tượng */
+  margin-right: 4px;
+  /* Khoảng cách với văn bản */
+  font-size: 14px;
+  /* Kích thước biểu tượng tương tự chữ */
+}
+
+.remove-cluster-variable {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+  /* Cỡ chữ nút xóa phù hợp */
+  padding: 0;
+  margin-left: 4px;
+  /* Khoảng cách nhỏ với chữ */
+}
+
+.cluster-variable-badge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cluster-variable-badge .cluster-variable-icon {
+  color: #ff5722;
+  /* Màu biểu tượng */
+}
+
+.cluster-variable-badge .cluster-variable-value {
+  color: #007bff;
+  /* Màu của giá trị */
+  font-weight: bold;
+  /* In đậm nếu cần */
+}

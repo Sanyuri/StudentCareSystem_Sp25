@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ai-service-agent-config
+  namespace: scs-project
+data:
+  AI_SERVICE_AGENT_ENV: "production"
+  AI_SERVER_URL: "http://ai-service:8000"
+  MAX_TOKEN: "3000"
+  MAX_RETRIES: "2"
+  MAX_HISTORY_MESSAGES: "20"
+  MAX_MESSAGES_PER_DAY: "10"
+  EXCLUDED_PATHS: "[\"\/scalar\",\"\/docs\",\"\/openapi.json\",\"\/redoc\",\"\/mcp\/sse\",\"\/mcp\/messages\/\"]"
+  MONGODB_DB_NAME: "SSRA_db"

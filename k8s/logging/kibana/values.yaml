@@ -1,0 +1,18 @@
+elasticsearchHosts: "https://elasticsearch-master:9200" # Ensure this matches the Elasticsearch service URL
+
+resources:
+  requests:
+    cpu: "500m"
+    memory: "1Gi"
+  limits:
+    cpu: "1"
+    memory: "2Gi"
+
+extraEnvs:
+  - name: "ELASTICSEARCH_USERNAME"
+    value: "elastic" # Ensure this matches the Elasticsearch username
+  - name: "ELASTICSEARCH_PASSWORD"
+    valueFrom:
+      secretKeyRef:
+        name: elasticsearch-credentials # Ensure this secret exists and contains the correct password
+        key: password

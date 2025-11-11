@@ -1,0 +1,72 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "target": "ES2023",
+    // Doesn't apply to server/, see ts-node config down below and server/tsconfig.json
+    "moduleResolution": "Bundler",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "types": [
+      "vite/client",
+      "vite-plugin-svgr/client"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "#components": [
+        "./src/components/*"
+      ],
+      "#hooks": [
+        "./src/hooks/*"
+      ],
+      "#pages": [
+        "./src/pages/*"
+      ],
+      "#locales": [
+        "./src/locales/*"
+      ],
+      "#assets": [
+        "./src/assets/*"
+      ],
+      "#layouts": [
+        "./src/layouts/*"
+      ],
+      "#utils": [
+        "./src/utils/*"
+      ],
+      "#stores": [
+        "./src/stores/*"
+      ],
+      "#renderer": [
+        "./src/renderer/*"
+      ],
+      "#src": [
+        "./src/*"
+      ],
+      "#server": [
+        "./server/*"
+      ],
+      "#plugins": [
+        "./src/plugins/*"
+      ],
+      "#types": [
+        "./src/types/*"
+      ]
+      // "#root": ["./*"]
+    }
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "esm": true,
+    "compilerOptions": {
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext"
+    }
+  }
+}

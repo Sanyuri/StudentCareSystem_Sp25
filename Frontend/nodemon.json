@@ -1,0 +1,14 @@
+{
+  "watch": [
+    "server",
+    ".env"
+  ],
+  "ext": "ts",
+  "exec": "node --import=./loader.js server/index.ts",
+  "ignore": [
+    "node_modules"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  }
+}

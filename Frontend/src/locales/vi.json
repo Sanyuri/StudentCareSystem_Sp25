@@ -1,0 +1,1841 @@
+{
+  "COMMON": {
+    "LOADING": "đang tải",
+    "FILTER_STUDENTS": "Lọc sinh viên",
+    "ACTION_DATE": "Thời gian thực hiện",
+    "ACTION": "Hành động",
+    "EXPORT_DATA": "Xuất thông tin",
+    "CANCEL": "Hủy bỏ",
+    "CONFIRM": "Xác nhận",
+    "SELECT_DATE_RANGE": "Chọn khoảng thời gian",
+    "CONFIRM_DOWNLOAD_FILE": "Xác nhận tải file",
+    "SELECT_ALL": "Chọn tất cả",
+    "SEND_EMAIL": "Gửi email",
+    "SEND_FAP": "Gửi FAP",
+    "SEARCH_STATUS": "Trạng thái tài khoản",
+    "TOTAL_RECORDS": "Tổng số: {{total}} bản ghi",
+    "EDIT_ACCOUNT": "Chỉnh sửa tài khoản người dùng",
+    "EDIT_EMAIL_TEMPLATE": "Chỉnh sửa mẫu email",
+    "DELETE_ACCOUNT": "Xoá tài khoản người dùng",
+    "DELETE_EMAIL_TEMPLATE": "Xoá mẫu email",
+    "JAPANESE": "Tiếng Nhật",
+    "VIETNAMESE": "Tiếng Việt",
+    "ENGLISH": "Tiếng Anh",
+    "FILTER": "Bộ lọc",
+    "TO": "Đến",
+    "FROM": "Từ",
+    "CLASS_HINT": "Sinh viên học lớp",
+    "RESET_ACTION": "Đặt lại",
+    "FILTER_ACTION": "Lọc",
+    "CONFIRM_DELETE": "Bạn có chắc muốn xóa không",
+    "DELETE": "Xóa",
+    "CLOSE": "Đóng",
+    "ADD_NEW": "Thêm mới",
+    "SAVE": "Lưu",
+    "VIEW_MORE": "Xem thêm",
+    "CONTINUE": "Tiếp tục",
+    "BACK": "Quay lại",
+    "SUBMIT": "Nộp",
+    "DOWNLOAD_EXCEL": "Tải mẫu excel",
+    "EMPTY": "Trống",
+    "ONLY_ONE_LINE_EDITOR": "Không thể chỉnh sửa nhiều dòng 1 lúc",
+    "ONLY_ADĐ_ONE_LINE_EDITOR": "Không thể thêm nhiều dòng 1 lúc",
+    "SCAN": "Quét",
+    "REQUIRE_CONTENT": "Nội dung không được để trống",
+    "MIN_INPUT": "Tối thiểu 1 kí tự",
+    "STUDENT_CODE": "Mã sinh viên",
+    "STUDENT_NAME": "Tên sinh viên",
+    "SPECIALIZED": "Chuyên ngành",
+    "NO_DATA": "Không có dữ liệu",
+    "SELECT_SEMESTER": "Chọn học kỳ",
+    "ERROR": "Có lỗi xảy ra",
+    "NOT_ASSIGNED": "Chưa được phân công",
+    "NEED_SEMESTER": "Vui lòng chọn kì học",
+    "FIELD_REQUIRED": "Vui lòng nhập trường này",
+    "MIN_LENGTH_2": "Tối thiểu là 2 ký tự",
+    "SEARCH_ROLE": "Tìm kiếm theo vai trò",
+    "SAVE_SUCCESS": "Lưu thành công",
+    "SAVE_ERROR": "Lưu thất bại",
+    "START_DATE": "Ngày bắt đầu",
+    "END_DATE": "Ngày kết thúc",
+    "SELECT_SEMESTER_PLACEHOLDER": "Chọn học kỳ",
+    "BACK_HOME": "Quay lại trang chủ",
+    "TOTAL_ITEMS": "Tổng số: ",
+    "ALL": "Tất cả",
+    "UPLOAD": "Tải lên",
+    "DRIVE": "Drive",
+    "CHOOSE_SEMESTER": "Kì học",
+    "SCHEDULE": "Lên lịch",
+    "PREVIEW": "Xem trước",
+    "ENTER_STUDENT_CODE": "Nhập mã sinh viên",
+    "SEARCH": "Tìm kiếm",
+    "FIND_STUDENT": "Tìm thông tin sinh viên",
+    "STUDENT_PHONE": "Số sinh viên:",
+    "PARENT_PHONE": "Số phụ huynh",
+    "GET_TOKEN": "Lấy danh sách số điện thoại",
+    "CALL": "Gọi",
+    "HANG_UP": "Tắt máy",
+    "CALL_TO": "Gọi đến",
+    "CALL_SERVICE": "Dịch vụ di động",
+    "LOAD_MORE": "Tải thêm",
+    "FROM_NUMBER": "Số điện thoại gọi đi",
+    "EDIT": "Chỉnh sửa",
+    "EXPORT_ERROR": "Xuất file thất bại",
+    "EXPORT_EXCEL": "Xuất excel"
+  },
+  "LAYOUT": {
+    "LOADING": "đang tải",
+    "CURRENT_SEMESTER_STATISTIC": "Thống kê theo học kỳ hiện tại",
+    "CARE_REQUIRED_STUDENT": "Sinh viên cần chăm sóc",
+    "RECORD_ORDER": "Ghi nhận phiếu đơn",
+    "STUDENT_FEEDBACK": "Phản hồi từ sinh viên",
+    "SCAN_INFO": "QUÉT THÔNG TIN",
+    "ATTENDANCE": "Quét điểm danh sinh viên",
+    "RESERVED_STUDENT": "Quét sinh viên bảo lưu",
+    "FAILED_STUDENT": "Quét sinh viên trượt môn",
+    "MANAGE": "QUẢN LÝ",
+    "EMAIL_TEMPLATES": "Mẫu email",
+    "STAFF_ACCOUNTS": "Tài khoản cán bộ",
+    "MAJOR_DISTRIBUTION": "Phân chia chuyên ngành",
+    "EXEMPT_SUBJECTS": "Môn học miễn điểm danh",
+    "ACTIVITY_LOG": "Nhật ký hoạt động",
+    "PERMISSION": "Quản lí quyền hạn",
+    "SETTING": "Cài đặt",
+    "LOGOUT": "Đăng xuất",
+    "HIDE_SIDER": "Ẩn thanh điều khiển",
+    "DISPLAY_SIDER": "Mở thanh điều khiển",
+    "CAMPUS": "Cơ sở",
+    "SPECIALIZED_MANAGEMENT": "Quản lý khối ngành",
+    "CHANGE_EMAIL": "Thay đổi email",
+    "CALL_HISTORY": "Lịch sử cuộc gọi",
+    "STUDENT_MANAGEMENT": "Quản lý sinh viên",
+    "APPLICATION_TYPE": "Quản lý loại đơn",
+    "NOTES_MANAGEMENT": "Quản lý ghi chú",
+    "EMAIL_LOG": "Danh sách email đã gửi",
+    "DASHBOARD": "Bảng điều khiển",
+    "SEE_MORE": "Xem thêm",
+    "SEE_LESS": "Ẩn bớt",
+    "STUDENT_FAILED_COURSE": "Sinh viên trượt môn",
+    "PSYCHOLOGY_MANAGEMENT": "Chăm sóc tâm lý",
+    "PSYCHOLOGY_NOTE": "Danh sách ghi chú tâm lý",
+    "UNKNOWN_STUDENT": "Sinh viên chưa rõ",
+    "AI_SETTINGS": "Cài đặt AI"
+  },
+  "ATTENDANCES": {
+    "SCAN_HISTORY": "Lịch sử quét",
+    "STUDENT_SEARCH_TERM": "Tìm kiếm bằng tên hoặc mã số sinh viên",
+    "FILTER": {
+      "ABSENT_RATE": "Tỉ lệ nghỉ học (%)",
+      "TOTAL_SLOT": "Tổng số buổi học",
+      "SUBJECT_CODE": "Mã môn học",
+      "ABSENT_MIN_RATE": "Tỉ lệ tối thiểu",
+      "ABSENT_MAX_RATE": "Tỉ lệ tối đa",
+      "CLASS": "Lớp học",
+      "TOTAL_ABSENT": "Số buổi đã nghỉ",
+      "SEMESTER": "Kì học",
+      "SEMESTER_SEARCH": "Kì học cần tìm kiếm",
+      "MAJOR": "Chuyên ngành",
+      "MAJOR_HINT": "Lựa chọn chuyên ngành",
+      "DATE_RANGE": "Chọn khoảng thời gian",
+      "NOTE": "Ghi chú",
+      "TRENDS": "Xu hướng nghỉ học",
+      "INCREASE": "Tăng",
+      "DECREASE": "Giảm"
+    },
+    "ATTENDANCE_OPTIONS": {
+      "ALL": "Tất cả",
+      "NO_SEND_MAIL": "Không cần gửi mail",
+      "NEED_SEND_MAIL": "Cần gửi mail",
+      "GROUP_ENG": "Nhóm ENG",
+      "GROUP_CN": "Nhóm CN",
+      "GROUP_ABSENT": "Nhóm vắng mặt",
+      "SECTOR": "Ngành học"
+    },
+    "EXPORT_OPTIONS": {
+      "YESTERDAY_REMINDERS": "Xuất đã nhắc nhở hôm qua",
+      "TODAY_REMINDERS": "Xuất đã nhắc nhở hôm nay",
+      "SEMESTER_REMINDERS": "Xuất đã nhắc nhở trong kì",
+      "EXCEED_ABSENCE_RATE_REMINDERS": "Xuất đã vượt quá 20%",
+      "SEMESTER_REMINDERS_COURSE": "Xuất đã nhắc nhở trong kì (theo môn học)",
+      "YEAR_REMINDERS": "Xuất đã nhắc nhở trong năm",
+      "ENG_STUDENTS": "Xuất đã sinh viên nhóm ENG",
+      "CN_STUDENTS": "Xuất đã sinh viên nhóm CN",
+      "PREVIOUS_COURSE_REMINDERS": "Xuất đã nhắc nhở kì trước",
+      "UPDATED_TODAY": "Xuất sinh viên đã cập nhật hôm nay"
+    },
+    "TABLE_COLUMN": {
+      "STUDENT_NAME": "Tên sinh viên",
+      "STUDENT_ID": "Mã sinh viên",
+      "LAST_EMAIL_SENT": "Lịch sử gửi mail",
+      "CLASS": "Lớp",
+      "PHONE": "Số điện thoại",
+      "MAJOR": "Chuyên ngành",
+      "SEMESTER": "Học kỳ",
+      "CURRENT_TERM": "Kỳ hiện tại",
+      "UPDATE_PERIOD": "Cập nhật",
+      "EXPIRED_COURSE": "Môn học",
+      "ACTION": "Chức năng"
+    },
+    "RATE_BOUNDARY": {
+      "TABLE": {
+        "NO": "STT",
+        "MIN_RATE": "Tỉ lệ tối thiểu",
+        "MAX_RATE": "Tỉ lệ tối đa",
+        "SELECT_EMAIL_SAMPLE": "Chọn loại mẫu thư",
+        "IS_ACTIVE": "Đang hoạt động",
+        "ACTION": "Hành động",
+        "ENTER_MIN": "Nhập tỉ lệ tối thiểu",
+        "ENTER_MAX": "Nhập tỉ lệ tối đa",
+        "MIN_REQUIRE": "Tỉ lệ tối thiểu là bắt buộc!",
+        "MAX_REQUIRE": "Tỉ lệ tối đa là bắt buộc!",
+        "SELECT_MAIL_REQUIRE": "Vui lòng chọn mẫu thư"
+      },
+      "GUIDE_NOTE": "Tỷ lệ điểm danh cần nằm trong khoảng ≥ Tỉ lệ tối thiểu và < Tỉ lệ tối đa để gửi email.",
+      "MODAL": {
+        "SETTING_SEND_MAIL": "Cấu hình tỉ lệ gửi mail"
+      },
+      "TOAST": {
+        "ADD_SUCCESS": "Thêm thành công",
+        "ADD_FAIL": "Thêm thất bại",
+        "EDIT_SUCCESS": "Sửa thành công",
+        "EDIT_FAIL": "Sửa thất bại",
+        "DELETE_SUCCESS": "Xóa thành công",
+        "DELETE_FAIL": "Xóa thất bại"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "SCAN": "Cập nhật thành công"
+      },
+      "ERROR": {
+        "SCAN": "Cập nhật thất bại"
+      }
+    }
+  },
+  "PERMISSIONS": {
+    "PERMISSION_PREVIEW": "Xem minh họa quyền hạn",
+    "SYNC_ACCOUNTS_TOOLTIP": "Đồng bộ quyền của từng tài khoản theo vai trò",
+    "SYNC_ACCOUNTS": "Đồng bộ quyền hạn",
+    "SYNC_PERMISSIONS": "Đồng bộ quyền",
+    "SYNC_CONFIRMATION": "Bạn có chắc muốn đồng bộ không?",
+    "SYNC_WARNING": "Lưu ý: Hành động này sẽ ghi đè tất cả quyền hiện tại của các tài khoản Nhân viên và Quản lí. Các quyền đặc biệt đã được cấp riêng cho từng tài khoản sẽ bị mất.",
+    "TOAST": {
+      "SUCCESS": {
+        "EDIT": "Cập nhật quyền thành công"
+      },
+      "ERROR": {
+        "EDIT": "Cập nhật quyền thất bại"
+      }
+    },
+    "OVERALL_PERMISSION_COVERAGE": "Tổng quát",
+    "PERMISSIONS_GRANTED": "Quyền đã gán",
+    "OUT_OF": "Quyền chưa gán",
+    "TOTAL": "Số lượng",
+    "PERMISSION": "Tên quyền hạn",
+    "CATEGORY": "Danh mục",
+    "PERMISSION_COMPARISON": "So sánh phân quyền",
+    "COMPARE_PERMISSIONS": "So sánh quyền hạn giữa các vai trò",
+    "NO_ROLE_SELECTED": "Vui lòng chọn ít nhất một quyền hạn",
+    "ROLE_NOT_FOUND": "Vị trí không tồn tại",
+    "ROLE_PERMISSION_MANAGEMENT": "Quản lý quyền hạn",
+    "MANAGE_ACCESS_PERMISSIONS": "Quản lý quyền thực thi",
+    "PERMISSIONS": "Phân quyền",
+    "STATISTICS": "Thống kê",
+    "STANDARD_ACCESS": "Phân quyền cho nhân viên",
+    "EXTENDED_ACCESS": "Phân quyền cho quản lí",
+    "PERMISSION_COVERAGE": "Phần trăm quyền được cấp",
+    "ALL": "Tất cả",
+    "NONE": "Bỏ chọn",
+    "MANAGEMENT": "Quản lý",
+    "DESELECT_ALL": "Bỏ chọn tất cả",
+    "SELECT_ALL": "Chọn tất cả",
+    "SAVE_PERMISSIONS": "Lưu quyền hạn",
+    "SEARCH_PERMISSIONS": "Tìm kiếm quyền hạn",
+    "OF_TOTAL_PERMISSIONS": "Quyền",
+    "GROUPS": {
+      "STUDENT": "Sinh viên",
+      "STUDENTSUBJECTATTENDANCEFREE": "Môn học miễn điểm danh",
+      "STUDENTPOINT": "Điểm sinh viên",
+      "STUDENTCARE": "Chăm sóc sinh viên",
+      "ROLE": "Vai trò",
+      "PSYCHOLOGICALNOTE": "Ghi chú tâm lý",
+      "STUDENTNOTE": "Ghi chú sinh viên",
+      "STUDENTPSYCHOLOGY": "Chăm sóc tâm lý sinh viên",
+      "STUDENTAPPLICATION": "Ghi nhận phiếu đơn",
+      "STUDENTCARETYPE": "Loại chăm sóc",
+      "PROGRESSCRITERIONTYPE": "Loại tiêu chí tiến độ",
+      "APPSETTING": "Cấu hình hệ thống",
+      "STUDENTCAREASSIGNMENT": "Phân công chăm sóc sinh viên",
+      "APPLICATIONTYPE": "Các loại đơn",
+      "EMAILSAMPLE": "Mẫu email",
+      "ACTIVITY": "Hoạt động",
+      "STUDENTDEFER": "Sinh viên bảo lưu",
+      "STUDENTSUBJECT": "Môn học của sinh viên",
+      "EMAILLOG": "Nhật ký email",
+      "MAJOR": "Chuyên ngành",
+      "ABSENCERATEBOUNDARY": "Giới hạn tỷ lệ vắng mặt",
+      "NOTETYPE": "Loại ghi chú",
+      "SCANDATA": "Quét dữ liệu sinh viên",
+      "USER": "Người dùng",
+      "PERMISSION": "Danh sách quyền",
+      "STUDENTATTENDANCE": "Dữ liệu điểm danh"
+    }
+  },
+  "ROLE": {
+    "ADMIN": "Quản trị viên",
+    "OFFICER": "Nhân viên",
+    "MANAGER": "Trưởng phòng"
+  },
+  "ACTIVITIES": {
+    "ACTIVITY_SEARCH_TERM": "Tìm kiếm bằng tài khoản thực hiện",
+    "TABLE_COLUMN": {
+      "CREATED_AT": "Thời gian thực hiện",
+      "USER_NAME": "Tài khoản thực hiện",
+      "FULL_NAME": "Tên cán bộ",
+      "ROLE": "Vai trò",
+      "ACTIVITY_TYPE_NAME": "Hành động",
+      "DESCRIPTION": "Nội dung chi tiết"
+    },
+    "ACTIVITIES_OPTIONS": {
+      "ALL": "Tất cả hành động",
+      "LOGIN": "Đăng nhập",
+      "LOGOUT": "Đăng xuất",
+      "SEND_EMAIL": "Gửi email",
+      "NOTE": "Ghi chú",
+      "APPLICATION": "Đơn từ",
+      "EMAILSAMPLE": "Mẫu email",
+      "FREESUBJECT": "Môn học miễn điểm danh",
+      "USER": "Tài khoản",
+      "TODAY": "Hôm nay",
+      "THIS_WEEK": "Tuần này",
+      "THIS_MONTH": "Tháng này",
+      "THIS_YEAR": "Năm nay",
+      "DATE_RANGE": "Khoảng thời gian"
+    }
+  },
+  "APPLICATIONS": {
+    "APPLICATION_SEARCH_TERM": "Tìm kiếm bằng mã số sinh viên",
+    "APPLICATION_STATUS": "Loại đơn",
+    "APPLICATION_TYPE": "Loại tài liệu",
+    "APPLICATION_DATE": "Khoảng thời gian",
+    "TABLE_COLUMN": {
+      "STUDENT_CODE": "Mã số sinh viên",
+      "STUDENT_NAME": "Tên sinh viên",
+      "APPLICATION_TYPE": "Loại tài liệu",
+      "DATE_RECEIVED": "Ngày kí nhận",
+      "DUE_DATE": "Ngày trả đơn",
+      "APPLICATION_STATUS": "Loại đơn"
+    },
+    "APPLICATIONS_OPTIONS": {
+      "ALL": "Tất cả tài liệu",
+      "LOGIN": "Đăng nhập",
+      "LOGOUT": "Đăng xuất",
+      "SEND_EMAIL": "Gửi email",
+      "NOTE": "Ghi chú",
+      "TODAY": "Hôm nay",
+      "THIS_WEEK": "Tuần này",
+      "THIS_MONTH": "Tháng này",
+      "THIS_YEAR": "Năm nay",
+      "DATE_RANGE": "Khoảng thời gian",
+      "ALL_STATUS": "Tất cả",
+      "RECEIVE": "Đơn nhận",
+      "RETURN": "Đơn trả"
+    },
+    "APPLICATION_STATUS_OPTIONS": {
+      "RECEIVE": "Nhận",
+      "RETURN": "Trả"
+    }
+  },
+  "ACCOUNTS": {
+    "LABEL": {
+      "ADD_ACCOUNT": "Thêm mới tài khoản",
+      "EDIT_ACCOUNT": "Sửa tài khoản",
+      "NULL_DATA": "Không có dữ liệu"
+    },
+    "FORM": {
+      "LABEL": {
+        "ADD_NEW_ACCOUNT": "Thêm mới tài khoản người dùng",
+        "EDIT_ACCOUNT": "Chỉnh sửa tài khoản người dùng",
+        "DETAIL_ACCOUNT": "Chi tiết tài khoản cán bộ",
+        "EMAIL_ACCOUNT": "Email của cán bộ",
+        "FE_EMAIL_ACCOUNT": "Email @fe.edu.vn",
+        "FULL_NAME": "Họ và tên cán bộ",
+        "ROLE": "Vai trò",
+        "MAJORS": "Chuyên ngành cần chăm sóc",
+        "ALL_MAJORS": "Tất cả chuyên ngành",
+        "PERMISSIONS": "Quyền hạn sử dụng chức năng",
+        "STATUS": "Trạng thái tài khoản",
+        "ACTIVE": "Đang hoạt động",
+        "INACTIVE": "Ngưng hoạt động",
+        "CREATED_TIME": "Thời gian tạo",
+        "UPDATED_TIME": "Thời gian cập nhật gần nhất",
+        "ACTION": "Chức năng"
+      },
+      "DELETE_CONFIRMATION": {
+        "TITLE": "Xóa tài khoản cán bộ <span class='font-bold'>{{fullName}}</span> ra khỏi danh sách?",
+        "CONTENT": "Bạn có chắc chắn muốn xóa không? Hành động này không thể hoàn tác"
+      },
+      "VALIDATION_MESSAGE": {
+        "MIN_NAME": "Họ và tên phải có ít nhất 6 ký tự",
+        "NULL_EMAIL": "Vui lòng nhập email",
+        "INVALID_EMAIL": "Vui lòng nhập địa chỉ email hợp lệ",
+        "NULL_NAME": "Vui lòng nhập họ và tên",
+        "NULL_ROLE": "Vui lòng chọn vai trò",
+        "NULL_MAJOR": "Vui lòng chọn chuyên ngành cần chăm sóc",
+        "NULL_PERMISSION": "Vui lòng chọn chức năng",
+        "NULL_STATUS": "Vui lòng chọn Trạng thái",
+        "INVALID_EMAIL_DOMAIN": "Email phải có đuôi @fpt.edu.vn hoặc @fe.edu.vn",
+        "INVALID_FE_EMAIL_DOMAIN": "Email phải có đuôi @fe.edu.vn",
+        "NULL_FE_EMAIL": "Vui lòng nhập email @fe.edu.vn"
+      }
+    },
+    "ACCOUNTS_SEARCH_TERM": "Tìm kiếm bằng tên hoặc email",
+    "ACCOUNTS_OPTIONS": {
+      "ALL": "Tất cả trạng thái",
+      "INACTIVE": "Ngừng hoạt động",
+      "ACTIVE": "Đang hoạt động"
+    },
+    "MESSAGE": {
+      "CANNOT_EDIT_ACCOUNT": "Không đủ quyền hạn để chỉnh sửa tài khoản này"
+    }
+  },
+  "EMAILTEMPLATES": {
+    "CLUSTER_PARAMETER_BUTTON": "Cụm tham số",
+    "MODAL": {
+      "TITLE": {
+        "ADD": "Thêm mẫu email",
+        "EDIT": "Sửa mẫu email"
+      }
+    },
+    "EMAILTEMPLATES_OPTIONS": {
+      "ATTENDANCENOTIFICATION": "Thông báo nghỉ học",
+      "DEFERNOTIFICATION": "Thông báo bảo lưu",
+      "FAILEDSUBJECTNOTIFICATION": "Thông báo trượt môn",
+      "UNKNOWN": "Không xác định",
+      "APPLICATIONNOTIFICATION": "Thông báo đơn"
+    },
+    "ADD_TEMPLATE": "Thêm mẫu email",
+    "TEMPLATE_SEARCH_TERM": "Tìm kiếm bằng tên chủ đề",
+    "TABLE_COLUMN": {
+      "SUBJECT": "Chủ đề",
+      "CREATED_AT": "Thời gian tạo",
+      "LAST_MODIFIED_AT": "Thời gian cập nhật lân cuối",
+      "ACTION": "Chức năng",
+      "CC_EMAILS": "Cc",
+      "BCC_EMAILS": "Bcc",
+      "REPLY_TO_EMAIL": "Trả lời cho email"
+    },
+    "FORM": {
+      "LABEL": {
+        "ADD_NEW_EMAILTEMPLATE": "Thêm mới mẫu email",
+        "DETAIL_EMAILTEMPLATE": "Chi tiết mẫu email",
+        "SUBJECT": "Chủ đề",
+        "TYPE": "Loại mẫu email",
+        "CONTENT": "Nội dung",
+        "CREATED_TIME": "Thời gian tạo",
+        "UPDATED_TIME": "Thời gian cập nhật lần cuối",
+        "EDIT": "Sửa mẫu email",
+        "CC_EMAILS": "Cc",
+        "BCC_EMAILS": "Bcc",
+        "REPLY_TO_EMAIL": "Trả lời đến email"
+      },
+      "VALIDATION_MESSAGE": {
+        "REQUIRED": {
+          "SUBJECT": "Vui lòng nhập chủ đề email",
+          "TYPE": "Vui lòng chọn loại mẫu email",
+          "CONTENT": "Vui lòng nhập nội dung email",
+          "REPLY_TO_EMAIL": "Vui lòng nhập email cần phản hồi tới"
+        }
+      },
+      "PLACEHOLDER": {
+        "SUBJECT": "Nhập chủ đề",
+        "CONTENT": "Nhập nội dung",
+        "REPLY_TO_EMAIL": "Trả lời đến email"
+      },
+      "BUTTON": {
+        "PARAMETERS": "Tham số"
+      },
+      "DELETE_CONFIRMATION": {
+        "TITLE": "Xóa mẫu email [<span class='font-bold'>{{subject}}</span>] ra khỏi danh sách?",
+        "CONTENT": "Bạn có chắc chắn muốn xóa không? Hành động này không thể hoàn tác"
+      }
+    },
+    "POPOVER": {
+      "PARAMETERS": {
+        "TITLE": "Hướng dẫn sử dụng tham số",
+        "PARAMETER_DESCRIPTION": "Tối ưu thời gian viết email bằng cách gọi tham số để hệ thống tự động thay thế nội dung phù hợp.",
+        "STUDENT_NAME": "Tên sinh viên",
+        "STUDENT_CODE": "Mã số sinh viên",
+        "CLASS": "Lớp",
+        "MAJOR": "Chuyên ngành",
+        "EMAIL": "Email",
+        "GENDER": "Giới tính",
+        "CURRENT_TERM": "Kỳ hiện tại",
+        "SPECIALIZATION": "Chuyên ngành",
+        "MOBILE_PHONE": "Số điện thoại",
+        "PARENT_PHONE": "Số điện thoại phụ huynh",
+        "CLASS_NAME": "Tên lớp",
+        "SEMESTER_NAME": "Tên kỳ học",
+        "SUBJECT": "Môn học",
+        "AVERAGE_MARK": "Điểm trung bình",
+        "FAIL_REASON": "Lý do trượt môn",
+        "TOTAL_ABSENCES": "Tổng số buổi vắng",
+        "TOTAL_SLOTS": "Tổng số buổi học",
+        "ABSENCE_RATE": "Tỉ lệ vắng",
+        "DESCRIPTION": "Mô tả",
+        "DEFER_SEMESTER": "Kì học bảo lưu",
+        "DEFERMENT_DATE": "Ngày đăng kí bảo lưu",
+        "START_DATE": "Ngày bắt đầu",
+        "END_DATE": "Ngày kết thúc",
+        "STUDENT_CODE_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng mã số sinh viên của sinh viên của sinh viên được gửi email",
+        "STUDENT_NAME_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng tên của sinh viên được gửi email",
+        "CLASS_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng tên lớp của sinh viên được gửi email",
+        "MAJOR_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng tên chuyên ngành của sinh viên được gửi email",
+        "EMAIL_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng email của sinh viên được gửi email",
+        "GENDER_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng giới tính của sinh viên được gửi email",
+        "CURRENT_TERM_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng kỳ hiện tại của sinh viên được gửi email",
+        "SPECIALIZATION_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng chuyên ngành của sinh viên được gửi email",
+        "MOBILE_PHONE_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng số điện thoại của sinh viên được gửi email",
+        "PARENT_PHONE_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng số điện thoại phụ huynh của sinh viên được gửi email",
+        "CLASS_NAME_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng tên lớp môn học của sinh viên được gửi email",
+        "SEMESTER_NAME_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng tên kỳ học của sinh viên được gửi email",
+        "SUBJECT_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng tên môn học của sinh viên được gửi email",
+        "AVERAGE_MARK_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng điểm trung bình của sinh viên được gửi email",
+        "FAIL_REASON_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng lý do trượt môn của sinh viên được gửi email",
+        "TOTAL_ABSENCES_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng tổng số buổi vắng của sinh viên được gửi email",
+        "TOTAL_SLOTS_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng tổng số buổi học của sinh viên được gửi email",
+        "ABSENCE_RATE_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng tỉ lệ vắng của sinh viên được gửi email",
+        "DESCRIPTION_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng mô tả của sinh viên được gửi email",
+        "DEFER_SEMESTER_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng kì học bảo lưu của sinh viên được gửi email",
+        "DEFERMENT_DATE_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng ngày sinh viên đăng kí bảo lưu",
+        "START_DATE_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng ngày bắt đầu bảo lưu của sinh viên được gửi email",
+        "END_DATE_DESCRIPTION": "Hệ thống sẽ tự động thay thế bằng ngày kết thúc bảo lưu của sinh viên được gửi email"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Thêm mẫu email thành công",
+        "UPDATE": "Cập nhật mẫu email thành công",
+        "DELETE": "Xóa mẫu email thành công"
+      },
+      "ERROR": {
+        "ADD": "Thêm mẫu email thất bại",
+        "UPDATE": "Cập nhật mẫu email thất bại",
+        "DELETE": "Xóa mẫu email thất bại"
+      }
+    }
+  },
+  "SUB_EMAIL": {
+    "MODAL": {
+      "BUTTON": {
+        "MANAGE": "Cấu hình cụm tham số",
+        "ADD": "Thêm cụm tham số",
+        "CANCEL": "Hủy bỏ",
+        "DETAIL": "Chi tiết cụm tham số",
+        "EDIT": "Sửa cụm tham số"
+      },
+      "TITLE": "Quan lý cụm tham số"
+    },
+    "PLACEHOLDER": "Tìm kiếm bằng tên cụm tham số",
+    "NAME": {
+      "LABEL": "Tên cụm tham số",
+      "PLACEHOLDER": "Nhập tên cụm tham số",
+      "ERROR": "Tên cụm tham số không được để trống"
+    },
+    "EMAIL_TYPE": "Loại mẫu email",
+    "DESCRIPTION": "Mô tả",
+    "DESCRIPTION_ENGLISH": {
+      "LABEL": "Mô tả bằng tiếng Anh",
+      "PLACEHOLDER": "Mô tả bằng tiếng Anh",
+      "ERROR": "Mô tả không được để trống"
+    },
+    "DESCRIPTION_VIETNAM": {
+      "LABEL": "Mô tả bằng tiếng Việt",
+      "PLACEHOLDER": "Mô tả bằng tiếng Việt",
+      "ERROR": "Mô tả không được để trống"
+    },
+    "CONTENT": {
+      "LABEL": "Nội dung",
+      "ERROR": "Nội dung không được để trống"
+    },
+    "DELETE": {
+      "CONFIRM": "Xóa loại cụm tham số [<span class='font-bold'>{{subject}}</span>] ra khỏi danh sách?"
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Thêm cụm tham số thành công",
+        "UPDATE": "Cập nhật cụm tham số thành công",
+        "DELETE": "Xóa cụm tham số thành công"
+      },
+      "ERROR": {
+        "ADD": "Thêm cụm tham số thất bại",
+        "UPDATE": "Cập nhật cụm tham số thất bại",
+        "DELETE": "Xóa cụm tham số thất bại"
+      }
+    },
+    "COLUMN": {
+      "NAME": "Tên",
+      "EMAIL_TYPE": "Loại email",
+      "CONTENT": "Nội dung",
+      "DESCRIPTION": "Mô tả",
+      "ACTION": "Hành động"
+    }
+  },
+  "APPLICATION": {
+    "CREATE_FORM": {
+      "TITLE": "Thêm mới phiếu đơn",
+      "EMAIL_SECTION_TITLE": "Nội dung gửi email",
+      "STUDENT_INFO_TITLE": "Thông tin sinh viên",
+      "FORM": {
+        "DOCUMENT_TYPE": "Loại tài liệu",
+        "DOCUMENT_TYPE_PLACEHOLDER": "Chọn loại tài liệu",
+        "EMAIL_TEMPLATE": "Mẫu email",
+        "EMAIL_TEMPLATE_PLACEHOLDER": "Mặc định",
+        "EMAIL_SUBJECT": "Tiêu đề",
+        "EMAIL_SUBJECT_PLACEHOLDER": "Nhập tiêu đề",
+        "EMAIL_CONTENT": "Nội dung",
+        "EMAIL_CONTENT_PLACEHOLDER": "Nhập nội dung gửi",
+        "STUDENT_ID": "Mã số sinh viên",
+        "STUDENT_ID_PLACEHOLDER": "Nhập mã số sinh viên",
+        "STUDENT_NAME": "Họ và tên sinh viên",
+        "STUDENT_NAME_PLACEHOLDER": "Tự động điền khi khóa mã số sv",
+        "STUDENT_EMAIL": "Email sinh viên",
+        "STUDENT_EMAIL_PLACEHOLDER": "Tự động điền khi khóa mã số sv",
+        "CONFIRM_BUTTON": "Xác nhận",
+        "CANCEL_BUTTON": "Hủy bỏ"
+      },
+      "RADIO": {
+        "RECEIVE": "Nhận",
+        "RETURN": "Trả"
+      },
+      "SUCCESS": "Thêm mới phiếu đơn thành công",
+      "FAIL": "Thêm mới phiếu đơn thất bại"
+    },
+    "MODAL": {
+      "DELETE": "Xóa phiếu đơn"
+    }
+  },
+  "LOGIN": {
+    "LOGIN": "Đăng nhập",
+    "LOGIN_SUCCESS": "Đăng nhập thành công",
+    "LOGIN_FAIL": "Đăng nhập thất bại",
+    "WELCOME": "Chào mừng trở lại! Vui lòng nhập thông tin của bạn",
+    "CAMPUS": "Cơ sở",
+    "RULES": {
+      "CAMPUS": "Vui lòng chọn cơ sở trước khi đăng nhập",
+      "RECAPTCHA": "Vui lòng xác nhận reCAPTCHA"
+    },
+    "PLACEHOLDER": "Chọn cơ sở"
+  },
+  "TOAST": {
+    "SUCCESS": {
+      "ACCOUNT": {
+        "ADD": "Thêm tài khoản thành công",
+        "UPDATE": "Cập nhật tải khoản thành công",
+        "DELETE": "Xóa tài khoản thành công"
+      }
+    },
+    "ERROR": {
+      "ACCOUNT": {
+        "ADD": "Thêm tài khoản thất bại",
+        "UPDATE": "Cập nhật tải khoản thất bại",
+        "DELETE": "Xóa tài khoản thất bại"
+      },
+      "LOGIN": {
+        "INVALID_ACCOUNT": "Thông tin tài khoản không hợp lệ. Vui lòng thử lại"
+      },
+      "NOTIFY": {
+        "TRY_AGAIN": "Có lỗi xảy ra, vui lòng thử lại"
+      }
+    }
+  },
+  "STUDENTS": {
+    "SCAN_HISTORY": "Lịch sử cập nhật",
+    "STUDENT_SEARCH_TERM": "Tìm kiếm bằng tên hoặc mã số sinh viên",
+    "FILTER": {
+      "CLASS": "Lớp học",
+      "SEMESTER": "Kì học hiện tại",
+      "SEMESTER_SEARCH": "Kì học cần tìm kiếm",
+      "MAJOR": "Khối ngành",
+      "MAJOR_HINT": "Lựa chọn khối ngành",
+      "PROGRESS": "Trạng thái",
+      "PROGRESS_SEARCH": "Lựa chọn trạng thái"
+    },
+    "TABLE_COLUMN": {
+      "STUDENT_NAME": "Tên sinh viên",
+      "STUDENT_CODE": "Mã sinh viên",
+      "CLASS": "Lớp",
+      "EMAIL": "Email",
+      "MAJOR": "Khối ngành",
+      "PHONE": "Số điện thoại",
+      "PARENT_PHONE": "Số điện thoại phụ huynh",
+      "SPECIALIZATION": "Chuyên ngành",
+      "SEMESTER": "Kỳ hiện tại",
+      "GENDER": "Giới tính",
+      "Status": "Trạng thái"
+    },
+    "PROGRESS": {
+      "TH": "Thôi học",
+      "HL": "Học lại",
+      "HD": "Học đi",
+      "CO": "Chờ",
+      "BL": "Bảo lưu",
+      "TF": "Chuyển trường",
+      "G": "Đã tốt nghiệp",
+      "KTN": "Không tốt nghiệp"
+    }
+  },
+  "DEFERS": {
+    "TOAST": {
+      "SUCCESS": {
+        "SCAN": "Tiến hành quét thành công"
+      },
+      "ERROR": {
+        "SCAN": "Tiến hành quét thất bại"
+      }
+    },
+    "ALL": "Tất cả",
+    "SEARCH_TERM": "Tìm kiếm",
+    "DEFERS_TWO_TERMS": "Đã bảo lưu 2 kỳ",
+    "SELECT_DEFERRED_SEMESTER": "Lựa chọn kì học",
+    "TABLE_COLUMN": {
+      "LAST_EMAIL_SENT": "Lịch sử gửi mail",
+      "DEFERMENT_DATE": "Ngày xin bảo lưu",
+      "DEFERMENT_PERIOD": "Thời gian bảo lưu",
+      "DEFERMENT_TYPE": "Loại bảo lưu",
+      "DESCRIPTION": "Mô tả",
+      "REASON": "Lý do",
+      "STATUS": "Trạng thái",
+      "ACTION": "Chức năng"
+    },
+    "DEFER_BUTTON": "Gửi mail",
+    "DEFER_STATUS": {
+      "APPROVED": "Đã duyệt",
+      "CANCELLED": "Đã hủy"
+    },
+    "DEFER_MAIL": {
+      "SUCCESS": "Gửi mail thành công",
+      "FAIL": "Gửi mail thất bại"
+    }
+  },
+  "APPLICATION_TYPE": {
+    "TEMPLATE_SEARCH_TERM": "Tìm kiếm bằng tên loại đơn",
+    "ADD_APPLICATION_TYPE": "Thêm mới loại đơn",
+    "TABLE_COLUMN": {
+      "APPLICATION_TYPE_NAME": "Tên loại đơn",
+      "CREATED_AT": "Thời gian tạo",
+      "LAST_MODIFIED_AT": "Thời gian cập nhật lân cuối",
+      "ACTION": "Chức năng"
+    },
+    "FORM": {
+      "ADD_NEW_APPLICATION_TYPE": "Thêm loại đơn mới",
+      "EDIT_APPLICATION_TYPE": "Sửa loại đơn",
+      "DETAIL_APPLICATION_TYPE": "Thông tin chi tiết loại đơn",
+      "LABEL": {
+        "ENGLISH_NAME": "Tên loại đơn (Tiếng Anh)",
+        "VIETNAMESE_NAME": "Tên loại đơn (Tiếng Việt)",
+        "SUBJECT": "Loại đơn",
+        "TYPE": "Loại mẫu email",
+        "CONTENT": "Nội dung",
+        "CREATED_TIME": "Thời gian tạo",
+        "UPDATED_TIME": "Thời gian cập nhật lần cuối",
+        "EDIT": "Sửa loại đơn"
+      },
+      "VALIDATION_MESSAGE": {
+        "REQUIRED": {
+          "VIETNAMESE_NAME": "Vui lòng nhập tên loại đơn (Tiếng Việt)",
+          "ENGLISH_NAME": "Vui lòng nhập tên loại đơn (Tiếng Anh)"
+        }
+      },
+      "PLACEHOLDER": {
+        "VIETNAMESE_NAME": "Nhập tên loại đơn (Tiếng Việt)",
+        "ENGLISH_NAME": "Nhập tên loại đơn (Tiếng Anh)"
+      },
+      "DELETE_CONFIRMATION": {
+        "TITLE": "Xóa loại đơn [<span class='font-bold'>{{subject}}</span>] ra khỏi danh sách?",
+        "CONTENT": "Bạn có chắc chắn muốn xóa không? Hành động này không thể hoàn tác"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Thêm loại đơn thành công",
+        "UPDATE": "Cập nhật loại đơn thành công",
+        "DELETE": "Xóa loại đơn thành công"
+      },
+      "ERROR": {
+        "ADD": "Thêm loại đơn thất bại",
+        "UPDATE": "Cập nhật loại đơn thất bại",
+        "DELETE": "Xóa loại đơn thất bại"
+      }
+    }
+  },
+  "SUBJECT": {
+    "COMMON": {
+      "DELETE_SUBJECT": "Xoá môn học miễn điểm danh",
+      "EDIT_SUBJECT": "Chỉnh sửa môn học miễn điểm danh"
+    },
+    "TEMPLATE_SEARCH_TERM": "Tìm kiếm bằng mã môn hoặc tên môn học",
+    "ADD_SUBJECT": "Thêm mới môn học miễn điểm danh",
+    "SELECT_SUBJECT": "môn học đã chọn",
+    "TABLE_COLUMN": {
+      "SUBJECT_NAME": "Tên môn học miễn điểm danh",
+      "VIETNAMESE_SUBJECT_NAME": "Tên môn học bằng Tiếng Việt",
+      "ENGLISH_SUBJECT_NAME": "Tên môn học bằng Tiếng Anh",
+      "SUBJECT_CODE": "Mã môn học",
+      "SUBJECT_GROUP": "Nhóm ngành",
+      "CREATED_AT": "Thời gian tạo",
+      "LAST_MODIFIED_AT": "Thời gian cập nhật lân cuối",
+      "ACTION": "Chức năng"
+    },
+    "FORM": {
+      "ADD_NEW_SUBJECT": "Thêm môn học miễn điểm danh mới",
+      "EDIT_SUBJECT": "Sửa môn học miễn điểm danh",
+      "DETAIL_SUBJECT": "Thông tin chi tiết môn học miễn điểm danh",
+      "LABEL": {
+        "ENGLISH_NAME": "Tên môn học miễn điểm danh (Tiếng Anh)",
+        "VIETNAMESE_NAME": "Tên môn học miễn điểm danh (Tiếng Việt)",
+        "SUBJECT": "Môn học miễn điểm danh",
+        "TYPE": "Loại mẫu email",
+        "CONTENT": "Nội dung",
+        "CREATED_TIME": "Thời gian tạo",
+        "UPDATED_TIME": "Thời gian cập nhật lần cuối",
+        "EDIT": "Sửa môn học miễn điểm danh"
+      },
+      "VALIDATION_MESSAGE": {
+        "REQUIRED": {
+          "VIETNAMESE_NAME": "Vui lòng nhập tên môn học miễn điểm danh (Tiếng Việt)",
+          "ENGLISH_NAME": "Vui lòng nhập tên môn học miễn điểm danh (Tiếng Anh)"
+        }
+      },
+      "PLACEHOLDER": {
+        "VIETNAMESE_NAME": "Nhập tên môn học miễn điểm danh (Tiếng Việt)",
+        "ENGLISH_NAME": "Nhập tên môn học miễn điểm danh (Tiếng Anh)"
+      },
+      "DELETE_CONFIRMATION": {
+        "TITLE": "Xóa môn học miễn điểm danh [<span class='font-bold'>{{subject}}</span>] ra khỏi danh sách?",
+        "CONTENT": "Bạn có chắc chắn muốn xóa không? Hành động này không thể hoàn tác"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Thêm môn học miễn điểm danh thành công",
+        "UPDATE": "Cập nhật môn học miễn điểm danh thành công",
+        "DELETE": "Xóa môn học miễn điểm danh thành công"
+      },
+      "ERROR": {
+        "ADD": "Thêm môn học miễn điểm danh thất bại",
+        "UPDATE": "Cập nhật môn học miễn điểm danh thất bại",
+        "DELETE": "Xóa môn học miễn điểm danh thất bại"
+      }
+    }
+  },
+  "EMAILS_INPUT": {
+    "FORM": {
+      "INVALID": "Sai định dạng email",
+      "DUPLICATED": "Email hiện đang bị trùng lặp"
+    }
+  },
+  "NOTE": {
+    "ADD_FORM": {
+      "CREATE": "Thêm ghi chú cho",
+      "LABEL": "Nội dung",
+      "REQUIRE_CONTENT": "Nội dung không được bỏ trống",
+      "REQUIRE_MIN__CONTENT": "Phải có tối thiểu 1 kí tự ",
+      "PLACEHOLDER": "Nhập ghi chú",
+      "DETAIL_CONTENT": "Chi tiết nội dung",
+      "CREATE_AT": "Được tạo vào:",
+      "SEMESTER": "Kì học:",
+      "STUDENT_CODE": "Mã sinh viên",
+      "ADDITIONAL_INFO": "Ghi chú bổ sung",
+      "CHANNEL": "Kênh",
+      "PROCESSING_TIME": "Thời gian xử lý",
+      "CHANNEL_PLACEHOLDER": "Nhập kênh",
+      "PROCESSING_TIME_PLACEHOLDER": "Nhập thời gian xử lý"
+    },
+    "MANAGE_NOTE": {
+      "DELETE": {
+        "TITLE": "Bạn có chắc muốn xóa ghi chú này không?",
+        "CONTENT": "Hành động này không thể hoàn tác",
+        "SUCCESS": "Xóa ghi chú thành công",
+        "FAIL": "Xóa ghi chú thất bại"
+      },
+      "UPDATE": {
+        "SUCCESS": "Cập nhật ghi chú thành công",
+        "FAIL": "Cập nhật ghi chú thất bại"
+      },
+      "VIEW": {
+        "MODAL_TITLE": "Ghi chú cho",
+        "ADD_BUTTON": "Thêm mới"
+      }
+    },
+    "IMPORT": {
+      "STEP": {
+        "FIRST": "Tải lên ",
+        "FIRST_DESCRIPTION": "Tải lên hệ thống",
+        "SECOND": "Xem trước dữ liệu",
+        "SECOND_DESCRIPTION": "Kiểm tra dữ liệu"
+      },
+      "BUTTON": "Nhập file",
+      "MODAL": {
+        "TITLE": "Thêm dữ liệu bằng excel"
+      },
+      "DRAGGER": {
+        "GUIDE": "Chọn một tập tin hoặc kéo và thả nó vào đây.",
+        "MAXIMUM_SUPPORT": "Hỗ trợ định dạng: XLSX, CSV.",
+        "CHOOSE_FILE": "Chọn file"
+      },
+      "TABLE": {
+        "INDEX": "STT",
+        "STUDENT_CODE": "Mã sinh viên",
+        "STUDENT_NAME": "Họ và tên",
+        "CARE_TYPE": "Loại chăm sóc",
+        "CARE_CONTENT": "Nội dung chăm sóc",
+        "SEMESTER": "Kỳ",
+        "CARE_OFFICER": "Cán bộ chăm sóc",
+        "CHANNEL": "Kênh",
+        "PROCESS_TIME": "Thời gian xử lý",
+        "PLACEHOLDER": {
+          "SEMESTER": "Chọn kì học",
+          "CARE_TYPE": "Chọn kì học"
+        },
+        "RULE": {
+          "STUDENT_CODE": "Vui lòng chọn mã sinh viên",
+          "INVALID_TYPE": "Loại không hợp lệ: ",
+          "CARE_TYPE": "Vui lòng chọn loại chăm sóc",
+          "CARE_CONTENT": "Nội dung chăm sóc không được để trống",
+          "SEMESTER": "Vui lòng chọn kì",
+          "INVALID_SEMESTER": "Loại không hợp lệ: ",
+          "OFFICER": "Nhân viên hỗ trợ không được để trống"
+        }
+      }
+    },
+    "TOAST": {
+      "ADD_SUCCESS": "Thêm ghi chú thành công",
+      "ADD_FAIL": "Thêm ghi chú thất bại",
+      "EDIT_SUCCESS": "Sửa ghi chú thành công",
+      "EDIT_FAIL": "Sửa ghi chú thất bại",
+      "DELETE_SUCCESS": "Xóa ghi chú thành công",
+      "DELETE_FAIL": "Xóa ghi chú thất bại"
+    }
+  },
+  "NOTE_TYPE": {
+    "BUTTON": {
+      "OPEN": "Loại ghi chú"
+    },
+    "TABLE_COLUMN": {
+      "NAME": "Tên loại ghi chú",
+      "TIME_CREATE": "Thời gian tạo",
+      "TIME_UPDATE": "Thời gian cập nhật lần cuối",
+      "ACTION": "Chức năng"
+    },
+    "DELETE": {
+      "TITLE": "Bạn có chắc muôn xóa loại ghi chú này không ?",
+      "CONTENT": "Hành động này không thể hoàn tác",
+      "SUCCESS": "Xóa loại ghi chú thành công",
+      "FAIL": "Xóa loại ghi chú thất bại"
+    },
+    "CREATE": {
+      "FAIL": "Thất bại khi tạo mới, vui lòng thử lại sau"
+    },
+    "MODAL": {
+      "TITLE": "Quản lý loại ghi chú",
+      "EDIT": "Chỉnh sửa loại ghi chú",
+      "ADD": "Thêm loại ghi chú mới",
+      "VIETNAMESE_CONTENT": "Nội dung (Tiếng Việt)",
+      "REQUIRE_CONTENT": "Nội dung không được để trống",
+      "ENGLISH_CONTENT": "Nội dung (Tiếng Anh)"
+    },
+    "TOAST": {
+      "ADD_SUCCESS": "Thêm loại ghi chú thành công",
+      "ADD_FAIL": "Thêm loại ghi chú thất bại",
+      "EDIT_SUCCESS": "Sửa loại ghi chú thành công",
+      "EDIT_FAIL": "Sửa loại ghi chú thất bại",
+      "DELETE_SUCCESS": "Xóa loại ghi chú thành công",
+      "DELETE_FAIL": "Xóa loại ghi chú thất bại"
+    }
+  },
+  "NOTES": {
+    "NOTES_SEARCH_TERM": "Tìm kiếm bằng mã số sinh viên",
+    "FILTER_NOTE_TYPE": "Loại ghi chú",
+    "FILTER_ALL": "Tất cả",
+    "TABLE_COLUMN": {
+      "STUDENT_CODE": "MSSV",
+      "STUDENT_NAME": "Họ và tên",
+      "NOTE_TYPE": "Loại ghi chú",
+      "NOTE_CONTENT": "Nội dung ghi chú",
+      "CARE_OFFICER": "Cán bộ ghi chú",
+      "PHONE_NUMBER": "Số điện thoại",
+      "PARENT_PHONE": "Số điện thoại phụ huynh",
+      "SEMESTER": "Học kỳ",
+      "DATE": "Ngày tạo"
+    },
+    "ADD_FORM": {
+      "CHANNEL": "Kênh",
+      "CREATE": "Thêm mới",
+      "TITLE": "Thêm mới ghi chú",
+      "STUDENT_CODE": "Mã số sinh viên",
+      "SELECT_NOTE_TYPE": "Loại ghi chú",
+      "PLACEHOLDER_CONTENT": "Nhập nội dung ghi chú",
+      "PLACEHOLDER_STUDENT_CODE": "Nhập mã số sinh viên",
+      "PLACEHOLDER_SELECT_NOTE_TYPE": "Chọn loại ghi chú",
+      "CONTENT": "Nội dung ghi chú",
+      "STUDENT_NAME": "Họ và tên",
+      "STUDENT_EMAIL": "Email",
+      "REQUIRE_STUDENT_CODE": "Cần nhập mã số sinh viên",
+      "REQUIRE_NOTE_TYPE": "Cần chọn loại ghi chú",
+      "MIN_LENGTH_CONTENT": "Nội dung quá ngắn (tối thiểu 1 kí tự)",
+      "REQUIRE_CONTENT": "Cần nhập nội dung ghi chú"
+    },
+    "EDIT_FORM": {
+      "EDIT_NOTES": "Chỉnh sửa ghi chú",
+      "PLACEHOLDER_CONTENT": "Nội dung ghi chú",
+      "VALIDATION_MESSAGE": "Nhập nội dung ghi chú",
+      "LABEL": {
+        "CONTENT": "Nội dung",
+        "NOTE_TYPE": "Loại ghi chú",
+        "STUDENT_CODE": "Mã sinh viên"
+      }
+    },
+    "DELETE_CONFIRMATION": {
+      "TITLE": "Xóa ghi chú [<span class='font-bold'>{{subject}}</span>] ra khỏi danh sách?",
+      "CONTENT": "Bạn có chắc chắn muốn xóa không? Hành động này không thể hoàn tác"
+    },
+    "STATE": {
+      "ALL": "Tất cả",
+      "HAS_NOTE": "Đã ghi chú",
+      "NOT_NOTE": "Chưa ghi chú"
+    }
+  },
+  "STUDENT_FAILED_COURSE": {
+    "ALL": "Tất cả",
+    "FAILED_MULTIPLE_COURSES": "Trượt nhiều môn trong một kỳ",
+    "FAILED_COURSE_TWO_TERMS": "Trượt một môn 2 kỳ liên tiếp",
+    "TABLE_COLUMN": {
+      "STUDENT_CODE": "Mã sinh viên",
+      "STUDENT_NAME": "Tên sinh viên",
+      "EMAIL": "Email",
+      "PHONE": "Số điện thoại",
+      "CLASS": "Lớp",
+      "SPECIALIZATION": "Chuyên ngành",
+      "MAJOR": "Khối ngành",
+      "SEMESTER": "Kỳ học",
+      "SUBJECT_CODE": "Mã môn học",
+      "DESCRIPTION": "Lý do trượt môn",
+      "ACTION": "Chức năng",
+      "AVERAGE_MARK": "Điểm trung bình",
+      "SUSPENDED": "Đình chỉ",
+      "ATTENDANCE_FAIL": "Trượt điểm danh",
+      "MARK_FAIL": "Không đạt điểm"
+    },
+    "DETAIL": {
+      "TITLE": "Chi tiết sinh viên nợ môn"
+    },
+    "SEMESTER_SELECT_LABEL": "Kì học",
+    "SEMESTER_SELECT_PLACEHOLDER": "Chọn kì học",
+    "FAIL_REASON_SELECT_PLACEHOLDER": "Chọn lý do trượt môn",
+    "EXPORT_SEMESTER": "Số lượng kì cần xuất kể từ",
+    "EXPORT_SEMESTER_TIP": "Kỳ hiện tại và các kỳ tiếp theo sẽ được xuất dựa trên số lượng bạn chọn. Ví dụ 1 sẽ chỉ xuất kì hiện tại",
+    "EXPORT_TILL_SEMESTER": "Tính cả kì hiện tại"
+  },
+  "OTP": {
+    "TOAST": {
+      "SUCCESS": {
+        "2FA": {
+          "ENABLE": "Kích hoạt xác thực 2 bước thành công",
+          "DISABLE": "Tắt xác thực 2 bước thành công",
+          "VERIFY": "Xác thực 2 bước thành công"
+        }
+      },
+      "ERROR": {
+        "2FA": {
+          "ENABLE": "Kích hoạt xác thực 2 bước thất bại",
+          "DISABLE": "Tắt xác thực 2 bước thất bại",
+          "VERIFY": "Xác thực 2 bước thất bại"
+        }
+      }
+    }
+  },
+  "PSYCHOLOGY_MANAGEMENT": {
+    "STUDENT_SEARCH_TERM": "Tìm kiếm bằng tên hoặc mã số sinh viên",
+    "EDIT": {
+      "CONFIRM_DELETE_TITLE": "Bạn có chắc muôn xóa câu hỏi tư vấn này không",
+      "CONFIRM_DELETE_CONTENT": "Hành động này không thể hoàn tác",
+      "ADD_QUESTION": "Thêm câu hỏi tư vấn",
+      "EDIT_QUESTION": "Chỉnh sửa câu hỏi tư vấn"
+    },
+    "MODAL": {
+      "TITLE": "Quản lí câu hỏi tư vấn"
+    }
+  },
+  "DASHBOARD": {
+    "STATISTICS": {
+      "TOTAL_REMINDER": "Tổng lượt nhắc trong kỳ",
+      "ATTENDANCE_REMINDER": {
+        "TITLE": "Nhắc nhở điểm danh trong kỳ",
+        "YLABEL": "Lượt nhắc nhở",
+        "WEEKLY": {
+          "TITLE": "Theo tuần",
+          "MONDAY": "Thứ hai",
+          "TUESDAY": "Thứ ba",
+          "WEDNESDAY": "Thứ tư",
+          "THURSDAY": "Thứ năm",
+          "FRIDAY": "Thứ sáu",
+          "SATURDAY": "Thứ bảy",
+          "SUNDAY": "Chủ nhật"
+        },
+        "MONTHLY": {
+          "TITLE": "Theo tháng",
+          "TOOLTIP": {
+            "LABEL": "Ngày",
+            "VALUE": "Lượt nhắc nhở"
+          },
+          "XAXIS": "Ngày",
+          "YAXIS": "Lượt nhắc nhở"
+        },
+        "YEARLY": {
+          "TITLE": "Theo năm",
+          "MODE": {
+            "SEMESTER": {
+              "TITLE": "Theo kỳ",
+              "XAXIS": "Học kỳ"
+            },
+            "MONTH": {
+              "TITLE": "Theo tháng",
+              "XAXIS": "Tháng"
+            }
+          },
+          "YAXIS": "Lượt nhắc nhở"
+        }
+      },
+      "DEFER_REMINDER": "Nhắc nhở bảo lưu trong kỳ",
+      "HIGH_RISK_STUDENTS": "Nhắc nhở nợ môn cao trong kỳ",
+      "LAST_UPDATED": "Lịch sử cập nhật"
+    },
+    "DASHBOARD_CARD": {
+      "CHANGE": "Thay đổi so với kỳ trước"
+    },
+    "ATTENDANCE_REMINDER": {
+      "TOTAL_APPLICATION": "Tổng phiếu đơn"
+    },
+    "APPLICATION_CHART": {
+      "TITLE": "Ghi nhận phiếu đơn",
+      "RECEIVE": "Nhận phiếu đơn",
+      "RETURN": "Trả phiếu đơn"
+    },
+    "APPLICATION_SUMMARY": {
+      "TITLE": "Tổng ghi nhận phiếu đơn",
+      "RECEIVE": "Nhận phiếu đơn",
+      "RETURN": "Trả phiếu đơn",
+      "TYPE": "Loại giấy tờ",
+      "TOTAL": "Số lượng"
+    },
+    "STUDENT_NEED_CARE": {
+      "TITLE": "Sinh viên đã được chăm sóc",
+      "STUDENT_CARED": "Sinh viên đã được chăm sóc",
+      "STUDENT_NOT_ASSIGNED": "Sinh viên chưa được phân công chăm sóc",
+      "STUDENT_DOING": "Sinh viên đang được chăm sóc",
+      "STUDENT_TODO": "Sinh viên cần chăm sóc",
+      "STUDENT_RECORD": "Báo cáo so sánh chăm sóc sinh viên"
+    },
+    "EMAIL_LOG_CHART": {
+      "TITLE": "Thống kê email đã gửi",
+      "TOTAL_EMAIL_SENT_PROCESS": "Tiến độ",
+      "TOTAL_EMAIL_SENT": "Số lượng email đã gửi",
+      "SENT": "Đã gửi mail",
+      "PENDING": "Đang chờ gửi  mail",
+      "FAILED": "Gửi mail thất bại",
+      "WEEK": {
+        "TITLE": "Theo tuần"
+      },
+      "MONTH": {
+        "TITLE": "Theo tháng"
+      },
+      "YEAR": {
+        "TITLE": "Theo năm"
+      }
+    }
+  },
+  "STUDENT_PSYCHOLOGY": {
+    "OPEN_DRIVE": "Mở thư mục Drive",
+    "UPLOAD_DRIVE": "Tải lên tài liệu",
+    "PSYCHOLOGY_MANAGEMENT": "Quản lý câu hỏi tư vấn tâm lý",
+    "CREATE": "Thêm sinh viên cần chăm sóc tâm lý",
+    "VERIFY": {
+      "TITLE": "Xác thực sinh viên cần chăm sóc tâm lý",
+      "ACCESS_PASSWORD": "Mật khẩu truy cập",
+      "REQUIRED_ACCESS_PASSWORD": "Vui lòng nhập mật khẩu truy cập",
+      "LABEL": {
+        "ACCESS_PASSWORD": "Mật khẩu truy cập"
+      }
+    },
+    "ADD_TEMPLATE": "Thêm mới sinh viên cần chăm sóc tâm lý",
+    "MODAL": {
+      "TITLE": {
+        "ADD": "Thêm sinh viên cần chăm sóc tâm lý"
+      }
+    },
+    "FORM": {
+      "LABEL": {
+        "ACCESS_PASSWORD": "Mật khẩu truy cập",
+        "RE_ACCESS_PASSWORD": "Nhập lại mật khẩu truy cập"
+      },
+      "PLACEHOLDER": {
+        "ACCESS_PASSWORD": "Nhập mật khẩu truy cập",
+        "RE_ACCESS_PASSWORD": "Nhập lại mật khẩu truy cập"
+      },
+      "VALIDATION_MESSAGE": {
+        "REQUIRED": {
+          "ACCESS_PASSWORD": "Vui lòng nhập mật khẩu truy cập",
+          "RE_ACCESS_PASSWORD": "Vui lòng nhập lại mật khẩu truy cập"
+        }
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Thêm sinh viên cần chăm sóc tâm lý thành công",
+        "VERIFY": "Xác thực thành công",
+        "CHANGE_PASSWORD": "Đổi mật khẩu thành công"
+      },
+      "ERROR": {
+        "ADD": "Thêm sinh viên cần chăm sóc tâm lý thất bại",
+        "PASSWORD_NOT_MATCH": "Mật khẩu truy cập không khớp",
+        "VERIFY": "Xác thực thất bại",
+        "CHANGE_PASSWORD": "Đổi mật khẩu thất bại",
+        "UPLOAD": "File quá nặng, vui lòng chọn file khác"
+      }
+    },
+    "CHANGE_PASSWORD": {
+      "TITLE": "Đổi mật khẩu",
+      "OLD_PASSWORD": "Mật khẩu hiện tại",
+      "NEW_PASSWORD": "Mật khẩu mới",
+      "RE_NEW_PASSWORD": "Nhập lại mật khẩu mới",
+      "VALIDATION": {
+        "REQUIRED": {
+          "OLD_PASSWORD": "Vui lòng nhập mật khẩu hiện tại",
+          "NEW_PASSWORD": "Vui lòng nhập mật khẩu mới",
+          "RE_NEW_PASSWORD": "Vui lòng nhập lại mật khẩu mới"
+        }
+      },
+      "ERROR": {
+        "PASSWORD_NOT_MATCH": "Mật khẩu mới không khớp"
+      }
+    },
+    "FORGET_PASSWORD": {
+      "PASSWORD": "Mật khẩu",
+      "REQUIRED_PASSWORD": "Vui lòng nhập mật khẩu",
+      "PLACEHOLDER_PASSWORD": "Nhập mật khẩu",
+      "CONFIRM_PASSWORD": "Xác nhận mật khẩu",
+      "REQUIRED_CONFIRM_PASSWORD": "Vui lòng xác nhận mật khẩu",
+      "PLACEHOLDER_CONFIRM_PASSWORD": "Nhập lại mật khẩu",
+      "OTP": "Mã xác thực",
+      "REQUIRED_OTP": "Vui lòng nhập mã xác thực",
+      "PLACEHOLDER_OTP": "Nhập mã xác thực",
+      "PASSWORD_NOT_MATCH": "Mật khẩu xác nhận không khớp"
+    },
+    "TABLE": {
+      "STUDENT_CODE": "Mã số sinh viên",
+      "STUDENT_NAME": "Tên sinh viên",
+      "EMAIL": "Email",
+      "PHONE_NUMBER": "Số điện thoại",
+      "FUNCTION": "Chức năng",
+      "DETAIL": "Chi tiết",
+      "COMPLETE": "Hoàn thành"
+    }
+  },
+  "NOTE_DETAIL": {
+    "BUTTON": {
+      "OPEN": "Quản lí ghi chú"
+    },
+    "TABLE_COLUMN": {
+      "NAME": "Tên ghi chú",
+      "TIME_CREATE": "Thời gian tạo",
+      "TIME_UPDATE": "Thời gian cập nhật lần cuối",
+      "ACTION": "Chức năng"
+    },
+    "DELETE": {
+      "TITLE": "Bạn có chắc muôn xóa ghi chú này không ?",
+      "CONTENT": "Hành động này không thể hoàn tác",
+      "SUCCESS": "Xóa ghi chú thành công",
+      "FAIL": "Xóa ghi chú thất bại"
+    },
+    "CREATE": {
+      "FAIL": "Thất bại khi tạo mới, vui lòng thử lại sau"
+    },
+    "MODAL": {
+      "TITLE": "Quản lý ghi chú",
+      "EDIT": "Chỉnh sửa ghi chú",
+      "ADD": "Thêm ghi chú mới",
+      "VIETNAMESE_CONTENT": "Nội dung (Tiếng Việt)",
+      "REQUIRE_CONTENT": "Nội dung không được để trống",
+      "ENGLISH_CONTENT": "Nội dung (Tiếng Anh)"
+    },
+    "TOAST": {
+      "ADD_SUCCESS": "Thêm ghi chú thành công",
+      "ADD_FAIL": "Thêm ghi chú thất bại",
+      "EDIT_SUCCESS": "Sửa ghi chú thành công",
+      "EDIT_FAIL": "Sửa ghi chú thất bại",
+      "DELETE_SUCCESS": "Xóa ghi chú thành công",
+      "DELETE_FAIL": "Xóa ghi chú thất bại"
+    }
+  },
+  "PSYCHOLOGY_NOTE": {
+    "BUTTON": {
+      "STUDENT_INFO": "Xem thông tin học sinh"
+    },
+    "ADD_MODAL": {
+      "SUBJECT": "Chủ đề",
+      "DETAIL": "Chi tiết",
+      "REQUIRED_SUBJECT": "Vui lòng nhập chủ đề",
+      "MIN_SUBJECT": "Tối thiểu 1 kí tự",
+      "PLACEHOLDER_SUBJECT": "Nhập chủ đề",
+      "NEXT_BUTTON": "Tiếp theo",
+      "PSYCHOLOGY_QUESTION": "Câu hỏi tư vấn",
+      "REQUIRED_QUESTION": "Vui lòng nhập câu hỏi tư vấn",
+      "MIN_QUESTION": "Tối thiểu 1 kí tự",
+      "SELECT_QUESTION": "Chọn câu hỏi tư vấn",
+      "ANSWER_CONTENT": "Nội dung trả lời",
+      "REQUIRED_CONTENT": "Vui lòng nhập nội dung trả lời",
+      "MIN_CONTENT": "Tối thiểu 1 kí tự",
+      "PLACEHOLDER_CONTENT": "Nhập nội dung trả lời"
+    },
+    "UPLOAD_DRIVE": {
+      "OPEN_FROM_DRIVE": "Mở từ Google Drive",
+      "CREATE_FROM_DRIVE": "Tạo từ Google Drive"
+    }
+  },
+  "EMAIL_LOG": {
+    "TABLE": {
+      "SUBJECT": "Chủ đề",
+      "RECIPIENT_EMAIL": "Người nhận",
+      "EMAIL_TYPE": "Loại email",
+      "SEMESTER": "Kỳ học",
+      "EMAIL_STATE": "Trạng thái",
+      "CREATED_AT": "Ngày gửi"
+    },
+    "TITLE": "Danh sách email đã gửi",
+    "SEARCH_TERM": "Tìm kiếm",
+    "EMAIL_STATE": {
+      "Pending": "Đang chờ gửi",
+      "Sent": "Đã gửi",
+      "Failed": "Thất bại"
+    },
+    "EMAIL_TYPE": {
+      "AttendanceNotification": "Thông báo nghỉ học",
+      "DeferNotification": "Thông báo bảo lưu",
+      "FailedSubjectNotification": "Thông báo trượt môn",
+      "Unknown": "Không xác định",
+      "ApplicationNotification": "Thông báo đơn",
+      "StudentApplication": "Đơn từ sinh viên"
+    },
+    "LABEL": {
+      "EMAIL_TYPE": "Loại email",
+      "EMAIL_STATE": "Trạng thái",
+      "SEND_DATE": "Ngày gửi",
+      "SEMESTER_NAME": "Tên kỳ học"
+    },
+    "STUDENT_INFO": {
+      "TITLE": "Thông tin sinh viên",
+      "NAME": "Tên",
+      "STUDENT_CODE": "MSSV",
+      "EMAIL": "Email",
+      "CLASS": "Lớp học",
+      "MAJOR": "Khối ngành",
+      "SPECIALIZATION": "Chuyên ngành",
+      "GENDER": "Giới tính",
+      "PROGRESS": "Trạng thái",
+      "CURRENT_TERM_NO": "Kỳ hiện tại",
+      "MOBILE_PHONE": "Số điện thoại",
+      "PARENT_PHONE": "Số điện thoại phụ huynh"
+    }
+  },
+  "SEMESTER_NOTES": {
+    "EMPTY_STATE": "Không có dữ liệu ghi chú nào.",
+    "YEAR": "Năm",
+    "SEMESTER": {
+      "SPRING": "Kỳ Spring",
+      "SUMMER": "Kỳ Summer",
+      "FALL": "Kỳ Fall"
+    },
+    "NOTE": {
+      "SUBJECT": "Môn học",
+      "CREATED_AT": "Ngày",
+      "ADD": "Thêm",
+      "EDIT": "Sửa",
+      "DELETE": "Xóa",
+      "CONFIRM_DELETE": "Bạn có chắc chắn muốn xóa ghi chú này không?"
+    },
+    "MODAL": {
+      "EDIT_TITLE": "Chỉnh sửa ghi chú",
+      "ADD_TITLE": "Thêm ghi chú mới",
+      "CONTENT_LABEL": "Nội dung",
+      "CONTENT_PLACEHOLDER": "Nhập nội dung ghi chú",
+      "CONTENT_REQUIRED": "Vui lòng nhập nội dung",
+      "NOTE_TYPE_LABEL": "Loại ghi chú",
+      "NOTE_TYPE_PLACEHOLDER": "Chọn loại ghi chú",
+      "NOTE_TYPE_REQUIRED": "Vui lòng chọn loại ghi chú"
+    },
+    "TOAST": {
+      "ADD_SUCCESS": "Thêm ghi chú thành công",
+      "ADD_FAIL": "Thêm ghi chú thất bại",
+      "EDIT_SUCCESS": "Sửa ghi chú thành công",
+      "EDIT_FAIL": "Sửa ghi chú thất bại",
+      "DELETE_SUCCESS": "Xóa ghi chú thành công",
+      "DELETE_FAIL": "Xóa ghi chú thất bại",
+      "FAIL_BASE_64": "Không thể chuyển đổi file sang base64",
+      "FILE_READ_ERROR": "Đã có lỗi xảy ra khi đọc file"
+    }
+  },
+  "SETTINGS": {
+    "ENABLE_CALL": "Cho phép gọi điện",
+    "SCAN_DEFER": "Quét báo lưu",
+    "ANALYZE": "Phân tích sinh viên",
+    "SIGN_AS_SUCCESS": "Đăng nhập với tư cách người dùng thành công",
+    "SIGN_AS_FAIL": "Đăng nhập với tư cách người dùng thất bại",
+    "SIGN_AS": "Đăng nhập",
+    "SELECT_USER_REQUIRED": "Vui lòng chọn người dùng",
+    "SIGN_AS_USER": "Đăng nhập với tư cách người dùng khác",
+    "SEARCH_ROLE": "Tìm kiếm vai trò",
+    "SELECT_USER": "Lựa chọn người dùng",
+    "LANGUAGE": "Ngôn ngữ",
+    "FONT_STYLE": "Phông chữ",
+    "THEME": "Giao diện",
+    "UPLOAD_HEADER_BACKGROUND": "Tải ảnh header",
+    "UPLOAD_CONTENT_BACKGROUND": "Tải ảnh nền",
+    "PERSONAL_SETTINGS": "Cài đặt cá nhân",
+    "WEBSITE_SETTINGS": "Cài đặt trang web",
+    "UPLOAD_IMAGE": "Tải ảnh lên",
+    "DISABLE_DEVTOOL": "Vô hiệu hóa công cụ phát triển (Disable DevTool)",
+    "PREVIEW_IMAGE": "Xem trước",
+    "HIDE_SENSITIVE": "Ẩn thông tin nhạy cảm",
+    "SCAN_ATTENDANCE": "Quét điểm danh",
+    "TOAST": {
+      "SUCCESS": "Cập nhật cài đặt thành công. Vui lòng tải lại trang để xem thay đổi",
+      "ERROR": "Cập nhật cài đặt thất bại"
+    },
+    "TOTP_SETTINGS": "Cài đặt xác thực hai yếu tố",
+    "TOTP_ENABLE": "Bật xác thực hai yếu tố",
+    "TOTP_DISABLE": "Tắt xác thực hai yếu tố",
+    "TOTP_DISABLE_DESCRIPTION": "Tắt xác thực hai yếu tố sẽ làm giảm mức độ bảo mật của tài khoản của bạn.",
+    "TOTP_ENABLE_DESCRIPTION": "Bật xác thực hai yếu tố sẽ tăng cường bảo mật cho tài khoản của bạn.",
+    "ENTER_OTP": "Nhập mã OTP",
+    "OTP_REQUIRED": "Vui lòng nhập mã OTP",
+    "TOTP_USE_GUIDE": "Sử dụng ứng dụng xác thực để quét mã QR bên dưới. Sau khi quét, ứng dụng sẽ tạo mã OTP. Nhập mã OTP vào ô bên dưới để hoàn tất quá trình kích hoạt xác thực hai yếu tố.",
+    "SUBMIT": "Xác nhận"
+  },
+  "STUDENT_NEED_CARE": {
+    "ASSIGN": {
+      "VALID_PERCENTAGE": "Phần trăm phân chia hợp lệ",
+      "BY_PERCENTAGE_TITLE": "Phân chia theo phần trăm",
+      "INVALID_PERCENTAGE": "Phần trăm không hợp lệ",
+      "STAFF_NAME": "Tên nhân viên",
+      "PERCENTAGE": "Phần trăm",
+      "TOTAL": "Tổng phần trăm",
+      "TITLE": "Phân công",
+      "CHOOSE_METHOD": "Chọn phương pháp phân chia",
+      "MODAL_TITLE": "Phân công chăm sóc",
+      "AUTO_DISTRIBUTE": "Phân chia tự động",
+      "AUTO_DESCRIPTION": "Phân chia sinh viên tự động dựa trên số lượng sinh viên cần chăm sóc.",
+      "BY_PERCENTAGE": "Phân chia theo phần trăm",
+      "BY_PERCENTAGE_DESCRIPTION": "Phân chia sinh viên dựa trên phần trăm của số lượng sinh viên cần chăm sóc.",
+      "PERCENTAGE_ERROR": "Tổng phần trăm phải bằng 100%.",
+      "SUCCESS": "Phân chia sinh viên thành công",
+      "FAIL": "Phân chia sinh viên thất bại",
+      "NO_STUDENT": "Không có sinh viên chưa được phân công"
+    },
+    "HISTORY": {
+      "TITLE": "Lịch sử cần chăm sóc"
+    },
+    "ADD_MANUAL": {
+      "TITLE": "Thêm sinh viên",
+      "STUDENT_ALREADY_EXIST": "Sinh viên đã tồn tại",
+      "STUDENT_ID": "Mã sinh viên",
+      "STUDENT_ID_REQUIRED": "Vui lòng nhập mã số sinh viên hợp lệ",
+      "EMAIL": "Email: ",
+      "GENDER": "Giới tính: ",
+      "PROGRESS": "Tình trạng: ",
+      "CURRENT_TERM_NO": "Kỳ hiện tại: ",
+      "SPECIALIZATION": "Chuyên ngành: "
+    },
+    "EXPORT": {
+      "OPTIONS": {
+        "SCANNED": "Xuất danh sách sinh viên được quét",
+        "ALL": "Xuất toàn bộ danh sách theo kì"
+      }
+    },
+    "DISTRIBUTE": {
+      "CARD_MODE": "Thẻ",
+      "TABLE_MODE": "Bảng",
+      "BUTTON": "Phân chia cán bộ",
+      "TITLE": "Thông tin phân chia cán bộ chăm sóc",
+      "TABLE": {
+        "OFFICER": "Cán bộ",
+        "NEED_CARE": "Cần chăm sóc",
+        "NEED_CARE_DONE": "Đã chăm sóc",
+        "NEED_CARE_DOING": "Đang chăm sóc",
+        "PROGRESSING": "Tiến bộ"
+      },
+      "OVERVIEW": {
+        "TITLE": "Tổng quan phân chia",
+        "TOTAL_STUDENT": "Tổng số sinh viên: ",
+        "TOTAL_OFFICER": "Tổng số cán bộ: ",
+        "MEDIUM": "Trung bình: ",
+        "STUDENT_PER_OFFICER": "sinh viên/cán bộ",
+        "PROGRESSING": "Tiến độ: ",
+        "ANALYZE": "Phân tích phân chia",
+        "MAX_HANDLE_OFFICER": "Cán bộ có tải cao nhất",
+        "MIN_HANDLE_OFFICER": "Cán bộ có tải thấp nhất",
+        "LOAD": "Tải"
+      }
+    },
+    "SCAN": {
+      "STEP": {
+        "ONE": "Số lượng sinh viên cần chăm sóc",
+        "TWO": "Danh sách sinh viên cần chăm sóc đã quét",
+        "THREE": "Tự động phân chia cho cán bộ chăm sóc",
+        "FOUR": "Quét danh sách sinh viên cần chăm sóc"
+      },
+      "FIRST_STEP": {
+        "TITLE": "Số lượng sinh viên cần chăm sóc",
+        "DESCRIPTION": "Ước tính số lượng sinh viên cần chăm sóc dựa vào nguồn lực nhân sự của đơn vị đang công tác.",
+        "COUNT": "Nhập số lượng sinh viên cần chăm sóc",
+        "INPUT": "Nhập số lượng",
+        "SUFFIX": "sinh viên",
+        "VALIDATION_MESSAGE": "Tối thiểu là một sinh viên."
+      },
+      "SECOND_STEP": {
+        "AUTO_DISTRIBUTE": "Phân công",
+        "TABLE": {
+          "STUDENT_CODE": "Mã số sinh viên",
+          "STUDENT_NAME": "Tên sinh viên",
+          "RANKING": "Xếp hạng",
+          "SPECIALIZATION": "Chuyên ngành",
+          "CURRENT_SEMESTER": "Kỳ hiện tại",
+          "STATUS": "Trạng thái",
+          "ACTION": "Chức năng"
+        }
+      }
+    },
+    "FILTER": {
+      "LABEL": {
+        "RANKING": "Xếp loại học tập",
+        "IS_COLLABORATING": "Tình trạng hợp tác",
+        "IS_PROGRESSING": "Có tiến bộ",
+        "NEED_CARE_NEXT": "Cần chăm sóc kỳ theo",
+        "CARE_STATUS": "Trạng thái chăm sóc"
+      },
+      "COLLABORATOR_OPTION": {
+        "APPROVE": "Tiếp nahanj chăm sóc",
+        "REJECT": "Từ chối chăm sóc"
+      },
+      "IS_PROGRESSING_OPTION": {
+        "PROGRESSING": "Có tiến bộ",
+        "NOT_PROGRESSING": "Không có sự tiến bộ"
+      },
+      "NEED_CARE_NEXT_OPTION": {
+        "NEED_CARE": "Có",
+        "NOT_NEED_CARE": "Không"
+      },
+      "CARE_STATUS_OPTION": {
+        "COMPLETE": "Đã chăm sóc thành công",
+        "NOT_ASSIGN": "Chưa được phân công",
+        "TO_DO": "Chuẩn bị chăm sóc",
+        "DOING": "Đang chăm sóc"
+      }
+    },
+    "DASHBOARD": {
+      "TITLE": "Danh sách sinh viên cần chăm sóc tâm lý",
+      "TOTAL": "Tổng số sinh viên cần chăm sóc tâm lý",
+      "STATISTICS": {
+        "TITLE": "Thống kê",
+        "TOTAL_STUDENT": "Tổng số sinh viên",
+        "CURRENT_CARE": "Đang chăm sóc",
+        "COMPLETED_CARE": "Đã chăm sóc",
+        "NOT_CARE": "Chưa chăm sóc",
+        "NOT_ASSIGNED": "Chưa phân công"
+      }
+    },
+    "ADD": {
+      "BUTTON": "Thêm mới",
+      "MODAL": {
+        "TITLE": "Thêm sinh viên",
+        "ADD_MANUAL": "Thêm thủ công",
+        "ADD_AUTOMATIC": "Quét danh sách"
+      }
+    },
+    "TABLE": {
+      "STUDENT_CODE": "Mã sinh viên",
+      "STUDENT_NAME": "Tên sinh viên",
+      "NEED_CARE_NEXT_TERM": "Cần chăm sóc tiếp",
+      "IS_PROGRESSING": "Tiến bộ",
+      "IS_COLLABORATING": "Hợp tác",
+      "CARE_STATUS": "Trạng thái",
+      "ASSIGNMENT": "Cán bộ chăm sóc",
+      "ACTION": "Chức năng",
+      "FINAL_COMMENT": "Đánh giá cuối kì",
+      "UPDATE_ASSIGNMENT": {
+        "TITLE": "Cập nhật cán bộ chăm sóc",
+        "CONFIRM": "Bạn có chắc chắn muốn chuyển cán bộ chăm sóc?"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Thêm sinh viên cần chăm sóc thành công",
+        "UPDATE": "Cập nhật sinh viên cần chăm sóc thành công",
+        "DELETE": "Xóa sinh viên cần chăm sóc thành công",
+        "SCAN": "Quét sinh viên cần chăm sóc thành công",
+        "CONFIRM": "Xác nhận sinh viên cần chăm sóc thành công",
+        "AUTO_ASSIGN": "Tự động phân công thành công",
+        "ANALYZE": "Phân tích thành công",
+        "FINAL_EVALUATE": "Đánh giá cuối kì thành công"
+      },
+      "FAIL": {
+        "ADD": "Thêm sinh viên cần chăm sóc thất bại",
+        "UPDATE": "Cập nhật sinh viên cần chăm sóc thất bại",
+        "DELETE": "Xóa sinh viên cần chăm sóc thất bại",
+        "SCAN": "Quét sinh viên cần chăm sóc thất bại",
+        "AUTO_ASSIGN": "Phân công thất bại",
+        "ANALYZE": "Phân tích thất bại",
+        "FINAL_EVALUATE": "Đánh giá cuối kì thất bại"
+      }
+    }
+  },
+  "STUDENT_NEED_CARE_DETAIL": {
+    "CARE_PROGRESS": {
+      "TITLE": "Đánh giá tiêu chí",
+      "TOTAL_CRITERION": "Tổng tiêu chí đã đánh giá:"
+    },
+    "RATING": {
+      "TITLE": "Đánh giá cuối kì",
+      "RATED": "Đã đánh giá",
+      "NOT_RATED": "Chưa đánh giá",
+      "PROGRESSING": "Tiến bộ trong học tập",
+      "PROGRESSING_NO": "Không",
+      "PROGRESSING_YES": "Có",
+      "COLLABORATOR": "Mức độ hợp tác",
+      "COLLABORATOR_NO": "Chưa tốt",
+      "COLLABORATOR_YES": "Tốt",
+      "NEED_CARE_NEXT_TERM": "Cần chăm sóc kỳ sau",
+      "NEED_CARE_NEXT_TERM_NO": "Không cần",
+      "NEED_CARE_NEXT_TERM_YES": "Cần",
+      "FINAL_COMMENT": "Nhận xét chi tiết",
+      "AUTO_COMMENT": " Đánh giá tự động",
+      "SAVE_COMMENT": "Lưu đánh giá"
+    },
+    "COMPARISON": {
+      "PARAMETER": "Thông số",
+      "TABLE": {
+        "SUBJECT_CODE": "Môn học",
+        "MARK": "Điểm",
+        "ABSENCE_RATE": "Tỷ lệ vắng(%)"
+      }
+    },
+    "PDF": {
+      "BUTTON": "Xuất PDF"
+    },
+    "OVERVIEW": {
+      "TITLE": "Tổng quan học tập",
+      "STATUS": "Trạng thái",
+      "CURRENT_SEMESTER": "Kỳ hiện tại",
+      "GPA": "GPA",
+      "MEDIUM_ABSENCE": "Tỷ lệ vắng TB"
+    },
+    "TAB": {
+      "NEW_SEMESTER": "Thêm kỳ",
+      "TITLE": {
+        "FIRST_TAB": "So sánh kỳ trước",
+        "SECOND_TAB": "Đánh giá cuối kỳ",
+        "THIRD_TAB": "Lịch sử chăm sóc",
+        "FOURTH_TAB": "Đánh giá tiêu chí"
+      }
+    }
+  },
+  "PROGRESS_CRITERION_TYPE": {
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Thêm loại tiêu chí tiến độ thành công",
+        "EDIT": "Sửa loại tiêu chí tiến độ thành công",
+        "UPDATE": "Cập nhật loại tiêu chí tiến độ thành công",
+        "DELETE": "Xóa loại tiêu chí tiến độ thành công"
+      },
+      "FAIL": {
+        "ADD": "Thêm loại tiêu chí tiến độ thất bại",
+        "UPDATE": "Cập nhật loại tiêu chí tiến độ thất bại",
+        "DELETE": "Xóa loại tiêu chí tiến độ thất bại",
+        "EDIT": "Sửa loại tiêu chí tiến độ thất bại"
+      }
+    }
+  },
+  "PROGRESS_CRITERION": {
+    "MODAL": {
+      "BUTTON": "Tiêu chí",
+      "TABLE": {
+        "TITLE": "Tên tiêu chí",
+        "CREATED_AT": "Thời gian tạo",
+        "UPDATED_AT": "Thời gian cập nhật",
+        "ACTION": "Chức năng"
+      },
+      "DELETE_CONFIRM": {
+        "TITLE": "Bạn có chắc chắn muốn xóa tiêu chí này không?",
+        "CONTENT": "Hành động này không thể hoàn tác"
+      },
+      "TITLE": "Quản lí tiêu chí chăm sóc",
+      "ADD": "Thêm mới"
+    },
+    "UPDATE_MODAL": {
+      "TITLE": {
+        "ADD": "Thêm mới tiêu chí chăm sóc",
+        "EDIT": "Cập nhật tiêu chí chăm sóc"
+      },
+      "FORM": {
+        "VIETNAMESE_CONTENT": "Nội dung (Tiếng Việt)",
+        "ENGLISH_CONTENT": "Nội dung (Tiếng Anh)",
+        "VIETNAMESE_DESCRIPTION": "Mô tả (Tiếng Việt)",
+        "ENGLISH_DESCRIPTION": "Mô tả (Tiếng Anh)"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Thêm tiêu chí tiến độ thành công",
+        "UPDATE": "Cập nhật tiêu chí tiến độ thành công",
+        "DELETE": "Xóa tiêu chí tiến độ thành công",
+        "ACTION": "Đánh giá tiêu chí thành công"
+      },
+      "FAIL": {
+        "ADD": "Thêm tiêu chí tiến độ thất bại",
+        "UPDATE": "Cập nhật tiêu chí tiến độ thất bại",
+        "DELETE": "Xóa tiêu chí tiến độ thất bại",
+        "ACTION": "Đánh giá tiêu chí thất bại"
+      }
+    }
+  },
+  "CHATBOT": {
+    "HELP": "Xin chào, bạn cần hỗ trợ gì?",
+    "GET_DATA": "Lấy thông tin của sinh viên có mã",
+    "SEARCH_STUDENT": "Tìm thông tin sinh viên",
+    "SEARCH_STUDENT_GUIDE": "Hãy nhập mã sinh viên của sinh viên bạn muốn tìm kiếm",
+    "USER_GUIDE": "Hướng dẫn sử dụng website",
+    "WAITING": "Hãy đợi trong giây lát",
+    "TITLE": "Chatbot",
+    "START": "Xin chào, tôi là SCS Chatbot",
+    "VIEW_HISTORY": "Xem lịch sử trò chuyện",
+    "ERROR_MESSAGE": "Đã có lỗi xảy ra",
+    "FOOTER_TEXT": "Hỗ trợ bởi FPT Education"
+  },
+  "AI_SETTINGS": {
+    "GENERAL_SETTINGS": "Cấu hình cơ bản",
+    "ENABLE_CHATBOT": "Cấu hình SCS Chabot",
+    "ENABLE_CHATBOT_DESC": "Bật/Tắt SCS Chatbot",
+    "MODEL_SETTINGS": "Cấu hình mô hình LLM",
+    "SELECT_MODEL": "Lựa chọn mô hình LLM",
+    "CURRENT_MODEL": "Mô hình hiện tại",
+    "LAST_UPDATED": "Cập nhật lần cuối: ",
+    "PROVIDER": "Provider",
+    "MODEL_ID": "MODEL_ID",
+    "NO_SETTINGS_FOUND": "Không tìm thấy cấu hình"
+  },
+  "ERROR_PAGE": {
+    "400": {
+      "TITLE": "Yêu cầu không hợp lệ",
+      "DESCRIPTION": "Yêu cầu của bạn không hợp lệ."
+    },
+    "401": {
+      "TITLE": "Chưa xác thực",
+      "DESCRIPTION": "Bạn cần đăng nhập để truy cập trang này."
+    },
+    "403": {
+      "TITLE": "Truy cập bị từ chối",
+      "DESCRIPTION": "Bạn không có quyền truy cập vào trang này."
+    },
+    "404": {
+      "TITLE": "Không tìm thấy trang",
+      "DESCRIPTION": "Trang bạn yêu cầu không tồn tại. Vui lòng kiểm tra URL hoặc quay lại trang chủ."
+    },
+    "500": {
+      "TITLE": "Lỗi máy chủ",
+      "DESCRIPTION": "Đã xảy ra lỗi trên máy chủ. Vui lòng thử lại sau."
+    },
+    "503": {
+      "TITLE": "Dịch vụ không khả dụng",
+      "DESCRIPTION": "Dịch vụ hiện không khả dụng. Vui lòng thử lại sau."
+    },
+    "DEFAULT": {
+      "TITLE": "Đã xảy ra lỗi",
+      "DESCRIPTION": "Đã xảy ra lỗi không mong muốn. Vui lòng thử lại sau."
+    }
+  },
+  "CANCELNOTIFICATION": {
+    "BUTTON_CANCEL": "Hủy bỏ",
+    "BUTTON_CONFIRM": "Xác nhận",
+    "MODAL": {
+      "TITLE": "Hủy gửi thông báo hàng loạt",
+      "CONTENT": "Quá trình gửi hàng loạt sẽ kết thúc, nội dung hiện tại sẽ không được lưu lại. Bạn có chắc muốn hủy bỏ gửi hàng loạt không?"
+    }
+  },
+  "HEADER": {
+    "CONTROL_PANEL": "Bảng điều khiển",
+    "HELP": "Hỗ trợ",
+    "DARK_MODE": "Chế độ tối",
+    "LIGHT_MODE": "Chế độ sáng"
+  },
+  "ATTENDANCE_CHART": {
+    "MODAL": {
+      "TITLE": "Thống kê điểm danh sinh viên",
+      "TOTAL_ABSENCE": "Tổng số buổi vắng mặt (slot)",
+      "ABSENCE_RATE": "Tỷ lệ vắng mặt (%)",
+      "CHART": {
+        "EMAIL_SENT": "Email đã gửi",
+        "ABSENCE_RATE": "Tỷ lệ vắng mặt"
+      }
+    }
+  },
+  "STUDENT_INFO": {
+    "MODAL": {
+      "TITLE": "Thông tin sinh viên",
+      "STUDENT_CODE": "Mã số sinh viên",
+      "STUDENT_NAME": "Tên sinh viên",
+      "EMAIL": "Email",
+      "CLASS": "Lớp học",
+      "MAJOR": "Khối ngành",
+      "GENDER": "Giới tính",
+      "PROGRESS": "Tiến độ học tập",
+      "STATUS": "Trạng thái",
+      "CURRENT_TERM_NO": "Kỳ hiện tại",
+      "SPECIALIZATION": "Chuyên ngành",
+      "MOBILE_PHONE": "Số điện thoại",
+      "PARENT_PHONE": "Số điện thoại phụ huynh",
+      "NO_STUDENT": "Không tìm thấy thông tin học sinh"
+    }
+  },
+  "EMAIL_STUDENT_FAILED": {
+    "TOAST": {
+      "ERROR": "Có lỗi xảy ra"
+    },
+    "MODAL": {
+      "TITLE": "Gửi email"
+    },
+    "FORM": {
+      "SEMESTER": "Lựa chọn kì học",
+      "REQUIRED_SEMESTER": "Kì học không được để trống",
+      "PLACEHOLDER_SEMESTER": "Lựa chọn kì học",
+      "EMAIL_TEMPLATE": "Lựa chọn mẫu email",
+      "REQUIRED_EMAIL_TEMPLATE": "Vui lòng chọn mẫu email",
+      "PLACEHOLDER_EMAIL_TEMPLATE": "Lựa chọn mẫu email"
+    }
+  },
+  "PHONE": {
+    "NOTES": {
+      "SEARCH": "Nhập mã sinh viên cần tìm",
+      "TITLE": "Ghi chú",
+      "UPDATED_AT": "Cập nhật lần cuối",
+      "CONFIRM_DELETE": "Bạn có chắc chắn muốn xóa ghi chú này không?"
+    }
+  },
+  "EXPORT_PDF": {
+    "STUDENT_RECORD": "Báo cáo tình trạng sinh viên qua các kì",
+    "SEMESTER": "Học kỳ:",
+    "ABSENCE_AVERAGE_RATE": "Tỷ lệ vắng TB:",
+    "SUBJECT": "Môn học",
+    "MARK": "Điểm",
+    "ABSENCE_RATE": "Tỷ lệ vắng (%)"
+  }
+}

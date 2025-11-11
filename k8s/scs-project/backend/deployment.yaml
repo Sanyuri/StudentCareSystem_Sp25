@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: scs-backend
+  namespace: scs-project
+  labels:
+    app: scs-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: scs-backend
+  template:
+    metadata:
+      labels:
+        app: scs-backend
+    spec:
+      automountServiceAccountToken: false
+      containers:
+        - name: scs-backend
+          image: tuansondocker1407/capstone-sp-25-backend:latest
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: backend-config
+            - secretRef:
+                name: backend-secrets
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+              ephemeral-storage: "2Gi"
+            requests:
+              memory: "256Mi"
+              cpu: "250m"
+              ephemeral-storage: "1Gi"
+          volumeMounts:
+            - mountPath: /data
+              name: scs-backend-storage
+            - mountPath: /app/Logs
+              name: logs
+          readinessProbe:
+            httpGet:
+              path: /b5f3e3ef-3f2e-4b2f-9a8e-16e0c0379ff2
+              port: 8080
+            initialDelaySeconds: 5
+            periodSeconds: 5
+      volumes:
+        - name: scs-backend-storage
+          emptyDir: {}
+        - name: logs
+          hostPath:
+            path: /var/log/scs-backend
+            type: DirectoryOrCreate

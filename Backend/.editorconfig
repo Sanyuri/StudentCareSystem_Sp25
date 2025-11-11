@@ -1,0 +1,63 @@
+[*.cs]
+
+
+dotnet_diagnostic.CA1862.severity = silent
+
+
+# Indentation and spacing
+indent_style = space                      # Use spaces for indentation
+indent_size = 4                           # Use 4 spaces for indentation
+tab_width = 4                             # Tab width should be 4 spaces
+
+# New line preferences
+insert_final_newline = true               # End files with a newline
+trim_trailing_whitespace = true           # Remove trailing whitespace
+
+#######################
+# Using Directives Sorting
+#######################
+dotnet_sort_system_directives_first = true         # System directives first, then other namespaces
+dotnet_separate_import_directive_groups = true     # Add a blank line between System and other namespaces
+dotnet_remove_unnecessary_usings = true            # Remove unnecessary using statements
+
+#######################
+# C# Coding Conventions
+#######################
+# Namespace preferences
+csharp_style_namespace_declarations = file_scoped:suggestion    # Prefer file-scoped namespaces
+
+# Using directives placement
+csharp_using_directive_placement = outside_namespace:suggestion # Place using directives outside namespace
+
+#######################
+# .NET Coding Conventions
+#######################
+# Namespace match folder structure
+dotnet_style_namespace_match_folder_structure = true   # Namespace should match folder structure
+
+# Expression-level preferences
+dotnet_style_prefer_auto_properties = true:suggestion  # Prefer auto-properties
+dotnet_style_coalesce_expression = true:suggestion     # Prefer null coalescing expressions
+
+# Member access preferences
+dotnet_style_qualification_for_field = false:suggestion      # Prefer unqualified field access
+dotnet_style_qualification_for_property = false:suggestion   # Prefer unqualified property access
+dotnet_style_qualification_for_method = false:suggestion     # Prefer unqualified method calls
+
+#######################
+# Naming Conventions
+#######################
+# Private readonly fields should be camelCase with underscore prefix (_fieldName)
+dotnet_naming_rule.private_fields_should_be_camel_with_underscore.severity = suggestion
+dotnet_naming_rule.private_fields_should_be_camel_with_underscore.symbols = private_fields
+dotnet_naming_rule.private_fields_should_be_camel_with_underscore.style = camel_with_underscore
+
+dotnet_naming_symbols.private_fields.applicable_kinds = field
+dotnet_naming_symbols.private_fields.applicable_accessibilities = private
+dotnet_naming_symbols.private_fields.required_modifiers = readonly
+
+dotnet_naming_style.camel_with_underscore.capitalization = camel_case
+dotnet_naming_style.camel_with_underscore.required_prefix = _
+dotnet_naming_style.camel_with_underscore.required_suffix =
+
+

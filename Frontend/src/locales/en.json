@@ -1,0 +1,1768 @@
+{
+  "COMMON": {
+    "LOADING": "Loading",
+    "FILTER_STUDENTS": "Filter students",
+    "ACTION_DATE": "Action time",
+    "ACTION": "Action",
+    "EXPORT_DATA": "Export data",
+    "CANCEL": "Cancel",
+    "CONFIRM": "Confirm",
+    "SELECT_DATE_RANGE": "Select date range",
+    "CONFIRM_DOWNLOAD_FILE": "Confirm file download",
+    "SELECT_ALL": "Select all",
+    "SEND_EMAIL": "Send email",
+    "SEND_FAP": "Send FAP",
+    "SEARCH_STATUS": "Account status",
+    "TOTAL_RECORDS": "Total: {{total}} records",
+    "EDIT_ACCOUNT": "Edit user account",
+    "EDIT_EMAIL_TEMPLATE": "Edit email template",
+    "DELETE_ACCOUNT": "Delete user account",
+    "DELETE_EMAIL_TEMPLATE": "Delete email template",
+    "JAPANESE": "Japanese",
+    "VIETNAMESE": "Vietnamese",
+    "ENGLISH": "English",
+    "FILTER": "Filter",
+    "TO": "To",
+    "FROM": "From",
+    "CLASS_HINT": "Students in class",
+    "RESET_ACTION": "Reset",
+    "FILTER_ACTION": "Filter",
+    "CONFIRM_DELETE": "Are you sure you want to delete?",
+    "DELETE": "Delete",
+    "CLOSE": "Close",
+    "ADD_NEW": "Add new",
+    "SAVE": "Save",
+    "VIEW_MORE": "View more",
+    "CONTINUE": "Continue",
+    "BACK": "Back",
+    "SUBMIT": "Submit",
+    "DOWNLOAD_EXCEL": "Download Excel template",
+    "EMPTY": "Empty",
+    "ONLY_ONE_LINE_EDITOR": "Cannot edit multiple lines at once",
+    "ONLY_ADD_ONE_LINE_EDITOR": "Cannot add multiple lines at once",
+    "SCAN": "Scan",
+    "REQUIRE_CONTENT": "Content cannot be empty",
+    "MIN_INPUT": "Minimum 1 character",
+    "STUDENT_CODE": "Student ID",
+    "STUDENT_NAME": "Student name",
+    "SPECIALIZED": "Major",
+    "NO_DATA": "No data",
+    "SELECT_SEMESTER": "Select semester",
+    "ERROR": "An error occurred",
+    "NOT_ASSIGNED": "Not assigned",
+    "NEED_SEMESTER": "Please select a semester",
+    "FIELD_REQUIRED": "This field is required",
+    "MIN_LENGTH_2": "Minimum 2 characters",
+    "SEARCH_ROLE": "Search by role",
+    "SAVE_SUCCESS": "Saved successfully",
+    "SAVE_ERROR": "Save failed",
+    "START_DATE": "Start date",
+    "END_DATE": "End date",
+    "SELECT_SEMESTER_PLACEHOLDER": "Select semester",
+    "BACK_HOME": "Back to homepage",
+    "TOTAL_ITEMS": "Total: ",
+    "ALL": "All"
+  },
+  "LAYOUT": {
+    "CURRENT_SEMESTER_STATISTIC": "Statistics by current semester",
+    "CARE_REQUIRED_STUDENT": "Students needing care",
+    "RECORD_ORDER": "Record applications",
+    "STUDENT_FEEDBACK": "Student feedback",
+    "SCAN_INFO": "SCAN INFORMATION",
+    "ATTENDANCE": "Scan student attendance",
+    "RESERVED_STUDENT": "Scan deferred students",
+    "FAILED_STUDENT": "Scan students failing subjects",
+    "MANAGE": "MANAGE",
+    "EMAIL_TEMPLATES": "Email templates",
+    "STAFF_ACCOUNTS": "Staff accounts",
+    "MAJOR_DISTRIBUTION": "Major distribution",
+    "EXEMPT_SUBJECTS": "Attendance-exempt subjects",
+    "ACTIVITY_LOG": "Activity log",
+    "PERMISSION": "Permission management",
+    "SETTING": "Settings",
+    "LOGOUT": "Logout",
+    "HIDE_SIDER": "Hide sidebar",
+    "DISPLAY_SIDER": "Show sidebar",
+    "CAMPUS": "Campus",
+    "SPECIALIZED_MANAGEMENT": "Major management",
+    "CHANGE_EMAIL": "Change email",
+    "CALL_HISTORY": "Call history",
+    "STUDENT_MANAGEMENT": "Student management",
+    "APPLICATION_TYPE": "Application type management",
+    "NOTES_MANAGEMENT": "Notes management",
+    "EMAIL_LOG": "Sent email list",
+    "DASHBOARD": "Dashboard",
+    "SEE_MORE": "See more",
+    "SEE_LESS": "See less",
+    "STUDENT_FAILED_COURSE": "Students failing subjects",
+    "PSYCHOLOGY_MANAGEMENT": "Psychological care",
+    "PSYCHOLOGY_NOTE": "Psychological notes list",
+    "UNKNOWN_STUDENT": "Unknown students",
+    "AI_SETTINGS": "AI settings"
+  },
+  "ATTENDANCES": {
+    "SCAN_HISTORY": "Scan history",
+    "STUDENT_SEARCH_TERM": "Search by student name or ID",
+    "FILTER": {
+      "ABSENT_RATE": "Absence rate (%)",
+      "TOTAL_SLOT": "Total sessions",
+      "SUBJECT_CODE": "Subject code",
+      "ABSENT_MIN_RATE": "Minimum rate",
+      "ABSENT_MAX_RATE": "Maximum rate",
+      "CLASS": "Class",
+      "TOTAL_ABSENT": "Total absences",
+      "SEMESTER": "Semester",
+      "SEMESTER_SEARCH": "Semester to search",
+      "MAJOR": "Major",
+      "MAJOR_HINT": "Select major",
+      "SENT_MAIL": "Select email sending period",
+      "NOTE": "Note",
+      "TRENDS": "Absence trends",
+      "INCREASE": "Increase",
+      "DECREASE": "Decrease"
+    },
+    "ATTENDANCE_OPTIONS": {
+      "ALL": "All",
+      "NO_SEND_MAIL": "No email needed",
+      "NEED_SEND_MAIL": "Email needed",
+      "GROUP_ENG": "ENG group",
+      "GROUP_CN": "CN group",
+      "GROUP_ABSENT": "Absent group",
+      "SECTOR": "Field of study"
+    },
+    "EXPORT_OPTIONS": {
+      "YESTERDAY_REMINDERS": "Export reminders from yesterday",
+      "TODAY_REMINDERS": "Export reminders from today",
+      "SEMESTER_REMINDERS": "Export reminders in semester",
+      "EXCEED_ABSENCE_RATE_REMINDERS": "Export exceeding 20% absence",
+      "SEMESTER_REMINDERS_COURSE": "Export reminders in semester (by course)",
+      "YEAR_REMINDERS": "Export reminders in year",
+      "ENG_STUDENTS": "Export ENG group students",
+      "CN_STUDENTS": "Export CN group students",
+      "PREVIOUS_COURSE_REMINDERS": "Export reminders from previous semester",
+      "UPDATED_TODAY": "Export students updated today"
+    },
+    "TABLE_COLUMN": {
+      "STUDENT_NAME": "Student name",
+      "STUDENT_ID": "Student ID",
+      "LAST_EMAIL_SENT": "Email sending history",
+      "CLASS": "Class",
+      "PHONE": "Phone number",
+      "MAJOR": "Major",
+      "SEMESTER": "Semester",
+      "CURRENT_TERM": "Current term",
+      "UPDATE_PERIOD": "Update",
+      "EXPIRED_COURSE": "Subject",
+      "ACTION": "Function"
+    },
+    "RATE_BOUNDARY": {
+      "TABLE": {
+        "NO": "No.",
+        "MIN_RATE": "Minimum rate",
+        "MAX_RATE": "Maximum rate",
+        "SELECT_EMAIL_SAMPLE": "Select email template type",
+        "IS_ACTIVE": "Active",
+        "ACTION": "Action",
+        "ENTER_MIN": "Enter minimum rate",
+        "ENTER_MAX": "Enter maximum rate",
+        "MIN_REQUIRE": "Minimum rate is required!",
+        "MAX_REQUIRE": "Maximum rate is required!",
+        "SELECT_MAIL_REQUIRE": "Please select an email template"
+      },
+      "GUIDE_NOTE": "Attendance rate must be ≥ Minimum rate and < Maximum rate to send email.",
+      "MODAL": {
+        "SETTING_SEND_MAIL": "Configure email sending rate"
+      },
+      "TOAST": {
+        "ADD_SUCCESS": "Added successfully",
+        "ADD_FAIL": "Add failed",
+        "EDIT_SUCCESS": "Edited successfully",
+        "EDIT_FAIL": "Edit failed",
+        "DELETE_SUCCESS": "Deleted successfully",
+        "DELETE_FAIL": "Delete failed"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "SCAN": "Updated successfully"
+      },
+      "ERROR": {
+        "SCAN": "Update failed"
+      }
+    }
+  },
+  "PERMISSIONS": {
+    "SYNC_ACCOUNTS_TOOLTIP": "Synchronize permissions for each account by role",
+    "SYNC_ACCOUNTS": "Synchronize permissions",
+    "SYNC_PERMISSIONS": "Synchronize permissions",
+    "SYNC_CONFIRMATION": "Are you sure you want to synchronize?",
+    "SYNC_WARNING": "Note: This action will override all current permissions of Staff and Manager accounts. Special permissions granted individually to accounts will be lost.",
+    "TOAST": {
+      "SUCCESS": {
+        "EDIT": "Permission updated successfully"
+      },
+      "ERROR": {
+        "EDIT": "Permission update failed"
+      }
+    },
+    "OVERALL_PERMISSION_COVERAGE": "Overview",
+    "PERMISSIONS_GRANTED": "Permissions granted",
+    "OUT_OF": "Permissions not granted",
+    "TOTAL": "Total",
+    "PERMISSION": "Permission name",
+    "CATEGORY": "Category",
+    "PERMISSION_COMPARISON": "Permission comparison",
+    "COMPARE_PERMISSIONS": "Compare permissions between roles",
+    "NO_ROLE_SELECTED": "Please select at least one permission",
+    "ROLE_NOT_FOUND": "Role not found",
+    "ROLE_PERMISSION_MANAGEMENT": "Permission management",
+    "MANAGE_ACCESS_PERMISSIONS": "Manage access permissions",
+    "PERMISSIONS": "Permissions",
+    "STATISTICS": "Statistics",
+    "STANDARD_ACCESS": "Permissions for staff",
+    "EXTENDED_ACCESS": "Permissions for managers",
+    "PERMISSION_COVERAGE": "Percentage of permissions granted",
+    "ALL": "All",
+    "NONE": "Deselect",
+    "MANAGEMENT": "Management",
+    "DESELECT_ALL": "Deselect all",
+    "SELECT_ALL": "Select all",
+    "SAVE_PERMISSIONS": "Save permissions",
+    "SEARCH_PERMISSIONS": "Search permissions",
+    "OF_TOTAL_PERMISSIONS": "Permissions",
+    "GROUPS": {
+      "STUDENT": "Student",
+      "STUDENTSUBJECTATTENDANCEFREE": "Attendance-exempt subjects",
+      "STUDENTPOINT": "Student grades",
+      "STUDENTCARE": "Student care",
+      "ROLE": "Role",
+      "PSYCHOLOGICALNOTE": "Psychological note",
+      "STUDENTNOTE": "Student note",
+      "STUDENTPSYCHOLOGY": "Student psychological care",
+      "STUDENTAPPLICATION": "Record applications",
+      "STUDENTCARETYPE": "Care type",
+      "APPSETTING": "System configuration",
+      "STUDENTCAREASSIGNMENT": "Student care assignment",
+      "APPLICATIONTYPE": "Application types",
+      "EMAILSAMPLE": "Email template",
+      "ACTIVITY": "Activity",
+      "STUDENTDEFER": "Deferred students",
+      "STUDENTSUBJECT": "Student subjects",
+      "EMAILLOG": "Email log",
+      "MAJOR": "Major",
+      "ABSENCERATEBOUNDARY": "Absence rate boundary",
+      "NOTETYPE": "Note type",
+      "SCANDATA": "Scan student data",
+      "USER": "User",
+      "PERMISSION": "Permission list",
+      "STUDENTATTENDANCE": "Attendance data"
+    }
+  },
+  "ROLE": {
+    "ADMIN": "Administrator",
+    "OFFICER": "Staff",
+    "MANAGER": "Manager"
+  },
+  "ACTIVITIES": {
+    "ACTIVITY_SEARCH_TERM": "Search by performing account",
+    "TABLE_COLUMN": {
+      "CREATED_AT": "Action time",
+      "USER_NAME": "Performing account",
+      "FULL_NAME": "Staff name",
+      "ROLE": "Role",
+      "ACTIVITY_TYPE_NAME": "Action",
+      "DESCRIPTION": "Detailed content"
+    },
+    "ACTIVITIES_OPTIONS": {
+      "ALL": "All actions",
+      "LOGIN": "Login",
+      "LOGOUT": "Logout",
+      "SEND_EMAIL": "Send email",
+      "NOTE": "Note",
+      "APPLICATION": "Application",
+      "EMAILSAMPLE": "Email template",
+      "FREESUBJECT": "Attendance-exempt subject",
+      "USER": "Account",
+      "TODAY": "Today",
+      "THIS_WEEK": "This week",
+      "THIS_MONTH": "This month",
+      "THIS_YEAR": "This year",
+      "DATE_RANGE": "Date range"
+    }
+  },
+  "APPLICATIONS": {
+    "APPLICATION_SEARCH_TERM": "Search by student ID",
+    "APPLICATION_STATUS": "Application type",
+    "APPLICATION_TYPE": "Document type",
+    "APPLICATION_DATE": "Date range",
+    "TABLE_COLUMN": {
+      "STUDENT_CODE": "Student ID",
+      "STUDENT_NAME": "Student name",
+      "APPLICATION_TYPE": "Document type",
+      "DATE_RECEIVED": "Date received",
+      "DUE_DATE": "Due date",
+      "APPLICATION_STATUS": "Application type"
+    },
+    "APPLICATIONS_OPTIONS": {
+      "ALL": "All documents",
+      "LOGIN": "Login",
+      "LOGOUT": "Logout",
+      "SEND_EMAIL": "Send email",
+      "NOTE": "Note",
+      "TODAY": "Today",
+      "THIS_WEEK": "This week",
+      "THIS_month": "This month",
+      "THIS_YEAR": "This year",
+      "DATE_RANGE": "Date range",
+      "ALL_STATUS": "All",
+      "RECEIVE": "Received",
+      "RETURN": "Returned"
+    },
+    "APPLICATION_STATUS_OPTIONS": {
+      "RECEIVE": "Receive",
+      "RETURN": "Return"
+    }
+  },
+  "ACCOUNTS": {
+    "LABEL": {
+      "ADD_ACCOUNT": "Add new account",
+      "EDIT_ACCOUNT": "Edit account",
+      "NULL_DATA": "No data"
+    },
+    "FORM": {
+      "LABEL": {
+        "ADD_NEW_ACCOUNT": "Add new user account",
+        "EDIT_ACCOUNT": "Edit user account",
+        "DETAIL_ACCOUNT": "Staff account details",
+        "EMAIL_ACCOUNT": "Staff email",
+        "FULL_NAME": "Staff full name",
+        "ROLE": "Role",
+        "MAJORS": "Majors to care for",
+        "ALL_MAJORS": "All majors",
+        "PERMISSIONS": "Function usage permissions",
+        "STATUS": "Account status",
+        "ACTIVE": "Active",
+        "INACTIVE": "Inactive",
+        "CREATED_TIME": "Created time",
+        "UPDATED_TIME": "Last updated time",
+        "ACTION": "Function"
+      },
+      "DELETE_CONFIRMATION": {
+        "TITLE": "Delete staff account <span class='font-bold'>{{fullName}}</span> from the list?",
+        "CONTENT": "Are you sure you want to delete? This action cannot be undone"
+      },
+      "VALIDATION_MESSAGE": {
+        "MIN_NAME": "Full name must have at least 6 characters",
+        "NULL_EMAIL": "Please enter email",
+        "INVALID_EMAIL": "Please enter a valid email address",
+        "NULL_NAME": "Please enter full name",
+        "NULL_ROLE": "Please select a role",
+        "NULL_MAJOR": "Please select majors to care for",
+        "NULL_PERMISSION": "Please select functions",
+        "NULL_STATUS": "Please select status",
+        "INVALID_EMAIL_DOMAIN": "Email must have @fpt.edu.vn or @fe.edu.vn domain"
+      }
+    },
+    "ACCOUNTS_SEARCH_TERM": "Search by name or email",
+    "ACCOUNTS_OPTIONS": {
+      "ALL": "All statuses",
+      "INACTIVE": "Inactive",
+      "ACTIVE": "Active"
+    },
+    "MESSAGE": {
+      "CANNOT_EDIT_ACCOUNT": "Insufficient permissions to edit this account"
+    }
+  },
+  "EMAILTEMPLATES": {
+    "CLUSTER_PARAMETER_BUTTON": "Parameter cluster",
+    "MODAL": {
+      "TITLE": {
+        "ADD": "Add email template",
+        "EDIT": "Edit email template"
+      }
+    },
+    "EMAILTEMPLATES_OPTIONS": {
+      "ATTENDANCENOTIFICATION": "Attendance notification",
+      "DEFERNOTIFICATION": "Deferment notification",
+      "FAILEDSUBJECTNOTIFICATION": "Failed subject notification",
+      "UNKNOWN": "Unknown",
+      "APPLICATIONNOTIFICATION": "Application notification"
+    },
+    "ADD_TEMPLATE": "Add email template",
+    "TEMPLATE_SEARCH_TERM": "Search by subject name",
+    "TABLE_COLUMN": {
+      "SUBJECT": "Subject",
+      "CREATED_AT": "Created time",
+      "LAST_MODIFIED_AT": "Last updated time",
+      "ACTION": "Function",
+      "CC_EMAILS": "Cc",
+      "BCC_EMAILS": "Bcc",
+      "REPLY_TO_EMAIL": "Reply to email"
+    },
+    "FORM": {
+      "LABEL": {
+        "ADD_NEW_EMAILTEMPLATE": "Add new email template",
+        "DETAIL_EMAILTEMPLATE": "Email template details",
+        "SUBJECT": "Subject",
+        "TYPE": "Email template type",
+        "CONTENT": "Content",
+        "CREATED_TIME": "Created time",
+        "UPDATED_TIME": "Last updated time",
+        "EDIT": "Edit email template",
+        "CC_EMAILS": "Cc",
+        "BCC_EMAILS": "Bcc",
+        "REPLY_TO_EMAIL": "Reply to email"
+      },
+      "VALIDATION_MESSAGE": {
+        "REQUIRED": {
+          "SUBJECT": "Please enter email subject",
+          "TYPE": "Please select email template type",
+          "CONTENT": "Please enter email content",
+          "REPLY_TO_EMAIL": "Please enter reply-to email"
+        }
+      },
+      "PLACEHOLDER": {
+        "SUBJECT": "Enter subject",
+        "CONTENT": "Enter content",
+        "REPLY_TO_EMAIL": "Reply to email"
+      },
+      "BUTTON": {
+        "PARAMETERS": "Parameters"
+      },
+      "DELETE_CONFIRMATION": {
+        "TITLE": "Delete email template [<span class='font-bold'>{{subject}}</span>] from the list?",
+        "CONTENT": "Are you sure you want to delete? This action cannot be undone"
+      }
+    },
+    "POPOVER": {
+      "PARAMETERS": {
+        "TITLE": "Parameter usage guide",
+        "PARAMETER_DESCRIPTION": "Optimize email writing time by using parameters to automatically replace appropriate content.",
+        "STUDENT_NAME": "Student name",
+        "STUDENT_CODE": "Student ID",
+        "CLASS": "Class",
+        "MAJOR": "Major",
+        "EMAIL": "Email",
+        "GENDER": "Gender",
+        "CURRENT_TERM": "Current term",
+        "SPECIALIZATION": "Specialization",
+        "MOBILE_PHONE": "Phone number",
+        "PARENT_PHONE": "Parent phone number",
+        "CLASS_NAME": "Class name",
+        "SEMESTER_NAME": "Semester name",
+        "SUBJECT": "Subject",
+        "AVERAGE_MARK": "Average mark",
+        "FAIL_REASON": "Reason for failure",
+        "TOTAL_ABSENCES": "Total absences",
+        "TOTAL_SLOTS": "Total sessions",
+        "ABSENCE_RATE": "Absence rate",
+        "DESCRIPTION": "Description",
+        "DEFER_SEMESTER": "Deferred semester",
+        "DEFERMENT_DATE": "Deferment registration date",
+        "START_DATE": "Start date",
+        "END_DATE": "End date",
+        "STUDENT_CODE_DESCRIPTION": "The system will automatically replace it with the student ID of the student receiving the email",
+        "STUDENT_NAME_DESCRIPTION": "The system will automatically replace it with the name of the student receiving the email",
+        "CLASS_DESCRIPTION": "The system will automatically replace it with the class name of the student receiving the email",
+        "MAJOR_DESCRIPTION": "The system will automatically replace it with the major name of the student receiving the email",
+        "EMAIL_DESCRIPTION": "The system will automatically replace it with the email of the student receiving the email",
+        "GENDER_DESCRIPTION": "The system will automatically replace it with the gender of the student receiving the email",
+        "CURRENT_TERM_DESCRIPTION": "The system will automatically replace it with the current term of the student receiving the email",
+        "SPECIALIZATION_DESCRIPTION": "The system will automatically replace it with the specialization of the student receiving the email",
+        "MOBILE_PHONE_DESCRIPTION": "The system will automatically replace it with the mobile phone number of the student receiving the email",
+        "PARENT_PHONE_DESCRIPTION": "The system will automatically replace it with the parent phone number of the student receiving the email",
+        "CLASS_NAME_DESCRIPTION": "The system will automatically replace it with the course class name of the student receiving the email",
+        "SEMESTER_NAME_DESCRIPTION": "The system will automatically replace it with the semester name of the student receiving the email",
+        "SUBJECT_DESCRIPTION": "The system will automatically replace it with the subject name of the student receiving the email",
+        "AVERAGE_MARK_DESCRIPTION": "The system will automatically replace it with the student's average mark for the subject",
+        "FAIL_REASON_DESCRIPTION": "The system will automatically replace it with the reason why the student failed the subject",
+        "TOTAL_ABSENCES_DESCRIPTION": "The system will automatically replace it with the total absences of the student receiving the email",
+        "TOTAL_SLOTS_DESCRIPTION": "The system will automatically replace it with the total sessions of the student receiving the email",
+        "ABSENCE_RATE_DESCRIPTION": "The system will automatically replace it with the absence rate of the student receiving the email",
+        "DESCRIPTION_DESCRIPTION": "The system will automatically replace it with the description of the student receiving the email",
+        "DEFER_SEMESTER_DESCRIPTION": "The system will automatically replace it with the deferred semester of the student receiving the email",
+        "DEFERMENT_DATE_DESCRIPTION": "The system will automatically replace it with the deferment registration date of the student",
+        "START_DATE_DESCRIPTION": "The system will automatically replace it with the deferment start date of the student receiving the email",
+        "END_DATE_DESCRIPTION": "The system will automatically replace it with the deferment end date of the student receiving the email"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Email template added successfully",
+        "UPDATE": "Email template updated successfully",
+        "DELETE": "Email template deleted successfully"
+      },
+      "ERROR": {
+        "ADD": "Failed to add email template",
+        "UPDATE": "Failed to update email template",
+        "DELETE": "Failed to delete email template"
+      }
+    }
+  },
+  "SUB_EMAIL": {
+    "MODAL": {
+      "BUTTON": {
+        "MANAGE": "Configure parameter cluster",
+        "ADD": "Add parameter cluster",
+        "CANCEL": "Cancel",
+        "DETAIL": "Parameter cluster details",
+        "EDIT": "Edit parameter cluster"
+      },
+      "TITLE": "Parameter cluster management"
+    },
+    "PLACEHOLDER": "Search by parameter cluster name",
+    "NAME": {
+      "LABEL": "Parameter cluster name",
+      "PLACEHOLDER": "Enter parameter cluster name",
+      "ERROR": "Parameter cluster name cannot be empty"
+    },
+    "EMAIL_TYPE": "Email template type",
+    "DESCRIPTION": "Description",
+    "DESCRIPTION_ENGLISH": {
+      "LABEL": "Description in English",
+      "PLACEHOLDER": "Description in English",
+      "ERROR": "Description cannot be empty"
+    },
+    "DESCRIPTION_VIETNAM": {
+      "LABEL": "Description in Vietnamese",
+      "PLACEHOLDER": "Description in Vietnamese",
+      "ERROR": "Description cannot be empty"
+    },
+    "CONTENT": {
+      "LABEL": "Content",
+      "ERROR": "Content cannot be empty"
+    },
+    "DELETE": {
+      "CONFIRM": "Delete parameter cluster type [<span class='font-bold'>{{subject}}</span>] from the list?"
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Parameter cluster added successfully",
+        "UPDATE": "Parameter cluster updated successfully",
+        "DELETE": "Parameter cluster deleted successfully"
+      },
+      "ERROR": {
+        "ADD": "Failed to add parameter cluster",
+        "UPDATE": "Failed to update parameter cluster",
+        "DELETE": "Failed to delete parameter cluster"
+      }
+    },
+    "COLUMN": {
+      "NAME": "Name",
+      "EMAIL_TYPE": "Email type",
+      "CONTENT": "Content",
+      "DESCRIPTION": "Description",
+      "ACTION": "Action"
+    }
+  },
+  "APPLICATION": {
+    "CREATE_FORM": {
+      "TITLE": "Add new application",
+      "EMAIL_SECTION_TITLE": "Email sending content",
+      "STUDENT_INFO_TITLE": "Student information",
+      "FORM": {
+        "DOCUMENT_TYPE": "Document type",
+        "DOCUMENT_TYPE_PLACEHOLDER": "Select document type",
+        "EMAIL_TEMPLATE": "Email template",
+        "EMAIL_TEMPLATE_PLACEHOLDER": "Default",
+        "EMAIL_SUBJECT": "Subject",
+        "EMAIL_SUBJECT_PLACEHOLDER": "Enter subject",
+        "EMAIL_CONTENT": "Content",
+        "EMAIL_CONTENT_PLACEHOLDER": "Enter content to send",
+        "STUDENT_ID": "Student ID",
+        "STUDENT_ID_PLACEHOLDER": "Enter student ID",
+        "STUDENT_NAME": "Student full name",
+        "STUDENT_NAME_PLACEHOLDER": "Auto-filled when student ID is locked",
+        "STUDENT_EMAIL": "Student email",
+        "STUDENT_EMAIL_PLACEHOLDER": "Auto-filled when student ID is locked",
+        "CONFIRM_BUTTON": "Confirm",
+        "CANCEL_BUTTON": "Cancel"
+      },
+      "RADIO": {
+        "RECEIVE": "Receive",
+        "RETURN": "Return"
+      },
+      "SUCCESS": "Application added successfully",
+      "FAIL": "Failed to add application"
+    },
+    "MODAL": {
+      "DELETE": "Delete application"
+    }
+  },
+  "LOGIN": {
+    "LOGIN": "Login",
+    "LOGIN_SUCCESS": "Login successful",
+    "LOGIN_FAIL": "Login failed",
+    "WELCOME": "Welcome back! Please enter your information",
+    "CAMPUS": "Campus",
+    "RULES": {
+      "CAMPUS": "Please select a campus before logging in",
+      "RECAPTCHA": "Please verify reCAPTCHA"
+    },
+    "PLACEHOLDER": "Select campus"
+  },
+  "TOAST": {
+    "SUCCESS": {
+      "ACCOUNT": {
+        "ADD": "Account added successfully",
+        "UPDATE": "Account updated successfully",
+        "DELETE": "Account deleted successfully"
+      }
+    },
+    "ERROR": {
+      "ACCOUNT": {
+        "ADD": "Failed to add account",
+        "UPDATE": "Failed to update account",
+        "DELETE": "Failed to delete account"
+      },
+      "LOGIN": {
+        "INVALID_ACCOUNT": "Invalid account information. Please try again"
+      },
+      "NOTIFY": {
+        "TRY_AGAIN": "An error occurred, please try again"
+      }
+    }
+  },
+  "STUDENTS": {
+    "SCAN_HISTORY": "Update history",
+    "STUDENT_SEARCH_TERM": "Search by student name or ID",
+    "FILTER": {
+      "CLASS": "Class",
+      "SEMESTER": "Current semester",
+      "SEMESTER_SEARCH": "Semester to search",
+      "MAJOR": "Major",
+      "MAJOR_HINT": "Select major",
+      "PROGRESS": "Status",
+      "PROGRESS_SEARCH": "Select status"
+    },
+    "TABLE_COLUMN": {
+      "STUDENT_NAME": "Student name",
+      "STUDENT_CODE": "Student ID",
+      "CLASS": "Class",
+      "EMAIL": "Email",
+      "MAJOR": "Major",
+      "PHONE": "Phone number",
+      "PARENT_PHONE": "Parent phone number",
+      "SPECIALIZATION": "Specialization",
+      "SEMESTER": "Current semester",
+      "GENDER": "Gender",
+      "Status": "Status"
+    },
+    "PROGRESS": {
+      "TH": "Dropped out",
+      "HL": "Retake",
+      "HD": "Progressing",
+      "CO": "Waiting",
+      "BL": "Deferred",
+      "TF": "Transferred",
+      "G": "Graduated",
+      "KTN": "Not graduated"
+    }
+  },
+  "DEFERS": {
+    "ALL": "All",
+    "SEARCH_TERM": "Search",
+    "DEFERS_TWO_TERMS": "Deferred for 2 terms",
+    "SELECT_DEFERRED_SEMESTER": "Select semester",
+    "TABLE_COLUMN": {
+      "LAST_EMAIL_SENT": "Email sending history",
+      "DEFERMENT_DATE": "Deferment application date",
+      "DEFERMENT_PERIOD": "Deferment period",
+      "DEFERMENT_TYPE": "Deferment type",
+      "DESCRIPTION": "Description",
+      "REASON": "Reason",
+      "STATUS": "Status",
+      "ACTION": "Function"
+    },
+    "DEFER_BUTTON": "Send email",
+    "DEFER_STATUS": {
+      "APPROVED": "Approved",
+      "CANCELLED": "Cancelled"
+    },
+    "DEFER_MAIL": {
+      "SUCCESS": "Email sent successfully",
+      "FAIL": "Failed to send email"
+    }
+  },
+  "APPLICATION_TYPE": {
+    "TEMPLATE_SEARCH_TERM": "Search by application type name",
+    "ADD_APPLICATION_TYPE": "Add new application type",
+    "TABLE_COLUMN": {
+      "APPLICATION_TYPE_NAME": "Application type name",
+      "CREATED_AT": "Created time",
+      "LAST_MODIFIED_AT": "Last updated time",
+      "ACTION": "Function"
+    },
+    "FORM": {
+      "ADD_NEW_APPLICATION_TYPE": "Add new application type",
+      "EDIT_APPLICATION_TYPE": "Edit application type",
+      "DETAIL_APPLICATION_TYPE": "Application type details",
+      "LABEL": {
+        "ENGLISH_NAME": "Application type name (English)",
+        "VIETNAMESE_NAME": "Application type name (Vietnamese)",
+        "SUBJECT": "Application type",
+        "TYPE": "Email template type",
+        "CONTENT": "Content",
+        "CREATED_TIME": "Created time",
+        "UPDATED_TIME": "Last updated time",
+        "EDIT": "Edit application type"
+      },
+      "VALIDATION_MESSAGE": {
+        "REQUIRED": {
+          "VIETNAMESE_NAME": "Please enter application type name (Vietnamese)",
+          "ENGLISH_NAME": "Please enter application type name (English)"
+        }
+      },
+      "PLACEHOLDER": {
+        "VIETNAMESE_NAME": "Enter application type name (Vietnamese)",
+        "ENGLISH_NAME": "Enter application type name (English)"
+      },
+      "DELETE_CONFIRMATION": {
+        "TITLE": "Delete application type [<span class='font-bold'>{{subject}}</span>] from the list?",
+        "CONTENT": "Are you sure you want to delete? This action cannot be undone"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Application type added successfully",
+        "UPDATE": "Application type updated successfully",
+        "DELETE": "Application type deleted successfully"
+      },
+      "ERROR": {
+        "ADD": "Failed to add application type",
+        "UPDATE": "Failed to update application type",
+        "DELETE": "Failed to delete application type"
+      }
+    }
+  },
+  "SUBJECT": {
+    "COMMON": {
+      "DELETE_SUBJECT": "Delete attendance-exempt subject",
+      "EDIT_SUBJECT": "Edit attendance-exempt subject"
+    },
+    "TEMPLATE_SEARCH_TERM": "Search by subject code or name",
+    "ADD_SUBJECT": "Add new attendance-exempt subject",
+    "SELECT_SUBJECT": "Selected subject",
+    "TABLE_COLUMN": {
+      "SUBJECT_NAME": "Attendance-exempt subject name",
+      "VIETNAMESE_SUBJECT_NAME": "Subject name in Vietnamese",
+      "ENGLISH_SUBJECT_NAME": "Subject name in English",
+      "SUBJECT_CODE": "Subject code",
+      "SUBJECT_GROUP": "Major group",
+      "CREATED_AT": "Created time",
+      "LAST_MODIFIED_AT": "Last updated time",
+      "ACTION": "Function"
+    },
+    "FORM": {
+      "ADD_NEW_SUBJECT": "Add new attendance-exempt subject",
+      "EDIT_SUBJECT": "Edit attendance-exempt subject",
+      "DETAIL_SUBJECT": "Attendance-exempt subject details",
+      "LABEL": {
+        "ENGLISH_NAME": "Attendance-exempt subject name (English)",
+        "VIETNAMESE_NAME": "Attendance-exempt subject name (Vietnamese)",
+        "SUBJECT": "Attendance-exempt subject",
+        "TYPE": "Email template type",
+        "CONTENT": "Content",
+        "CREATED_TIME": "Created time",
+        "UPDATED_TIME": "Last updated time",
+        "EDIT": "Edit attendance-exempt subject"
+      },
+      "VALIDATION_MESSAGE": {
+        "REQUIRED": {
+          "VIETNAMESE_NAME": "Please enter attendance-exempt subject name (Vietnamese)",
+          "ENGLISH_NAME": "Please enter attendance-exempt subject name (English)"
+        }
+      },
+      "PLACEHOLDER": {
+        "VIETNAMESE_NAME": "Enter attendance-exempt subject name (Vietnamese)",
+        "ENGLISH_NAME": "Enter attendance-exempt subject name (English)"
+      },
+      "DELETE_CONFIRMATION": {
+        "TITLE": "Delete attendance-exempt subject [<span class='font-bold'>{{subject}}</span>] from the list?",
+        "CONTENT": "Are you sure you want to delete? This action cannot be undone"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Attendance-exempt subject added successfully",
+        "UPDATE": "Attendance-exempt subject updated successfully",
+        "DELETE": "Attendance-exempt subject deleted successfully"
+      },
+      "ERROR": {
+        "ADD": "Failed to add attendance-exempt subject",
+        "UPDATE": "Failed to update attendance-exempt subject",
+        "DELETE": "Failed to delete attendance-exempt subject"
+      }
+    }
+  },
+  "EMAILS_INPUT": {
+    "FORM": {
+      "INVALID": "Invalid email format",
+      "DUPLICATED": "Email is currently duplicated"
+    }
+  },
+  "NOTE": {
+    "ADD_FORM": {
+      "CREATE": "Add note for",
+      "LABEL": "Content",
+      "REQUIRE_CONTENT": "Content cannot be empty",
+      "REQUIRE_MIN__CONTENT": "Must have at least 1 character",
+      "PLACEHOLDER": "Enter note",
+      "DETAIL_CONTENT": "Content details",
+      "CREATE_AT": "Created at:",
+      "SEMESTER": "Semester:",
+      "STUDENT_CODE": "Student ID",
+      "ADDITIONAL_INFO": "Additional note",
+      "CHANNEL": "Channel",
+      "PROCESSING_TIME": "Processing time",
+      "CHANNEL_PLACEHOLDER": "Enter channel",
+      "PROCESSING_TIME_PLACEHOLDER": "Enter processing time"
+    },
+    "MANAGE_NOTE": {
+      "DELETE": {
+        "TITLE": "Are you sure you want to delete this note?",
+        "CONTENT": "This action cannot be undone",
+        "SUCCESS": "Note deleted successfully",
+        "FAIL": "Failed to delete note"
+      },
+      "UPDATE": {
+        "SUCCESS": "Note updated successfully",
+        "FAIL": "Failed to update note"
+      },
+      "VIEW": {
+        "MODAL_TITLE": "Note for",
+        "ADD_BUTTON": "Add new"
+      }
+    },
+    "IMPORT": {
+      "STEP": {
+        "FIRST": "Upload",
+        "FIRST_DESCRIPTION": "Upload to the system",
+        "SECOND": "Preview data",
+        "SECOND_DESCRIPTION": "Check data"
+      },
+      "BUTTON": "Import file",
+      "MODAL": {
+        "TITLE": "Add data via Excel"
+      },
+      "DRAGGER": {
+        "GUIDE": "Select a file or drag and drop it here.",
+        "MAXIMUM_SUPPORT": "Supported formats: XLSX, CSV.",
+        "CHOOSE_FILE": "Choose file"
+      },
+      "TABLE": {
+        "INDEX": "No.",
+        "STUDENT_CODE": "Student ID",
+        "STUDENT_NAME": "Full name",
+        "CARE_TYPE": "Care type",
+        "CARE_CONTENT": "Care content",
+        "SEMESTER": "Semester",
+        "CARE_OFFICER": "Care officer",
+        "CHANNEL": "Channel",
+        "PROCESS_TIME": "Processing time",
+        "PLACEHOLDER": {
+          "SEMESTER": "Select semester",
+          "CARE_TYPE": "Select care type"
+        },
+        "RULE": {
+          "STUDENT_CODE": "Please select student ID",
+          "INVALID_TYPE": "Invalid type: ",
+          "CARE_TYPE": "Please select care type",
+          "CARE_CONTENT": "Care content cannot be empty",
+          "SEMESTER": "Please select semester",
+          "INVALID_SEMESTER": "Invalid type: ",
+          "OFFICER": "Care officer cannot be empty"
+        }
+      }
+    },
+    "TOAST": {
+      "ADD_SUCCESS": "Note added successfully",
+      "ADD_FAIL": "Failed to add note",
+      "EDIT_SUCCESS": "Note edited successfully",
+      "EDIT_FAIL": "Failed to edit note",
+      "DELETE_SUCCESS": "Note deleted successfully",
+      "DELETE_FAIL": "Failed to delete note"
+    }
+  },
+  "NOTE_TYPE": {
+    "BUTTON": {
+      "OPEN": "Note type"
+    },
+    "TABLE_COLUMN": {
+      "NAME": "Note type name",
+      "TIME_CREATE": "Created time",
+      "TIME_UPDATE": "Last updated time",
+      "ACTION": "Function"
+    },
+    "DELETE": {
+      "TITLE": "Are you sure you want to delete this note type?",
+      "CONTENT": "This action cannot be undone",
+      "SUCCESS": "Note type deleted successfully",
+      "FAIL": "Failed to delete note type"
+    },
+    "CREATE": {
+      "FAIL": "Failed to create new, please try again later"
+    },
+    "MODAL": {
+      "TITLE": "Manage note types",
+      "EDIT": "Edit note type",
+      "ADD": "Add new note type",
+      "VIETNAMESE_CONTENT": "Content (Vietnamese)",
+      "REQUIRE_CONTENT": "Content cannot be empty",
+      "ENGLISH_CONTENT": "Content (English)"
+    },
+    "TOAST": {
+      "ADD_SUCCESS": "Note type added successfully",
+      "ADD_FAIL": "Failed to add note type",
+      "EDIT_SUCCESS": "Note type edited successfully",
+      "EDIT_FAIL": "Failed to edit note type",
+      "DELETE_SUCCESS": "Note type deleted successfully",
+      "DELETE_FAIL": "Failed to delete note type"
+    }
+  },
+  "NOTES": {
+    "NOTES_SEARCH_TERM": "Search by student ID",
+    "FILTER_NOTE_TYPE": "Note type",
+    "FILTER_ALL": "All",
+    "TABLE_COLUMN": {
+      "STUDENT_CODE": "Student ID",
+      "STUDENT_NAME": "Full name",
+      "NOTE_TYPE": "Note type",
+      "NOTE_CONTENT": "Note content",
+      "CARE_OFFICER": "Note officer",
+      "PHONE_NUMBER": "Phone number",
+      "PARENT_PHONE": "Parent phone number",
+      "SEMESTER": "Semester",
+      "DATE": "Created date"
+    },
+    "ADD_FORM": {
+      "CREATE": "Add new",
+      "TITLE": "Add new note",
+      "STUDENT_CODE": "Student ID",
+      "SELECT_NOTE_TYPE": "Note type",
+      "PLACEHOLDER_CONTENT": "Enter note content",
+      "PLACEHOLDER_STUDENT_CODE": "Enter student ID",
+      "PLACEHOLDER_SELECT_NOTE_TYPE": "Select note type",
+      "CONTENT": "Note content",
+      "STUDENT_NAME": "Full name",
+      "STUDENT_EMAIL": "Email",
+      "REQUIRE_STUDENT_CODE": "Student ID is required",
+      "REQUIRE_NOTE_TYPE": "Note type is required",
+      "MIN_LENGTH_CONTENT": "Content is too short (minimum 1 character)",
+      "REQUIRE_CONTENT": "Note content is required"
+    },
+    "EDIT_FORM": {
+      "EDIT_NOTES": "Edit note",
+      "PLACEHOLDER_CONTENT": "Note content",
+      "VALIDATION_MESSAGE": "Enter note content",
+      "LABEL": {
+        "CONTENT": "Content",
+        "NOTE_TYPE": "Note type",
+        "STUDENT_CODE": "Student ID"
+      }
+    },
+    "DELETE_CONFIRMATION": {
+      "TITLE": "Delete note [<span class='font-bold'>{{subject}}</span>] from the list?",
+      "CONTENT": "Are you sure you want to delete? This action cannot be undone"
+    },
+    "STATE": {
+      "ALL": "All",
+      "HAS_NOTE": "Noted",
+      "NOT_NOTE": "Not noted"
+    }
+  },
+  "STUDENT_FAILED_COURSE": {
+    "ALL": "All",
+    "FAILED_MULTIPLE_COURSES": "Failed multiple courses in a semester",
+    "FAILED_COURSE_TWO_TERMS": "Failed a course for 2 consecutive semesters",
+    "TABLE_COLUMN": {
+      "STUDENT_CODE": "Student ID",
+      "STUDENT_NAME": "Student name",
+      "EMAIL": "Email",
+      "PHONE": "Phone number",
+      "CLASS": "Class",
+      "SPECIALIZATION": "Specialization",
+      "MAJOR": "Major",
+      "SEMESTER": "Semester",
+      "SUBJECT_CODE": "Subject code",
+      "DESCRIPTION": "Reason for failure",
+      "ACTION": "Function",
+      "AVERAGE_MARK": "Average mark",
+      "SUSPENDED": "Suspended",
+      "ATTENDANCE_FAIL": "Failed attendance",
+      "MARK_FAIL": "Failed mark"
+    },
+    "DETAIL": {
+      "TITLE": "Details of students failing subjects"
+    },
+    "SEMESTER_SELECT_LABEL": "Semester",
+    "SEMESTER_SELECT_PLACEHOLDER": "Select semester",
+    "FAIL_REASON_SELECT_PLACEHOLDER": "Select reason for failure",
+    "EXPORT_SEMESTER": "Number of semesters to export from",
+    "EXPORT_SEMESTER_TIP": "The current semester and subsequent semesters will be exported based on the number you select. For example, 1 will export only the current semester",
+    "STUDENT_FAILED_COURSE_EXPORT_TILL_SEMESTER": "Including the current semester"
+  },
+  "OTP": {
+    "TOAST": {
+      "SUCCESS": {
+        "2FA": {
+          "ENABLE": "2FA enabled successfully",
+          "DISABLE": "2FA disabled successfully",
+          "VERIFY": "2FA verified successfully"
+        }
+      },
+      "ERROR": {
+        "2FA": {
+          "ENABLE": "Failed to enable 2FA",
+          "DISABLE": "Failed to disable 2FA",
+          "VERIFY": "Failed to verify 2FA"
+        }
+      }
+    }
+  },
+  "PSYCHOLOGY_MANAGEMENT": {
+    "STUDENT_SEARCH_TERM": "Search by student name or ID",
+    "EDIT": {
+      "CONFIRM_DELETE_TITLE": "Are you sure you want to delete this counseling question?",
+      "CONFIRM_DELETE_CONTENT": "This action cannot be undone",
+      "ADD_QUESTION": "Add counseling question",
+      "EDIT_QUESTION": "Edit counseling question"
+    },
+    "MODAL": {
+      "TITLE": "Manage counseling questions"
+    }
+  },
+  "DASHBOARD": {
+    "STATISTICS": {
+      "TOTAL_REMINDER": "Total reminders in semester",
+      "ATTENDANCE_REMINDER": {
+        "TITLE": "Attendance reminders in semester",
+        "YLABEL": "Reminders",
+        "WEEKLY": {
+          "TITLE": "By week",
+          "MONDAY": "Monday",
+          "TUESDAY": "Tuesday",
+          "WEDNESDAY": "Wednesday",
+          "THURSDAY": "Thursday",
+          "FRIDAY": "Friday",
+          "SATURDAY": "Saturday",
+          "SUNDAY": "Sunday"
+        },
+        "MONTHLY": {
+          "TITLE": "By month",
+          "TOOLTIP": {
+            "LABEL": "Date",
+            "VALUE": "Reminders"
+          },
+          "XAXIS": "Date",
+          "YAXIS": "Reminders"
+        },
+        "YEARLY": {
+          "TITLE": "By year",
+          "MODE": {
+            "SEMESTER": {
+              "TITLE": "By semester",
+              "XAXIS": "Semester"
+            },
+            "MONTH": {
+              "TITLE": "By month",
+              "XAXIS": "Month"
+            }
+          },
+          "YAXIS": "Reminders"
+        }
+      },
+      "DEFER_REMINDER": "Deferment reminders in semester",
+      "HIGH_RISK_STUDENTS": "High-risk student reminders in semester",
+      "LAST_UPDATED": "Update history"
+    },
+    "DASHBOARD_CARD": {
+      "CHANGE": "Change compared to previous semester"
+    },
+    "ATTENDANCE_REMINDER": {
+      "TOTAL_APPLICATION": "Total applications"
+    },
+    "APPLICATION_CHART": {
+      "TITLE": "Record applications",
+      "RECEIVE": "Receive applications",
+      "RETURN": "Return applications"
+    },
+    "APPLICATION_SUMMARY": {
+      "TITLE": "Total recorded applications",
+      "RECEIVE": "Receive applications",
+      "RETURN": "Return applications",
+      "TYPE": "Document type",
+      "TOTAL": "Quantity"
+    },
+    "STUDENT_NEED_CARE": {
+      "TITLE": "Students cared for",
+      "STUDENT_CARED": "Students cared for",
+      "STUDENT_NOT_ASSIGNED": "Students not assigned for care",
+      "STUDENT_DOING": "Students being cared for",
+      "STUDENT_TODO": "Students needing care",
+      "STUDENT_RECORD": "Student care comparison report"
+    },
+    "EMAIL_LOG_CHART": {
+      "TITLE": "Sent email statistics",
+      "TOTAL_EMAIL_SENT_PROCESS": "Progress",
+      "TOTAL_EMAIL_SENT": "Number of emails sent",
+      "SENT": "Sent",
+      "PENDING": "Pending",
+      "FAILED": "Failed",
+      "WEEK": {
+        "TITLE": "By week"
+      },
+      "MONTH": {
+        "TITLE": "By month"
+      },
+      "YEAR": {
+        "TITLE": "By year"
+      }
+    }
+  },
+  "STUDENT_PSYCHOLOGY": {
+    "PSYCHOLOGY_MANAGEMENT": "Manage psychological counseling questions",
+    "CREATE": "Add students needing psychological care",
+    "VERIFY": {
+      "TITLE": "Verify students needing psychological care",
+      "ACCESS_PASSWORD": "Access password",
+      "REQUIRED_ACCESS_PASSWORD": "Please enter access password",
+      "LABEL": {
+        "ACCESS_PASSWORD": "Access password"
+      }
+    },
+    "ADD_TEMPLATE": "Add new students needing psychological care",
+    "MODAL": {
+      "TITLE": {
+        "ADD": "Add students needing psychological care"
+      }
+    },
+    "FORM": {
+      "LABEL": {
+        "ACCESS_PASSWORD": "Access password",
+        "RE_ACCESS_PASSWORD": "Re-enter access password"
+      },
+      "PLACEHOLDER": {
+        "ACCESS_PASSWORD": "Enter access password",
+        "RE_ACCESS_PASSWORD": "Re-enter access password"
+      },
+      "VALIDATION_MESSAGE": {
+        "REQUIRED": {
+          "ACCESS_PASSWORD": "Please enter access password",
+          "RE_ACCESS_PASSWORD": "Please re-enter access password"
+        }
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Student needing psychological care added successfully",
+        "VERIFY": "Verification successful",
+        "CHANGE_PASSWORD": "Password changed successfully"
+      },
+      "ERROR": {
+        "ADD": "Failed to add student needing psychological care",
+        "PASSWORD_NOT_MATCH": "Access passwords do not match",
+        "VERIFY": "Verification failed",
+        "CHANGE_PASSWORD": "Failed to change password"
+      }
+    },
+    "CHANGE_PASSWORD": {
+      "TITLE": "Change password",
+      "OLD_PASSWORD": "Current password",
+      "NEW_PASSWORD": "New password",
+      "RE_NEW_PASSWORD": "Re-enter new password",
+      "VALIDATION": {
+        "REQUIRED": {
+          "OLD_PASSWORD": "Please enter current password",
+          "NEW_PASSWORD": "Please enter new password",
+          "RE_NEW_PASSWORD": "Please re-enter new password"
+        }
+      },
+      "ERROR": {
+        "PASSWORD_NOT_MATCH": "New passwords do not match"
+      }
+    },
+    "FORGET_PASSWORD": {
+      "PASSWORD": "Password",
+      "REQUIRED_PASSWORD": "Please enter password",
+      "PLACEHOLDER_PASSWORD": "Enter password",
+      "CONFIRM_PASSWORD": "Confirm password",
+      "REQUIRED_CONFIRM_PASSWORD": "Please confirm password",
+      "PLACEHOLDER_CONFIRM_PASSWORD": "Re-enter password",
+      "OTP": "Verification code",
+      "REQUIRED_OTP": "Please enter verification code",
+      "PLACEHOLDER_OTP": "Enter verification code",
+      "PASSWORD_NOT_MATCH": "Confirmed password does not match"
+    },
+    "TABLE": {
+      "STUDENT_CODE": "Student ID",
+      "STUDENT_NAME": "Student name",
+      "EMAIL": "Email",
+      "PHONE_NUMBER": "Phone number",
+      "FUNCTION": "Function",
+      "DETAIL": "Details",
+      "COMPLETE": "Complete"
+    }
+  },
+  "NOTE_DETAIL": {
+    "BUTTON": {
+      "OPEN": "Manage notes"
+    },
+    "TABLE_COLUMN": {
+      "NAME": "Note name",
+      "TIME_CREATE": "Created time",
+      "TIME_UPDATE": "Last updated time",
+      "ACTION": "Function"
+    },
+    "DELETE": {
+      "TITLE": "Are you sure you want to delete this note?",
+      "CONTENT": "This action cannot be undone",
+      "SUCCESS": "Note deleted successfully",
+      "FAIL": "Failed to delete note"
+    },
+    "CREATE": {
+      "FAIL": "Failed to create new, please try again later"
+    },
+    "MODAL": {
+      "TITLE": "Manage notes",
+      "EDIT": "Edit note",
+      "ADD": "Add new note",
+      "VIETNAMESE_CONTENT": "Content (Vietnamese)",
+      "REQUIRE_CONTENT": "Content cannot be empty",
+      "ENGLISH_CONTENT": "Content (English)"
+    },
+    "TOAST": {
+      "ADD_SUCCESS": "Note added successfully",
+      "ADD_FAIL": "Failed to add note",
+      "EDIT_SUCCESS": "Note edited successfully",
+      "EDIT_FAIL": "Failed to edit note",
+      "DELETE_SUCCESS": "Note deleted successfully",
+      "DELETE_FAIL": "Failed to delete note"
+    }
+  },
+  "PSYCHOLOGY_NOTE": {
+    "BUTTON": {
+      "STUDENT_INFO": "View student information"
+    },
+    "ADD_MODAL": {
+      "SUBJECT": "Subject",
+      "DETAIL": "Details",
+      "REQUIRED_SUBJECT": "Please enter subject",
+      "MIN_SUBJECT": "Minimum 1 character",
+      "PLACEHOLDER_SUBJECT": "Enter subject",
+      "NEXT_BUTTON": "Next",
+      "PSYCHOLOGY_QUESTION": "Counseling question",
+      "REQUIRED_QUESTION": "Please enter counseling question",
+      "MIN_QUESTION": "Minimum 1 character",
+      "SELECT_QUESTION": "Select counseling question",
+      "ANSWER_CONTENT": "Response content",
+      "REQUIRED_CONTENT": "Please enter response content",
+      "MIN_CONTENT": "Minimum 1 character",
+      "PLACEHOLDER_CONTENT": "Enter response content"
+    },
+    "UPLOAD_DRIVE": {
+      "OPEN_FROM_DRIVE": "Open from Google Drive",
+      "CREATE_FROM_DRIVE": "Create from Google Drive"
+    }
+  },
+  "EMAIL_LOG": {
+    "TABLE": {
+      "SUBJECT": "Subject",
+      "RECIPIENT_EMAIL": "Recipient",
+      "EMAIL_TYPE": "Email type",
+      "SEMESTER": "Semester",
+      "EMAIL_STATE": "Status",
+      "CREATED_AT": "Sent date"
+    },
+    "TITLE": "List of sent emails",
+    "SEARCH_TERM": "Search",
+    "EMAIL_STATE": {
+      "Pending": "Pending",
+      "Sent": "Sent",
+      "Failed": "Failed"
+    },
+    "EMAIL_TYPE": {
+      "AttendanceNotification": "Attendance notification",
+      "DeferNotification": "Deferment notification",
+      "FailedSubjectNotification": "Failed subject notification",
+      "Unknown": "Unknown",
+      "ApplicationNotification": "Application notification",
+      "StudentApplication": "Student application"
+    },
+    "LABEL": {
+      "EMAIL_TYPE": "Email type",
+      "EMAIL_STATE": "Status",
+      "SEND_DATE": "Sent date",
+      "SEMESTER_NAME": "Semester name"
+    },
+    "STUDENT_INFO": {
+      "TITLE": "Student information",
+      "NAME": "Name",
+      "STUDENT_CODE": "Student ID",
+      "EMAIL": "Email",
+      "CLASS": "Class",
+      "MAJOR": "Major",
+      "SPECIALIZATION": "Specialization",
+      "GENDER": "Gender",
+      "PROGRESS": "Status",
+      "CURRENT_TERM_NO": "Current term",
+      "MOBILE_PHONE": "Phone number",
+      "PARENT_PHONE": "Parent phone number"
+    }
+  },
+  "SEMESTER_NOTES": {
+    "EMPTY_STATE": "No note data available.",
+    "YEAR": "Year",
+    "SEMESTER": {
+      "SPRING": "Spring semester",
+      "SUMMER": "Summer semester",
+      "FALL": "Fall semester"
+    },
+    "NOTE": {
+      "SUBJECT": "Subject",
+      "CREATED_AT": "Date",
+      "ADD": "Add",
+      "EDIT": "Edit",
+      "DELETE": "Delete",
+      "CONFIRM_DELETE": "Are you sure you want to delete this note?"
+    },
+    "MODAL": {
+      "EDIT_TITLE": "Edit note",
+      "ADD_TITLE": "Add new note",
+      "CONTENT_LABEL": "Content",
+      "CONTENT_PLACEHOLDER": "Enter note content",
+      "CONTENT_REQUIRED": "Please enter content",
+      "NOTE_TYPE_LABEL": "Note type",
+      "NOTE_TYPE_PLACEHOLDER": "Select note type",
+      "NOTE_TYPE_REQUIRED": "Please select note type"
+    },
+    "TOAST": {
+      "ADD_SUCCESS": "Note added successfully",
+      "ADD_FAIL": "Failed to add note",
+      "EDIT_SUCCESS": "Note edited successfully",
+      "EDIT_FAIL": "Failed to edit note",
+      "DELETE_SUCCESS": "Note deleted successfully",
+      "DELETE_FAIL": "Failed to delete note"
+    }
+  },
+  "SETTINGS": {
+    "SIGN_AS_SUCCESS": "Signed in as user successfully",
+    "SIGN_AS_FAIL": "Failed to sign in as user",
+    "SIGN_AS": "Sign in",
+    "SELECT_USER_REQUIRED": "Please select a user",
+    "SIGN_AS_USER": "Sign in as another user",
+    "SEARCH_ROLE": "Search role",
+    "SELECT_USER": "Select user",
+    "LANGUAGE": "Language",
+    "FONT_STYLE": "Font style",
+    "THEME": "Theme",
+    "UPLOAD_HEADER_BACKGROUND": "Upload header image",
+    "UPLOAD_CONTENT_BACKGROUND": "Upload background image",
+    "PERSONAL_SETTINGS": "Personal settings",
+    "WEBSITE_SETTINGS": "Website settings",
+    "UPLOAD_IMAGE": "Upload image",
+    "DISABLE_DEVTOOL": "Disable DevTool",
+    "PREVIEW_IMAGE": "Preview",
+    "HIDE_SENSITIVE": "Hide sensitive information",
+    "SCAN_ATTENDANCE": "Scan attendance",
+    "TOAST": {
+      "SUCCESS": "Settings updated successfully. Please reload the page to see changes",
+      "ERROR": "Failed to update settings"
+    },
+    "TOTP_SETTINGS": "Two-factor authentication settings",
+    "TOTP_ENABLE": "Enable two-factor authentication",
+    "TOTP_DISABLE": "Disable two-factor authentication",
+    "TOTP_DISABLE_DESCRIPTION": "Disabling two-factor authentication will reduce the security of your account.",
+    "TOTP_ENABLE_DESCRIPTION": "Enabling two-factor authentication will enhance the security of your account.",
+    "ENTER_OTP": "Enter OTP",
+    "OTP_REQUIRED": "Please enter OTP",
+    "TOTP_USE_GUIDE": "Use an authenticator app to scan the QR code below. After scanning, the app will generate an OTP. Enter the OTP in the field below to complete the two-factor authentication activation process.",
+    "SUBMIT": "Confirm"
+  },
+  "STUDENT_NEED_CARE": {
+    "ASSIGN": {
+      "VALID_PERCENTAGE": "Valid distribution percentage",
+      "BY_PERCENTAGE_TITLE": "Distribute by percentage",
+      "INVALID_PERCENTAGE": "Invalid percentage",
+      "STAFF_NAME": "Staff name",
+      "PERCENTAGE": "Percentage",
+      "TOTAL": "Total percentage",
+      "TITLE": "Assign",
+      "CHOOSE_METHOD": "Choose distribution method",
+      "MODAL_TITLE": "Care assignment",
+      "AUTO_DISTRIBUTE": "Automatic distribution",
+      "AUTO_DESCRIPTION": "Automatically distribute students based on the number of students needing care.",
+      "BY_PERCENTAGE": "Distribute by percentage",
+      "BY_PERCENTAGE_DESCRIPTION": "Distribute students based on the percentage of students needing care.",
+      "PERCENTAGE_ERROR": "Total percentage must equal 100%.",
+      "SUCCESS": "Student distribution successful",
+      "FAIL": "Student distribution failed",
+      "NO_STUDENT": "No unassigned students"
+    },
+    "HISTORY": {
+      "TITLE": "Care history"
+    },
+    "ADD_MANUAL": {
+      "TITLE": "Add student",
+      "STUDENT_ALREADY_EXIST": "Student already exists",
+      "STUDENT_ID": "Student ID",
+      "STUDENT_ID_REQUIRED": "Please enter a valid student ID",
+      "EMAIL": "Email: ",
+      "GENDER": "Gender: ",
+      "PROGRESS": "Status: ",
+      "CURRENT_TERM_NO": "Current term: ",
+      "SPECIALIZATION": "Specialization: "
+    },
+    "EXPORT": {
+      "OPTIONS": {
+        "SCANNED": "Export scanned student list",
+        "ALL": "Export entire list by semester"
+      }
+    },
+    "DISTRIBUTE": {
+      "CARD_MODE": "Card",
+      "TABLE_MODE": "Table",
+      "BUTTON": "Distribute officers",
+      "TITLE": "Care officer distribution information",
+      "TABLE": {
+        "OFFICER": "Officer",
+        "NEED_CARE": "Need care",
+        "NEED_CARE_DONE": "Cared for",
+        "NEED_CARE_DOING": "Being cared for",
+        "PROGRESSING": "Progress"
+      },
+      "OVERVIEW": {
+        "TITLE": "Distribution overview",
+        "TOTAL_STUDENT": "Total students: ",
+        "TOTAL_OFFICER": "Total officers: ",
+        "MEDIUM": "Average: ",
+        "STUDENT_PER_OFFICER": "students/officer",
+        "PROGRESSING": "Progress: ",
+        "ANALYZE": "Distribution analysis",
+        "MAX_HANDLE_OFFICER": "Highest load officer",
+        "MIN_HANDLE_OFFICER": "Lowest load officer",
+        "LOAD": "Load"
+      }
+    },
+    "SCAN": {
+      "STEP": {
+        "ONE": "Number of students needing care",
+        "TWO": "List of scanned students needing care",
+        "THREE": "Automatic distribution to care officers",
+        "FOUR": "Scan list of students needing care"
+      },
+      "FIRST_STEP": {
+        "TITLE": "Number of students needing care",
+        "DESCRIPTION": "Estimate the number of students needing care based on the human resources of the working unit.",
+        "COUNT": "Enter the number of students needing care",
+        "INPUT": "Enter quantity",
+        "SUFFIX": "students",
+        "VALIDATION_MESSAGE": "Minimum is one student."
+      },
+      "SECOND_STEP": {
+        "AUTO_DISTRIBUTE": "Assign",
+        "TABLE": {
+          "STUDENT_CODE": "Student ID",
+          "STUDENT_NAME": "Student name",
+          "RANKING": "Ranking",
+          "SPECIALIZATION": "Specialization",
+          "CURRENT_SEMESTER": "Current semester",
+          "STATUS": "Status",
+          "ACTION": "Function"
+        }
+      }
+    },
+    "FILTER": {
+      "LABEL": {
+        "RANKING": "Academic ranking",
+        "IS_COLLABORATING": "Collaboration status",
+        "IS_PROGRESSING": "Progressing",
+        "NEED_CARE_NEXT": "Need care next term",
+        "CARE_STATUS": "Care status"
+      },
+      "COLLABORATOR_OPTION": {
+        "APPROVE": "Accept care",
+        "REJECT": "Reject care"
+      },
+      "IS_PROGRESSING_OPTION": {
+        "PROGRESSING": "Progressing",
+        "NOT_PROGRESSING": "Not progressing"
+      },
+      "NEED_CARE_NEXT_OPTION": {
+        "NEED_CARE": "Yes",
+        "NOT_NEED_CARE": "No"
+      },
+      "CARE_STATUS_OPTION": {
+        "COMPLETE": "Successfully cared for",
+        "NOT_ASSIGN": "Not assigned",
+        "TO_DO": "Prepare to care",
+        "DOING": "Being cared for"
+      }
+    },
+    "DASHBOARD": {
+      "TITLE": "List of students needing psychological care",
+      "TOTAL": "Total students needing psychological care",
+      "STATISTICS": {
+        "TITLE": "Statistics",
+        "TOTAL_STUDENT": "Total students",
+        "CURRENT_CARE": "Being cared for",
+        "COMPLETED_CARE": "Cared for",
+        "NOT_CARE": "Not cared for"
+      }
+    },
+    "ADD": {
+      "BUTTON": "Add new",
+      "MODAL": {
+        "TITLE": "Add student",
+        "ADD_MANUAL": "Add manually",
+        "ADD_AUTOMATIC": "Scan list"
+      }
+    },
+    "TABLE": {
+      "STUDENT_CODE": "Student ID",
+      "STUDENT_NAME": "Student name",
+      "NEED_CARE_NEXT_TERM": "Need care next term",
+      "IS_PROGRESSING": "Progress",
+      "IS_COLLABORATING": "Collaboration",
+      "CARE_STATUS": "Status",
+      "ASSIGNMENT": "Care officer",
+      "ACTION": "Function",
+      "UPDATE_ASSIGNMENT": {
+        "TITLE": "Update care officer",
+        "CONFIRM": "Are you sure you want to transfer the care officer?"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Student needing care added successfully",
+        "UPDATE": "Student needing care updated successfully",
+        "DELETE": "Student needing care deleted successfully",
+        "SCAN": "Student needing care scanned successfully",
+        "CONFIRM": "Student needing care confirmed successfully",
+        "AUTO_ASSIGN": "Automatic assignment successful",
+        "ANALYZE": "Analyze successful"
+      },
+      "FAIL": {
+        "ADD": "Failed to add student needing care",
+        "UPDATE": "Failed to update student needing care",
+        "DELETE": "Failed to delete student needing care",
+        "SCAN": "Failed to scan student needing care",
+        "AUTO_ASSIGN": "Assignment failed",
+        "ANALYZE": "Analyze failed"
+      }
+    }
+  },
+  "STUDENT_NEED_CARE_DETAIL": {
+    "CARE_PROGRESS": {
+      "TITLE": "Criteria evaluation",
+      "TOTAL_CRITERION": "Total evaluated criteria:"
+    },
+    "RATING": {
+      "TITLE": "End-of-semester evaluation",
+      "RATED": "Rated",
+      "NOT_RATED": "Not rated",
+      "PROGRESSING": "Academic progress",
+      "PROGRESSING_NO": "Not achieved",
+      "PROGRESSING_YES": "Achieved",
+      "COLLABORATOR": "Collaboration level",
+      "COLLABORATOR_NO": "Not good",
+      "COLLABORATOR_YES": "Good",
+      "NEED_CARE_NEXT_TERM": "Need care next term",
+      "NEED_CARE_NEXT_TERM_NO": "Not needed",
+      "NEED_CARE_NEXT_TERM_YES": "Needed",
+      "FINAL_COMMENT": "Detailed comment",
+      "AUTO_COMMENT": "Automatic evaluation",
+      "SAVE_COMMENT": "Save evaluation"
+    },
+    "COMPARISON": {
+      "PARAMETER": "Parameter",
+      "TABLE": {
+        "SUBJECT_CODE": "Subject",
+        "MARK": "Mark",
+        "ABSENCE_RATE": "Absence rate (%)"
+      }
+    },
+    "PDF": {
+      "BUTTON": "Export PDF"
+    },
+    "OVERVIEW": {
+      "TITLE": "Academic overview",
+      "STATUS": "Status",
+      "CURRENT_SEMESTER": "Current semester",
+      "GPA": "GPA",
+      "MEDIUM_ABSENCE": "Average absence rate"
+    },
+    "TAB": {
+      "NEW_SEMESTER": "Add semester",
+      "TITLE": {
+        "FIRST_TAB": "Compare with previous semester",
+        "SECOND_TAB": "End-of-semester evaluation",
+        "THIRD_TAB": "Care history",
+        "FOURTH_TAB": "Criteria evaluation"
+      }
+    }
+  },
+  "PROGRESS_CRITERION_TYPE": {
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Progress criterion type added successfully",
+        "UPDATE": "Progress criterion type updated successfully",
+        "DELETE": "Progress criterion type deleted successfully"
+      },
+      "FAIL": {
+        "ADD": "Failed to add progress criterion type",
+        "UPDATE": "Failed to update progress criterion type",
+        "DELETE": "Failed to delete progress criterion type"
+      }
+    }
+  },
+  "PROGRESS_CRITERION": {
+    "MODAL": {
+      "BUTTON": "Criteria",
+      "TABLE": {
+        "TITLE": "Criterion name",
+        "CREATED_AT": "Created time",
+        "UPDATED_AT": "Updated time",
+        "ACTION": "Function"
+      },
+      "DELETE_CONFIRM": {
+        "TITLE": "Are you sure you want to delete this criterion?",
+        "CONTENT": "This action cannot be undone"
+      },
+      "TITLE": "Manage care criteria",
+      "ADD": "Add new"
+    },
+    "UPDATE_MODAL": {
+      "TITLE": {
+        "ADD": "Add new care criterion",
+        "EDIT": "Update care criterion"
+      },
+      "FORM": {
+        "VIETNAMESE_CONTENT": "Content (Vietnamese)",
+        "ENGLISH_CONTENT": "Content (English)",
+        "VIETNAMESE_DESCRIPTION": "Description (Vietnamese)",
+        "ENGLISH_DESCRIPTION": "Description (English)"
+      }
+    },
+    "TOAST": {
+      "SUCCESS": {
+        "ADD": "Progress criterion added successfully",
+        "UPDATE": "Progress criterion updated successfully",
+        "DELETE": "Progress criterion deleted successfully"
+      },
+      "FAIL": {
+        "ADD": "Failed to add progress criterion",
+        "UPDATE": "Failed to update progress criterion",
+        "DELETE": "Failed to delete progress criterion"
+      }
+    }
+  },
+  "CHATBOT": {
+    "TITLE": "Chatbot",
+    "START": "Hello, how can I assist you?",
+    "VIEW_HISTORY": "View chat history",
+    "ERROR_MESSAGE": "An error occurred",
+    "FOOTER_TEXT": "Powered by FPT Education"
+  },
+  "AI_SETTINGS": {
+    "GENERAL_SETTINGS": "General settings",
+    "ENABLE_CHATBOT": "Configure SCS Chatbot",
+    "ENABLE_CHATBOT_DESC": "Enable/Disable SCS Chatbot",
+    "MODEL_SETTINGS": "LLM model settings",
+    "SELECT_MODEL": "Select LLM model",
+    "CURRENT_MODEL": "Current model",
+    "LAST_UPDATED": "Last updated: ",
+    "PROVIDER": "Provider",
+    "MODEL_ID": "MODEL_ID",
+    "NO_SETTINGS_FOUND": "No settings found"
+  },
+  "ERROR_PAGE": {
+    "400": {
+      "TITLE": "Bad Request",
+      "DESCRIPTION": "Your request is invalid."
+    },
+    "401": {
+      "TITLE": "Unauthorized",
+      "DESCRIPTION": "You need to log in to access this page."
+    },
+    "403": {
+      "TITLE": "Forbidden",
+      "DESCRIPTION": "You do not have permission to access this page."
+    },
+    "404": {
+      "TITLE": "Page Not Found",
+      "DESCRIPTION": "The page you requested does not exist. Please check the URL or return to the homepage."
+    },
+    "500": {
+      "TITLE": "Server Error",
+      "DESCRIPTION": "An error occurred on the server. Please try again later."
+    },
+    "503": {
+      "TITLE": "Service Unavailable",
+      "DESCRIPTION": "The service is currently unavailable. Please try again later."
+    },
+    "DEFAULT": {
+      "TITLE": "An Error Occurred",
+      "DESCRIPTION": "An unexpected error occurred. Please try again later."
+    }
+  },
+  "CANCELNOTIFICATION": {
+    "BUTTON_CANCEL": "Cancel",
+    "BUTTON_CONFIRM": "Confirm",
+    "MODAL": {
+      "TITLE": "Cancel bulk notification sending",
+      "CONTENT": "The bulk sending process will stop, and the current content will not be saved. Are you sure you want to cancel bulk sending?"
+    }
+  },
+  "HEADER": {
+    "CONTROL_PANEL": "Control panel",
+    "HELP": "Help",
+    "DARK_MODE": "Dark mode",
+    "LIGHT_MODE": "Light mode"
+  },
+  "ATTENDANCE_CHART": {
+    "MODAL": {
+      "TITLE": "Student attendance statistics",
+      "TOTAL_ABSENCE": "Total absences (slots)",
+      "ABSENCE_RATE": "Absence rate (%)",
+      "CHART": {
+        "EMAIL_SENT": "Emails sent",
+        "ABSENCE_RATE": "Absence rate"
+      }
+    }
+  },
+  "STUDENT_INFO": {
+    "MODAL": {
+      "TITLE": "Student information",
+      "STUDENT_CODE": "Student ID",
+      "STUDENT_NAME": "Student name",
+      "EMAIL": "Email",
+      "CLASS": "Class",
+      "MAJOR": "Major",
+      "GENDER": "Gender",
+      "PROGRESS": "Academic progress",
+      "STATUS": "Status",
+      "CURRENT_TERM_NO": "Current term",
+      "SPECIALIZATION": "Specialization",
+      "MOBILE_PHONE": "Phone number",
+      "PARENT_PHONE": "Parent phone number",
+      "NO_STUDENT": "No student information found"
+    }
+  },
+  "EMAIL_STUDENT_FAILED": {
+    "TOAST": {
+      "ERROR": "An error occurred"
+    },
+    "MODAL": {
+      "TITLE": "Send email"
+    },
+    "FORM": {
+      "SEMESTER": "Select semester",
+      "REQUIRED_SEMESTER": "Semester cannot be empty",
+      "PLACEHOLDER_SEMESTER": "Select semester",
+      "EMAIL_TEMPLATE": "Select email template",
+      "REQUIRED_EMAIL_TEMPLATE": "Please select an email template",
+      "PLACEHOLDER_EMAIL_TEMPLATE": "Select email template"
+    }
+  }
+}
